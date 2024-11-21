@@ -61,10 +61,10 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
-  fonts:
-    - family: NotoSans
-      fonts:
-        - asset: fonts/NotoSans-Regular.ttf
-        - asset: fonts/NotoSans-Bold.ttf
-          weight: 700
-  
+#  fonts:
+#    - family: NotoSans
+#      fonts:
+#        - asset: fonts/NotoSans-Regular.ttf
+#        - asset: fonts/NotoSans-Bold.ttf
+#          weight: 700
+

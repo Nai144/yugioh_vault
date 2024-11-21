@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../providers/card_provider.dart';
+import 'package:yugioh_vault/screens/deck_Screen.dart';
+import 'package:yugioh_vault/screens/tendencies_screen.dart';
+
 import '../widgets/card_item.dart';
+
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -11,13 +14,13 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  int _currentIndex = 0;
+  int _currentIndex = 1;
 
   // Lista de pantallas
   final List<Widget> _screens = [
-    CardsScreen(), // Pantalla 1: Listado de cartas
-    FavoritesScreen(), // Pantalla 2: Favoritos
-    SettingsScreen(), // Pantalla 3: Configuración
+    const TendenciasScreen(), // Pantalla 1: Listado de cartas
+    WelcomeScreen(), // Pantalla 2: Favoritos
+    DeckScreen(), // Pantalla 3: Configuración
   ];
 
   @override
@@ -34,46 +37,139 @@ class _HomeScreenState extends State<HomeScreen> {
         items: const [
           BottomNavigationBarItem(
             icon: Icon(Icons.view_list),
-            label: 'Cards',
+            label: 'Tendencia',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.favorite),
-            label: 'Favorites',
+            label: 'Home',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.settings),
-            label: 'Settings',
+            label: 'Decks',
           ),
         ],
+        
+        )
+      );
+  }
+}
+
+class WelcomeScreen extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: Text('Cards')),
+      body:Container(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          children: <Widget>[
+            Expanded(
+              child: InkWell(
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => const TendenciasScreen()),
+                  );
+                },
+                child: Card(
+                  child: Column(
+                    children: <Widget>[
+                      Container(
+                        width: double.infinity,
+                        height: 180.0,
+                        decoration: BoxDecoration(
+                          borderRadius: 
+                          BorderRadius.circular(10),
+
+                        ),
+                      ),
+                      const Padding(
+                        padding: EdgeInsets.all(8.0),
+                          child: Text('Ultima Coleccion',
+                            style: TextStyle(
+                              fontSize: 18,    
+                            ),
+                          ),
+                        ),
+                    ],
+                  )
+                ),
+              )
+            ),
+            Row(
+              children: <Widget>[
+                Expanded(
+                  child: InkWell(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const TendenciasScreen()),
+                      );
+                    },
+                    child: Card(
+                      child: Column(
+                        children: <Widget>[
+                          Container(
+                            width: double.infinity,
+                            height: 180.0,
+                            decoration: BoxDecoration(
+                              borderRadius: 
+                              BorderRadius.circular(10),
+
+                            ),
+                          ),
+                          const Padding(
+                            padding: EdgeInsets.all(8.0),
+                              child: Text('Busqueda Avanzada',
+                                style: TextStyle(
+                                  fontSize: 18,    
+                                ),
+                              ),
+                            ),
+                        ],
+                      )
+                    ),
+                  )
+                ),
+                Expanded(
+                  child: InkWell(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const TendenciasScreen()),
+                      );
+                    },
+                    child: Card(
+                      child: Column(
+                        children: <Widget>[
+                          Container(
+                            width: double.infinity,
+                            height: 180.0,
+                            decoration: BoxDecoration(
+                              borderRadius: 
+                              BorderRadius.circular(10),
+
+                            ),
+                          ),
+                          const Padding(
+                            padding: EdgeInsets.all(8.0),
+                              child: Text('Banlist',
+                                style: TextStyle(
+                                  fontSize: 18,    
+                                ),
+                              ),
+                            ),
+                        ],
+                      )
+                    ),
+                  )
+                )
+              ],
+            ) 
+          ],
+        ),
       ),
     );
   }
 }
 
-class CardsScreen extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text('Cards')),
-      body: Center(child: Text('List of cards will be displayed here')),
-    );
-  }
-}
-class FavoritesScreen extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text('Favorites')),
-      body: Center(child: Text('Your favorite cards will be displayed here')),
-    );
-  }
-}
-class SettingsScreen extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text('Settings')),
-      body: Center(child: Text('Settings screen')),
-    );
-  }
-}
