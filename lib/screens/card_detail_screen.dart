@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../models/yugioh_card.dart';
 
+// Pantalla de detalles de la carta
 class CardDetailScreen extends StatelessWidget {
   final YugiohCard card;
 
@@ -11,7 +12,7 @@ class CardDetailScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(card.name),
+        title: Text(card.name), // Título de la AppBar con el nombre de la carta
       ),
       body: SingleChildScrollView(
         child: Padding(
@@ -59,7 +60,7 @@ class CardDetailScreen extends StatelessWidget {
                 style: const TextStyle(color: Colors.green, fontSize: 16),
               ),
               const SizedBox(height: 16),
-              // Link
+              // Link para ver en YGOPRODeck
               TextButton(
                 onPressed: () {
                   // Abre la URL
