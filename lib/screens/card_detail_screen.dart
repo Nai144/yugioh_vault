@@ -5,7 +5,7 @@ import '../models/yugioh_card.dart';
 class CardDetailScreen extends StatelessWidget {
   final YugiohCard card;
 
-  const CardDetailScreen({Key? key, required this.card}) : super(key: key);
+  const CardDetailScreen({super.key, required this.card});
 
   @override
   Widget build(BuildContext context) {
@@ -27,45 +27,45 @@ class CardDetailScreen extends StatelessWidget {
                   fit: BoxFit.cover,
                 ),
               ),
-              SizedBox(height: 16),
+              const SizedBox(height: 16),
               // Nombre y descripción
               Text(
                 card.name,
-                style: TextStyle(
+                style: const TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              SizedBox(height: 8),
+              const SizedBox(height: 8),
               Text(
                 card.desc,
-                style: TextStyle(fontSize: 16),
+                style: const TextStyle(fontSize: 16),
               ),
-              SizedBox(height: 16),
+              const SizedBox(height: 16),
               // Detalles adicionales
               Text(
                 'Type: ${card.type}',
-                style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
               ),
               Text('Race: ${card.race}'),
               Text('Archetype: ${card.archetype}'),
-              SizedBox(height: 16),
+              const SizedBox(height: 16),
               // Rareza y precios
               Text(
                 'Set: ${card.card_sets.set_name} (${card.card_sets.set_rarity})',
               ),
               Text(
                 'Price (TCGPlayer): \$${card.card_prices.tcgplayer_price}',
-                style: TextStyle(color: Colors.green, fontSize: 16),
+                style: const TextStyle(color: Colors.green, fontSize: 16),
               ),
-              SizedBox(height: 16),
+              const SizedBox(height: 16),
               // Link
               TextButton(
                 onPressed: () {
                   // Abre la URL
                   launchUrl(card.ygoprodeck_url as Uri);
                 },
-                child: Text('View on YGOPRODeck'),
+                child: const Text('View on YGOPRODeck'),
               ),
             ],
           ),

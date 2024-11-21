@@ -4,6 +4,8 @@ import '../providers/card_provider.dart';
 import '../widgets/card_item.dart';
 
 class HomeScreen extends StatefulWidget {
+  const HomeScreen({super.key});
+
   @override
   _HomeScreenState createState() => _HomeScreenState();
 }
