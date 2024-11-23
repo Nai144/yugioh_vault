@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:yugioh_vault/providers/card_provider.dart';
 
-class AdvancedSearchPage extends StatelessWidget {
-  const AdvancedSearchPage({super.key});
+class CardPageTest extends StatelessWidget {
+  const CardPageTest({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -62,6 +62,14 @@ class YugiohApiService {
     }
   }
 
+
+
+
+
+
+
+  //=================================Metodos API REST=================================
+
 // Método GET
   Future<List<YugiohCard>> getData(String endpoint) async {
     final response = await http.get(Uri.parse('$baseUrl/$endpoint'));
