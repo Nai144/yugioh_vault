@@ -29,25 +29,28 @@ class YugiohApiService {
     final response = await http.get(Uri.parse('$baseUrl/cardinfo.php'));
 
     if (response.statusCode == 200) {
-      return jsonDecode(response.body);
+      final jsonBody = json.decode(response.body);
+      final List<dynamic> data = jsonBody['data'];
+      return data.map((card) => YugiohCard.fromJson(card)).toList();
     } else {
-      throw Exception('Error al obtener cartas');
+      throw Exception('Error al obtener todas las cartas');
     }
   }
 
   // Método para buscar una carta por nombre
-  Future<Map<String, YugiohCard>> getCardByName(String name) async {
-    final response = await http.get(
-      Uri.parse('$baseUrl/cardinfo.php?name=$name'),
-    );
+  Future<YugiohCard?> getCardByName(String name) async {
+    final response =
+        await http.get(Uri.parse('$baseUrl/cardinfo.php?name=$name'));
 
     if (response.statusCode == 200) {
-      final data = jsonDecode(response.body);
-      return data[0]; // Devuelve la primera coincidencia
+      final jsonBody = json.decode(response.body);
+      final List<dynamic> data = jsonBody['data'];
+      return data.isNotEmpty ? YugiohCard.fromJson(data.first) : null;
     } else {
-      throw Exception('Error al buscar la carta por nombre');
+      throw Exception('Error al buscar carta por nombre');
     }
   }
+
 
   // Método para buscar cartas por tipo
   Future<List<YugiohCard>> getCardsByType(String type) async {
@@ -61,11 +64,6 @@ class YugiohApiService {
       throw Exception('Error al buscar cartas por tipo');
     }
   }
-
-
-
-
-
 
 
   //=================================Metodos API REST=================================

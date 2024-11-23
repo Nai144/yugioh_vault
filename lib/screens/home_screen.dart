@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:yugioh_vault/screens/deck_Screen.dart';
 import 'package:yugioh_vault/screens/tendencies_screen.dart';
 import 'package:yugioh_vault/screens/welcome_screen.dart';
-//import 'package:provider/provider.dart';
+//
 //import '../widgets/card_item.dart';
 
 
@@ -20,7 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
   final List<Widget> _screens = [
     const TendenciasScreen(), // Pantalla 1: Listado de cartas
     const WelcomeScreen(), // Pantalla 2: Favoritos
-    DeckScreen(), // Pantalla 3: Configuración
+    const DeckScreen(), // Pantalla 3: Configuración
   ];
 
   @override

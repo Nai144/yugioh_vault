@@ -47,8 +47,8 @@ class CardPageTest extends StatelessWidget {
                   title: Text(card.name),
                   subtitle: Text(card.type),
                   // ignore: unrelated_type_equality_checks
-                  trailing: card.cardImages.imageUrl != false
-                      ? Image.network(card.cardImages.imageUrl)
+                  trailing: card.images[0].imageUrl != false
+                      ? Image.network(card.images[0].imageUrl)
                       : null,
                 );
               },

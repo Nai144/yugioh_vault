@@ -11,6 +11,7 @@ class CardProvider with ChangeNotifier {
 
   final YugiohApiService _apiService = YugiohApiService();
 
+  // Método para buscar cartas por nombre
   Future<void> searchCards(String query) async {
     _isLoading = true;
     notifyListeners();
@@ -19,52 +20,63 @@ class CardProvider with ChangeNotifier {
       _cards = await _apiService.fetchCards(query);
     } catch (e) {
       print('Error fetching cards: $e');
+      _cards = []; // Limpia la lista en caso de error
     }
 
     _isLoading = false;
     notifyListeners();
   }
 
-  //Devuelve todas las cartas
+  // Devuelve todas las cartas
   Future<void> fetchAllCards() async {
-  _isLoading = true;
-  notifyListeners();
+    _isLoading = true;
+    notifyListeners();
 
-  try {
-    _cards = await _apiService.getAllCards();
-  } catch (e) {
-    print('Error fetching all cards: $e');
-    _cards = [];
+    try {
+      _cards = await _apiService.getAllCards();
+    } catch (e) {
+      print('Error fetching all cards: $e');
+      _cards = [];
+    }
+
+    _isLoading = false;
+    notifyListeners();
   }
 
-  _isLoading = false;
-  notifyListeners();
-}
+  // Devuelve una carta por nombre
+  Future<void> fetchCardByName(String name) async {
+    _isLoading = true;
+    notifyListeners();
 
-//Devuelve una carta por nombre
-Future<YugiohCard?> fetchCardByName(String name) async {
-  try {
-    final Map<String, YugiohCard> cardMap = await _apiService.getCardByName(name);
-    return cardMap[name];
-  } catch (e) {
-    print('Error fetching card by name: $e');
-    return null;
-  }
-}
+    try {
+      final YugiohCard? card = await _apiService.getCardByName(name);
+      if (card != null) {
+        _cards = [card]; // Se asigna un solo objeto YugiohCard
+      } else {
+        _cards = [];
+      }
+    } catch (e) {
+      print('Error fetching card by name: $e');
+      _cards = [];
+    }
 
-//Devuelve cartas por tipo
-Future<void> fetchCardsByType(String type) async {
-  _isLoading = true;
-  notifyListeners();
-
-  try {
-    _cards = await _apiService.getCardsByType(type);
-  } catch (e) {
-    print('Error fetching cards by type: $e');
-    _cards = [];
+    _isLoading = false;
+    notifyListeners();
   }
 
-  _isLoading = false;
-  notifyListeners();
-}
+  // Devuelve cartas por tipo
+  Future<void> fetchCardsByType(String type) async {
+    _isLoading = true;
+    notifyListeners();
+
+    try {
+      _cards = await _apiService.getCardsByType(type);
+    } catch (e) {
+      print('Error fetching cards by type: $e');
+      _cards = [];
+    }
+
+    _isLoading = false;
+    notifyListeners();
+  }
 }

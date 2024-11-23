@@ -22,7 +22,7 @@ class CardDetailScreen extends StatelessWidget {
               // Imagen grande de la carta
               Center(
                 child: Image.network(
-                  card.cardImages.imageUrl,
+                  card.images[0].imageUrlSmall,
                   height: 200,
                   fit: BoxFit.cover,
                 ),
@@ -48,14 +48,18 @@ class CardDetailScreen extends StatelessWidget {
                 style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
               ),
               Text('Race: ${card.race}'),
-              Text('Archetype: ${card.archetype}'),
+              Text('Archetype: ${card.archetype ?? 'None'}'),
               const SizedBox(height: 16),
               // Rareza y precios
-              Text(
-                'Set: ${card.cardSets.setName} (${card.cardSets.setRarity})',
-              ),
-              Text(
-                'Price (TCGPlayer): \$${card.cardPrices.tcgplayerPrice}',
+              if (card.sets != null && card.sets!.isNotEmpty) ...[
+                Text(
+                  'Set: ${card.sets![0].setName} (${card.sets![0].setRarity ?? 'Unknown'})',
+                ),
+              ] else ...[
+                const Text('Set: None'),
+              ],
+              Text( 
+                'Price (TCGPlayer): \$${card.prices?.tcgplayerPrice ?? 'N/A'}',
                 style: const TextStyle(color: Colors.green, fontSize: 16),
               ),
               const SizedBox(height: 16),
@@ -63,7 +67,9 @@ class CardDetailScreen extends StatelessWidget {
               TextButton(
                 onPressed: () {
                   // Abre la URL
-                  launchUrl(card.ygoprodeckUrl as Uri);
+                  if (card.ygoprodeckUrl != null) {
+                    launchUrl(Uri.parse(card.ygoprodeckUrl!));
+                  }
                 },
                 child: const Text('View on YGOPRODeck'),
               ),

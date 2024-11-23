@@ -1,4 +1,4 @@
-class CardPrices{
+class CardPrices {
   final String cardmarketPrice;
   final String tcgplayerPrice;
   final String ebayPrice;
@@ -11,17 +11,15 @@ class CardPrices{
     required this.ebayPrice,
     required this.amazonPrice,
     required this.coolstuffincPrice,
-    
-
   });
 
-  factory CardPrices.fromJson(Map<String, dynamic> json){
+  factory CardPrices.fromJson(Map<String, dynamic> json) {
     return CardPrices(
-      cardmarketPrice: json['cardmarketPrice'],
-      tcgplayerPrice: json['tcgplayerPprice'], 
-      ebayPrice: json['ebayPrice'], 
-      amazonPrice: json['amazonPrice'],
-      coolstuffincPrice: json['coolstuffincPrice']
+      cardmarketPrice: json['cardmarket_price'],
+      tcgplayerPrice: json['tcgplayer_price'],
+      ebayPrice: json['ebay_price'],
+      amazonPrice: json['amazon_price'],
+      coolstuffincPrice: json['coolstuffinc_price'],
     );
   }
 }

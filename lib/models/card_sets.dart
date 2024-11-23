@@ -11,17 +11,15 @@ class CardSets {
     required this.setRarity,
     required this.setRarityCode,
     required this.setPrice,
-    
-
   });
 
-  factory CardSets.fromJson(Map<String, dynamic> json){
+  factory CardSets.fromJson(Map<String, dynamic> json) {
     return CardSets(
-      setName: json['setName'],
-      setCode: json['setCode'], 
-      setRarity: json['setRarity'], 
-      setRarityCode: json['setRarityCode'],
-      setPrice: json['setPrice']
-      );
+      setName: json['set_name'],
+      setCode: json['set_code'],
+      setRarity: json['set_rarity'],
+      setRarityCode: json['set_rarity_code'],
+      setPrice: json['set_price'],
+    );
   }
 }
