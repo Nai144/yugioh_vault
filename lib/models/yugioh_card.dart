@@ -11,10 +11,10 @@ class YugiohCard {
   final String desc;
   final String race;
   final String archetype;
-  final String ygoprodeck_url;
-  final CardSets card_sets;
-  final CardImages card_images;
-  final CardPrices card_prices; 
+  final String ygoprodeckUrl;
+  final CardSets cardSets;
+  final CardImages cardImages;
+  final CardPrices cardPrices; 
 
   
 
@@ -27,10 +27,10 @@ class YugiohCard {
     required this.desc,
     required this.race,
     required this.archetype,
-    required this.ygoprodeck_url,
-    required this.card_sets,
-    required this.card_images,
-    required this.card_prices,
+    required this.ygoprodeckUrl,
+    required this.cardSets,
+    required this.cardImages,
+    required this.cardPrices,
   });
 
   factory YugiohCard.fromJson(Map<String, dynamic> json) {
@@ -43,10 +43,10 @@ class YugiohCard {
       frameType: json['frameType'],
       race: json['race'],
       archetype: json['archetype'],
-      ygoprodeck_url: json['card_images'][0]['image_url'],
-      card_sets: json['card_sets'],
-      card_images: json['car_images'],
-      card_prices: json['card_prices'],
+      ygoprodeckUrl: json['cardImages'][0]['imageUrl'],
+      cardSets: json['cardSets'],
+      cardImages: json['cardImages'],
+      cardPrices: json['cardPrices'],
     );
   }
 }

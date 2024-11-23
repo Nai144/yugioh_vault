@@ -58,7 +58,7 @@ class _TendenciasScreenState extends State<TendenciasScreen> {
                           mainAxisSize: MainAxisSize.min,
                           children: [
                             Image.network(
-                              card.card_images.image_url,
+                              card.cardImages.imageUrl,
                               width: 100,
                               height: 150,
                               fit: BoxFit.cover,

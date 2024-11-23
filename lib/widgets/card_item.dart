@@ -27,7 +27,7 @@ class CardItem extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Image.network(
-                card.card_images.image_url_small,
+                card.cardImages.imageUrlSmall,
                 height: 100,
                 width: 70,
                 fit: BoxFit.cover,
@@ -48,10 +48,10 @@ class CardItem extends StatelessWidget {
                       ),
                     ),
                     Text(card.type),
-                    Text('Rarity: ${card.card_sets.set_rarity}'),
+                    Text('Rarity: ${card.cardSets.setRarity}'),
                     const SizedBox(height: 8),
                     Text(
-                      'Price: \$${card.card_prices.tcgplayer_price}',
+                      'Price: \$${card.cardPrices.tcgplayerPrice}',
                       style: const TextStyle(
                         color: Colors.green,
                         fontWeight: FontWeight.bold,

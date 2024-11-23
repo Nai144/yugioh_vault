@@ -22,7 +22,7 @@ class CardDetailScreen extends StatelessWidget {
               // Imagen grande de la carta
               Center(
                 child: Image.network(
-                  card.card_images.image_url,
+                  card.cardImages.imageUrl,
                   height: 200,
                   fit: BoxFit.cover,
                 ),
@@ -52,10 +52,10 @@ class CardDetailScreen extends StatelessWidget {
               const SizedBox(height: 16),
               // Rareza y precios
               Text(
-                'Set: ${card.card_sets.set_name} (${card.card_sets.set_rarity})',
+                'Set: ${card.cardSets.setName} (${card.cardSets.setRarity})',
               ),
               Text(
-                'Price (TCGPlayer): \$${card.card_prices.tcgplayer_price}',
+                'Price (TCGPlayer): \$${card.cardPrices.tcgplayerPrice}',
                 style: const TextStyle(color: Colors.green, fontSize: 16),
               ),
               const SizedBox(height: 16),
@@ -63,7 +63,7 @@ class CardDetailScreen extends StatelessWidget {
               TextButton(
                 onPressed: () {
                   // Abre la URL
-                  launchUrl(card.ygoprodeck_url as Uri);
+                  launchUrl(card.ygoprodeckUrl as Uri);
                 },
                 child: const Text('View on YGOPRODeck'),
               ),
