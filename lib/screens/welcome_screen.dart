@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:yugioh_vault/providers/card_provider.dart';
+
 import 'package:yugioh_vault/screens/tendencies_screen.dart';
 import 'package:provider/provider.dart';
 
@@ -25,16 +25,7 @@ class WelcomeScreen extends StatelessWidget {
                     borderRadius: BorderRadius.circular(10.0),
                   ),
                 ),
-                onChanged: (value) {
-                  // Aquí puedes agregar la lógica para filtrar los resultados
-                  if (value.isNotEmpty) {
-                    // Realizamos la búsqueda solo si el valor no está vacío
-                    Provider.of<CardProvider>(context, listen: false).fetchCardByName(value);
-                  } else {
-                    // Si el campo está vacío, puedes decidir qué hacer (por ejemplo, limpiar los resultados)
-                    Provider.of<CardProvider>(context, listen: false).fetchAllCards();
-                  }
-                },
+                
               ),
             ),
             const SizedBox(height: 16.0),

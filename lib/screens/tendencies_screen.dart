@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:yugioh_vault/screens/lista_tendencias_screen.dart';
 import 'package:yugioh_vault/services/yugioh_api_service.dart';
-import 'package:yugioh_vault/models/yugioh_card.dart';
+
 import 'package:yugioh_vault/models/yugioh_card2.dart';
 import 'dart:convert';
 
@@ -16,7 +16,7 @@ class TendenciasScreen extends StatefulWidget {
 
 class _TendenciasScreenState extends State<TendenciasScreen> {
   final YugiohApiService _apiService = YugiohApiService();
-  List<YugiohCard> trendingCards = [];
+//  List<YugiohCard> trendingCards = [];
   bool isLoading = true;
   List<YugiohCard2> cards = [];
   @override
@@ -42,23 +42,7 @@ class _TendenciasScreenState extends State<TendenciasScreen> {
     return json.decode(jsonString);
   }
 
-  Future<void> _fetchTrendingCards() async {
-    try {
-      // Llama a la API para obtener las cartas
-      final cards = await _apiService.getAllBlueEyesCards(); // Puedes cambiar el query
-      setState(() {
-        trendingCards = cards.take(2).toList(); // Tomar las primeras 2 cartas
-        isLoading = false;
-      });
-    } catch (e) {
-      setState(() {
-        isLoading = false;
-      });
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Error fetching trending cards: $e')),
-      );
-    }
-  }
+
 
   @override
   Widget build(BuildContext context) {

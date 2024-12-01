@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:yugioh_vault/models/yugioh_card2.dart';
 import 'package:yugioh_vault/screens/card_detail_screen.dart';
-import '../models/yugioh_card.dart';
+
 
 class CardItem extends StatelessWidget {
-  final YugiohCard card;
+  final YugiohCard2 card;
 
   const CardItem({super.key, required this.card});
 
@@ -27,7 +28,7 @@ class CardItem extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Image.network(
-                card.image as String,
+                card.cardImages.first.imageUrlSmall,
                 height: 100,
                 width: 70,
                 fit: BoxFit.cover,
@@ -48,10 +49,10 @@ class CardItem extends StatelessWidget {
                       ),
                     ),
                     Text(card.type),
-                    Text('Rarity: ${card.set! ?? 'Unknown'}'),
+                    Text('Rarity: ${card.cardSets! ?? 'Unknown'}'),
                     const SizedBox(height: 8),
                     Text(
-                      'Price: \$${card.price ?? 'Unknown'}',
+                      'Price: \$${card.cardPrices ?? 'Unknown'}',
                       style: const TextStyle(
                         color: Colors.green,
                         fontWeight: FontWeight.bold,
