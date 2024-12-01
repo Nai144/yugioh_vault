@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:yugioh_vault/services/yugioh_api_service.dart';
 
 import 'package:yugioh_vault/models/yugioh_card2.dart';
 import 'dart:convert';
@@ -8,8 +7,7 @@ import 'dart:convert';
 class ListaTendenciasScreen extends StatefulWidget {
   final String pathOfArchetype;
 
-  const ListaTendenciasScreen({Key? key, required this.pathOfArchetype})
-      : super(key: key);
+  const ListaTendenciasScreen({super.key, required this.pathOfArchetype});
 
   @override
   State<ListaTendenciasScreen> createState() => _ListaTendenciasScreenState();
@@ -17,8 +15,6 @@ class ListaTendenciasScreen extends StatefulWidget {
 
 
 class _ListaTendenciasScreenState extends State<ListaTendenciasScreen> {
-  final YugiohApiService _apiService = YugiohApiService();
-//  List<YugiohCard> trendingCards = [];
   bool isLoading = true;
   List<YugiohCard2> cards = [];
   
@@ -26,7 +22,6 @@ class _ListaTendenciasScreenState extends State<ListaTendenciasScreen> {
   @override
   void initState() {
     super.initState();
- //   _fetchTrendingCards();
     _loadArchetypes().then((loadedCards) {
       setState(() {
         cards = loadedCards;
@@ -46,16 +41,14 @@ class _ListaTendenciasScreenState extends State<ListaTendenciasScreen> {
     return json.decode(jsonString);
   }
 
-
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Yu-Gi-Oh Cards'),
+        title: const Text('Yu-Gi-Oh Cards'),
       ),
       body: cards.isEmpty
-          ? Center(child: CircularProgressIndicator())
+          ? const Center(child: CircularProgressIndicator())
           : ListView.builder(
               itemCount: cards.length,
               itemBuilder: (context, index) {
@@ -66,7 +59,7 @@ class _ListaTendenciasScreenState extends State<ListaTendenciasScreen> {
                     _showCardDetails(context, card);
                   },
                   child: Card(
-                    margin: EdgeInsets.all(10),
+                    margin: const EdgeInsets.all(10),
                     elevation: 5,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(15),
@@ -82,19 +75,19 @@ class _ListaTendenciasScreenState extends State<ListaTendenciasScreen> {
                             fit: BoxFit.cover,
                           ),
                         ),
-                        SizedBox(width: 10),
+                        const SizedBox(width: 10),
                         Expanded(
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
                                 card.name,
-                                style: TextStyle(
+                                style: const TextStyle(
                                   fontSize: 18,
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
-                              SizedBox(height: 5),
+                              const SizedBox(height: 5),
                               Text(
                                 card.type,
                                 style: TextStyle(
@@ -115,8 +108,6 @@ class _ListaTendenciasScreenState extends State<ListaTendenciasScreen> {
   }
 }
 
-
-
 void _showCardDetails(BuildContext context, YugiohCard2 card) {
   showDialog(
     context: context,
@@ -128,15 +119,15 @@ void _showCardDetails(BuildContext context, YugiohCard2 card) {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Image.network(card.cardImages.first.imageUrl),
-            SizedBox(height: 10),
+            const SizedBox(height: 10),
             Text(
               card.desc,
-              style: TextStyle(fontSize: 14),
+              style: const TextStyle(fontSize: 14),
             ),
-            SizedBox(height: 10),
+            const SizedBox(height: 10),
             Text(
               "ATK: ${card.atk} | DEF: ${card.def}",
-              style: TextStyle(
+              style: const TextStyle(
                 fontSize: 14,
                 fontWeight: FontWeight.bold,
               ),
@@ -146,7 +137,7 @@ void _showCardDetails(BuildContext context, YugiohCard2 card) {
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context),
-            child: Text('Cerrar'),
+            child: const Text('Cerrar'),
           ),
         ],
       );

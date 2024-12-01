@@ -1,5 +1,3 @@
-import 'dart:convert';
-
 class YugiohCard2 {
   final int id;
   final String name ;

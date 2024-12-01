@@ -49,10 +49,10 @@ class CardItem extends StatelessWidget {
                       ),
                     ),
                     Text(card.type),
-                    Text('Rarity: ${card.cardSets! ?? 'Unknown'}'),
+                    Text('Rarity: ${card.cardSets}'),
                     const SizedBox(height: 8),
                     Text(
-                      'Price: \$${card.cardPrices ?? 'Unknown'}',
+                      'Price: \$${card.cardPrices}',
                       style: const TextStyle(
                         color: Colors.green,
                         fontWeight: FontWeight.bold,

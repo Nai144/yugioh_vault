@@ -2,14 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:yugioh_vault/screens/deck_Screen.dart';
 import 'package:yugioh_vault/screens/tendencies_screen.dart';
 import 'package:yugioh_vault/screens/welcome_screen.dart';
-//
-//import '../widgets/card_item.dart';
 
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
   @override
+  // ignore: library_private_types_in_public_api
   _HomeScreenState createState() => _HomeScreenState();
 }
 
@@ -40,11 +39,11 @@ class _HomeScreenState extends State<HomeScreen> {
             label: 'Tendencia',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.favorite),
+            icon: Icon(Icons.home),
             label: 'Home',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.settings),
+            icon: Icon(Icons.info),
             label: 'Decks',
           ),
         ],

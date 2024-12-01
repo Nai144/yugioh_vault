@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:yugioh_vault/screens/lista_tendencias_screen.dart';
-import 'package:yugioh_vault/services/yugioh_api_service.dart';
 
 import 'package:yugioh_vault/models/yugioh_card2.dart';
 import 'dart:convert';
+
+import 'package:yugioh_vault/screens/card_detail_screen.dart';
 
 class TendenciasScreen extends StatefulWidget {
   const TendenciasScreen({super.key});
@@ -15,14 +15,12 @@ class TendenciasScreen extends StatefulWidget {
 
 
 class _TendenciasScreenState extends State<TendenciasScreen> {
-  final YugiohApiService _apiService = YugiohApiService();
-//  List<YugiohCard> trendingCards = [];
   bool isLoading = true;
   List<YugiohCard2> cards = [];
+
   @override
   void initState() {
     super.initState();
- //   _fetchTrendingCards();
     _loadArchetypes().then((loadedCards) {
       setState(() {
         cards = loadedCards;
@@ -38,73 +36,103 @@ class _TendenciasScreenState extends State<TendenciasScreen> {
   }
 
   Future<Map<String, dynamic>> _loadArchetypesData() async {
-    var jsonString = await rootBundle.loadString('lib/assets/json/Archetype_List.json');
+    var jsonString =
+        await rootBundle.loadString('lib/assets/json/Archetype_List.json');
     return json.decode(jsonString);
   }
 
-
-
   @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Yu-Gi-Oh Cards'),
+Widget build(BuildContext context) {
+  return Scaffold(
+    appBar: AppBar(
+      title: const Text('Tendencias de Yu-Gi-Oh'),
+      backgroundColor: Colors.deepPurple,
+    ),
+    body: Container(
+      decoration: const BoxDecoration(
+        gradient: LinearGradient(
+          colors: [Colors.deepPurple, Colors.black],
+          begin: Alignment.topCenter,
+          end: Alignment.bottomCenter,
+        ),
       ),
-      body: cards.isEmpty
-          ? Center(child: CircularProgressIndicator())
+      child: cards.isEmpty
+          ? const Center(child: CircularProgressIndicator())
           : ListView.builder(
+              padding: const EdgeInsets.all(10),
               itemCount: cards.length,
               itemBuilder: (context, index) {
                 final card = cards[index];
                 return GestureDetector(
                   onTap: () {
+                    // Navegar a una pantalla de detalles o realizar otra acción.
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => ListaTendenciasScreen(
-                          pathOfArchetype: card.archetype,
-                        ),
+                        builder: (context) => CardDetailScreen(card: card),
                       ),
                     );
                   },
-                  child: Card(
-                    margin: EdgeInsets.all(10),
-                    elevation: 5,
-                    shape: RoundedRectangleBorder(
+                  child: Container(
+                    margin: const EdgeInsets.symmetric(vertical: 8),
+                    decoration: BoxDecoration(
+                      color: Colors.deepPurpleAccent.withOpacity(0.9),
                       borderRadius: BorderRadius.circular(15),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.black.withOpacity(0.5),
+                          blurRadius: 8,
+                          offset: const Offset(0, 4),
+                        ),
+                      ],
                     ),
                     child: Row(
                       children: [
+                        // Imagen de la carta
                         ClipRRect(
-                          borderRadius: BorderRadius.circular(15),
-                          child: Image.network(
-                            card.cardImages.first.imageUrlSmall,
-                            height: 120, // Aumenta el tamaño de la imagen
+                          borderRadius: const BorderRadius.horizontal(
+                            left: Radius.circular(15),
+                          ),
+                          child: Container(
+                            height: 120,
                             width: 120,
-                            fit: BoxFit.cover,
+                            color: const Color.fromARGB(255, 36, 6, 43),
+                            child: Image.network(
+                              card.cardImages.first.imageUrlSmall,
+                              fit: BoxFit.contain,
+                            ),
                           ),
                         ),
-                        SizedBox(width: 10),
+                        const SizedBox(width: 10),
+                        // Detalles de la carta
                         Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                card.name,
-                                style: TextStyle(
-                                  fontSize: 18,
-                                  fontWeight: FontWeight.bold,
+                          child: Padding(
+                            padding: const EdgeInsets.symmetric(vertical: 10),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  card.name,
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis,
+                                  style: const TextStyle(
+                                    fontSize: 18,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white,
+                                  ),
                                 ),
-                              ),
-                              SizedBox(height: 5),
-                              Text(
-                                card.type,
-                                style: TextStyle(
-                                  fontSize: 14,
-                                  color: Colors.grey[600],
+                                const SizedBox(height: 5),
+                                Text(
+                                  card.type,
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis,
+                                  style: const TextStyle(
+                                    fontSize: 14,
+                                    color: Colors.white70,
+                                  ),
                                 ),
-                              ),
-                            ],
+                              ],
+                            ),
                           ),
                         ),
                       ],
@@ -113,9 +141,7 @@ class _TendenciasScreenState extends State<TendenciasScreen> {
                 );
               },
             ),
-    );
-  }
+    ),
+  );
 }
-
-
-
+}
