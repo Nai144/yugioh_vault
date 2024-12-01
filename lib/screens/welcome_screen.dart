@@ -1,10 +1,74 @@
 import 'package:flutter/material.dart';
-import 'package:yugioh_vault/providers/card_provider.dart';
+import 'package:yugioh_vault/models/yugioh_card.dart';
+import 'package:yugioh_vault/screens/card_detail_screen.dart';
 import 'package:yugioh_vault/screens/tendencies_screen.dart';
-import 'package:provider/provider.dart';
+import 'package:yugioh_vault/services/yugioh_api_service.dart';
 
-class WelcomeScreen extends StatelessWidget {
+class WelcomeScreen extends StatefulWidget {
   const WelcomeScreen({super.key});
+
+  @override
+  State<WelcomeScreen> createState() => _WelcomeScreenState();
+}
+
+
+class _WelcomeScreenState extends State<WelcomeScreen> {
+
+  final YugiohApiService _apiService = YugiohApiService();
+  bool _isLoading = false;
+
+  void _searchCard(String query) async {
+    if (query.isEmpty) return;
+
+    setState(() {
+      _isLoading = true; // Mostrar indicador de carga
+    });
+
+    try {
+      final YugiohCard? card = await _apiService.getCardByName(query);
+      setState(() {
+        _isLoading = false; // Ocultar indicador de carga
+      });
+
+      if (card != null) {
+        // Navegar a la pantalla de detalles
+        Navigator.push(
+          // ignore: use_build_context_synchronously
+          context,
+          MaterialPageRoute(
+            builder: (context) => CardDetailScreen(card: card),
+          ),
+        );
+      } else {
+        // Mostrar alerta si no se encuentra la carta
+        _showAlertDialog('Card Not Found', 'No card matches your search query.');
+      }
+    } catch (e) {
+      setState(() {
+        _isLoading = false; // Ocultar indicador de carga
+      });
+      _showAlertDialog('Error', 'Failed to fetch card data. Please try again.');
+    }
+  }
+  void _showAlertDialog(String title, String message) {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text(title),
+          content: Text(message),
+          actions: [
+            TextButton(
+              onPressed: () {
+                Navigator.of(context).pop(); // Cerrar el diálogo
+              },
+              child: const Text('OK'),
+            ),
+          ],
+        );
+      },
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -25,19 +89,15 @@ class WelcomeScreen extends StatelessWidget {
                     borderRadius: BorderRadius.circular(10.0),
                   ),
                 ),
-                onChanged: (value) {
-                  // Aquí puedes agregar la lógica para filtrar los resultados
-                  if (value.isNotEmpty) {
-                    // Realizamos la búsqueda solo si el valor no está vacío
-                    Provider.of<CardProvider>(context, listen: false).fetchCardByName(value);
-                  } else {
-                    // Si el campo está vacío, puedes decidir qué hacer (por ejemplo, limpiar los resultados)
-                    Provider.of<CardProvider>(context, listen: false).fetchAllCards();
-                  }
-                },
+                 onSubmitted: _searchCard, // Llamar a _searchCard al presionar "Enter"
               ),
             ),
             const SizedBox(height: 16.0),
+            // Mostrar indicador de carga
+            if (_isLoading)
+              const Center(
+                child: CircularProgressIndicator(),
+              ),
             Expanded(
               child: InkWell(
                 onTap: () {
