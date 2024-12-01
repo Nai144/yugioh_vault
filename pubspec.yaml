@@ -70,9 +70,6 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
-  assets:
-    - assets/images/YuGiOh.png
-
 #  fonts:
 #    - family: NotoSans
 #      fonts:
@@ -80,16 +77,17 @@ flutter:
 #        - asset: fonts/NotoSans-Bold.ttf
 #          weight: 700
   assets:
-    - lib/assets/Blue_eyes_archetype.json
-    - lib/assets/air_neos.json
-    - lib/assets/Blackwing_archetype.json
-    - lib/assets/Nekroz_archetype.json        
-    - lib/assets/Shaddoll_archetype.json   
-    - lib/assets/Lightsworn_archetype.json
-    - lib/assets/Madolche_archetype.json
-    - lib/assets/Tearlaments_archetype.json
-    - lib/assets/Tri_Brigade_archetype.json
-    - lib/assets/Dragonmaid_archetype.json
-    - lib/assets/Virtual_World_archetype.json
-    - lib/assets/Kashtyra_archetype.json 
-    - lib/assets/Archetype_List.json         
+    - lib/assets/images/YuGiOh.png
+    - lib/assets/json/Blue_eyes_archetype.json
+    - lib/assets/json/air_neos.json
+    - lib/assets/json/Blackwing_archetype.json
+    - lib/assets/json/Nekroz_archetype.json        
+    - lib/assets/json/Shaddoll_archetype.json   
+    - lib/assets/json/Lightsworn_archetype.json
+    - lib/assets/json/Madolche_archetype.json
+    - lib/assets/json/Tearlaments_archetype.json
+    - lib/assets/json/Tri_Brigade_archetype.json
+    - lib/assets/json/Dragonmaid_archetype.json
+    - lib/assets/json/Virtual_World_archetype.json
+    - lib/assets/json/Kashtyra_archetype.json 
+    - lib/assets/json/Archetype_List.json         

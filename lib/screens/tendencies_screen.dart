@@ -38,7 +38,7 @@ class _TendenciasScreenState extends State<TendenciasScreen> {
   }
 
   Future<Map<String, dynamic>> _loadArchetypesData() async {
-    var jsonString = await rootBundle.loadString('lib/assets/Archetype_List.json');
+    var jsonString = await rootBundle.loadString('lib/assets/json/Archetype_List.json');
     return json.decode(jsonString);
   }
 

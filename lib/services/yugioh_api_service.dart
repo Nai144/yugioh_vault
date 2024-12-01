@@ -27,21 +27,21 @@ class YugiohApiService {
 */
 
  
-/*
+
   // Método para buscar una carta por nombre
-  Future<YugiohCard> getCardByName(String name) async {
+  Future<YugiohCard2?> getCardByName(String name) async {
     final response =
         await http.get(Uri.parse('$baseUrl/cardinfo.php?name=$name'));
 
     if (response.statusCode == 200) {
       final jsonBody = json.decode(response.body);
       final List<dynamic> data = jsonBody['data'];
-      return data.isNotEmpty ? YugiohCard.fromJson(data.first) : null;
+      return data.isNotEmpty ? YugiohCard2.fromJson(data.first) : null;
     } else {
       throw Exception('Error al buscar carta por nombre');
     }
   }
-  */
+  
   Future<List<YugiohCard2>> getTrendingCards() async {
     final response = await http.get(Uri.parse('https://db.ygoprodeck.com/api/v7/cardinfo.php?archetype=Blue-Eyes'));
 

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:yugioh_vault/models/yugioh_card2.dart';
+import 'package:yugioh_vault/screens/card_detail_screen.dart';
 import 'package:yugioh_vault/screens/tendencies_screen.dart';
 import 'package:yugioh_vault/services/yugioh_api_service.dart';
 
@@ -23,7 +25,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
     });
 
     try {
-      final YugiohCard? card = await _apiService.getCardByName(query);
+      final YugiohCard2? card = await _apiService.getCardByName(query);
       setState(() {
         _isLoading = false; // Ocultar indicador de carga
       });
@@ -88,7 +90,6 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                   ),
                 ),
                  onSubmitted: _searchCard, // Llamar a _searchCard al presionar "Enter"
-                
               ),
             ),
             const SizedBox(height: 16.0),
