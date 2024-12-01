@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:yugioh_vault/models/yugioh_card.dart';
-import 'package:yugioh_vault/screens/card_detail_screen.dart';
 import 'package:yugioh_vault/screens/tendencies_screen.dart';
 import 'package:yugioh_vault/services/yugioh_api_service.dart';
 
@@ -90,6 +88,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                   ),
                 ),
                  onSubmitted: _searchCard, // Llamar a _searchCard al presionar "Enter"
+                
               ),
             ),
             const SizedBox(height: 16.0),

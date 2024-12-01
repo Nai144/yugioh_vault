@@ -1,0 +1,545 @@
+{
+    "data": [
+        {
+            "id": 37164373,
+            "name": "Madolche",
+            "typeline": [
+                "Fairy",
+                "Xyz",
+                "Effect"
+            ],
+            "type": "Monstruos de TIERRA, usan invocaciones XYZ/Link",
+            "humanReadableCardType": "Xyz Effect Monster",
+            "frameType": "xyz",
+            "desc": "2 Level 4 \"Madolche\" monsters\nOnce per turn: You can detach 1 Xyz Material from this card, then target up to 2 \"Madolche\" cards in your Graveyard; shuffle those cards into the Deck, also, after that, shuffle cards your opponent controls into the Deck, up to the number of \"Madolche\" cards returned.",
+            "race": "Fairy",
+            "atk": 2200,
+            "def": 2100,
+            "level": 4,
+            "attribute": "EARTH",
+            "archetype": "lib/assets/Madolche_archetype.json",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/madolche-queen-tiaramisu-3144",
+            "card_sets": [
+                {
+                    "set_name": "Abyss Rising",
+                    "set_code": "ABYR-EN048",
+                    "set_rarity": "Ultimate Rare",
+                    "set_rarity_code": "(UtR)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 37164373,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/37164373.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/37164373.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/37164373.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.30",
+                    "tcgplayer_price": "0.28",
+                    "ebay_price": "12.95",
+                    "amazon_price": "12.75",
+                    "coolstuffinc_price": "1.99"
+                }
+            ]
+        },
+        {
+            "id": 89631139,
+            "name": "Blue-Eyes",
+            "typeline": [
+                "Dragon",
+                "Normal"
+            ],
+            "type": "Monstruos de LUZ Dragón, usan Fusion/XYZ/Synchro",
+            "humanReadableCardType": "Normal Monster",
+            "frameType": "normal",
+            "desc": "This legendary dragon is a powerful engine of destruction. Virtually invincible, very few have faced this awesome creature and lived to tell the tale.",
+            "race": "Dragon",
+            "atk": 3000,
+            "def": 2500,
+            "level": 8,
+            "attribute": "LIGHT",
+            "archetype": "lib/assets/Blue_eyes_archetype.json",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/blue-eyes-white-dragon-7485",
+            "card_sets": [
+                {
+                    "set_name": "2016 Mega-Tins",
+                    "set_code": "CT13-EN008",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "74.49"
+                }               
+            ],
+            "card_images": [
+                {
+                    "id": 89631139,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/89631139.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/89631139.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/89631139.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.19",
+                    "tcgplayer_price": "0.30",
+                    "ebay_price": "5.95",
+                    "amazon_price": "3.90",
+                    "coolstuffinc_price": "0.99"
+                }
+            ]
+        },
+        {
+            "id": 84330567,
+            "name": "Tearlaments",
+            "typeline": [
+                "Aqua",
+                "Fusion",
+                "Effect"
+            ],
+            "type": "Monstruos Aqua en su mayoría de OSCURIDAD, usan Fusion",
+            "humanReadableCardType": "Fusion Effect Monster",
+            "frameType": "fusion",
+            "desc": "\"Tearlaments Kitkallos\" + 1 \"Tearlaments\" monster\r\nOther Aqua monsters you control cannot be destroyed by battle. You can only use each of the following effects of \"Tearlaments Rulkallos\" once per turn. When your opponent activates a card or effect that includes an effect that Special Summons a monster(s) (Quick Effect): You can negate the activation, and if you do, destroy it, then, send 1 \"Tearlaments\" card from your hand or face-up field to the GY. If this Fusion Summoned card is sent to the GY by a card effect: You can Special Summon this card.",
+            "race": "Aqua",
+            "atk": 3000,
+            "def": 2500,
+            "level": 8,
+            "attribute": "WATER",
+            "archetype": "lib/assets/Tearlaments_archetype.json",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/tearlaments-rulkallos-13300",
+            "card_sets": [
+                {
+                    "set_name": "Darkwing Blast",
+                    "set_code": "DABL-EN039",
+                    "set_rarity": "Secret Rare",
+                    "set_rarity_code": "(ScR)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 84330567,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/84330567.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/84330567.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/84330567.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "6.16",
+                    "tcgplayer_price": "7.30",
+                    "ebay_price": "5.95",
+                    "amazon_price": "0.00",
+                    "coolstuffinc_price": "4.99"
+                }
+            ]
+        },
+        {
+            "id": 48626373,
+            "name": "Kashtira",
+            "typeline": [
+                "Machine",
+                "Xyz",
+                "Effect"
+            ],
+            "type": "Monstruos Psíquico de Nivel/Rango 7, usan XYZ",
+            "humanReadableCardType": "Xyz Effect Monster",
+            "frameType": "xyz",
+            "desc": "3 Level 7 monsters\r\nOnce per turn, you can also Xyz Summon \"Kashtira Arise-Heart\" by using 1 \"Kashtira\" monster you control, if an effect of \"Kashtira Shangri-Ira\" was successfully activated this turn. (Transfer its materials to this card.) Any card sent to the GY is banished instead. Once per Chain, each time a card(s) is banished: Attach 1 banished card to this card as material. Once per turn (Quick Effect): You can detach 3 materials from this card, then target 1 card on the field; banish it face-down.",
+            "race": "Machine",
+            "atk": 3000,
+            "def": 3000,
+            "level": 7,
+            "attribute": "DARK",
+            "archetype": "lib/assets/Kashtyra_archetype.json",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/kashtira-arise-heart-13486",
+            "card_sets": [
+                {
+                    "set_name": "Photon Hypernova",
+                    "set_code": "PHHY-EN046",
+                    "set_rarity": "Secret Rare",
+                    "set_rarity_code": "(ScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Photon Hypernova",
+                    "set_code": "PHHY-EN046",
+                    "set_rarity": "Starlight Rare",
+                    "set_rarity_code": "(StR)",
+                    "set_price": "0"
+                }
+            ],
+            "banlist_info": {
+                "ban_tcg": "Forbidden"
+            },
+            "card_images": [
+                {
+                    "id": 48626373,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/48626373.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/48626373.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/48626373.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "12.83",
+                    "tcgplayer_price": "11.98",
+                    "ebay_price": "10.35",
+                    "amazon_price": "0.00",
+                    "coolstuffinc_price": "55.99"
+                }
+            ]
+        },
+        {
+            "id": 30100551,
+            "name": "Lightsworn",
+            "typeline": [
+                "Fairy",
+                "Xyz",
+                "Effect"
+            ],
+            "type": "Monstruos de LUZ y OSCURIDAD,usan XYZ/Synchro",
+            "humanReadableCardType": "Xyz Effect Monster",
+            "frameType": "xyz",
+            "desc": "2 Level 4 monsters\r\nYou can detach 1 material from this card; send the top 3 cards of your Deck to the GY, then draw cards equal to the number of \"Lightsworn\" cards sent to the GY by this effect. If this card is destroyed by battle, or if this card in its owner's possession is destroyed by an opponent's card effect: You can send the top 3 cards of your Deck to the GY, then you can destroy cards on the field up to the number of \"Lightsworn\" cards sent to the GY by this effect. You can only use each effect of \"Minerva, the Exalted Lightsworn\" once per turn.",
+            "race": "Fairy",
+            "atk": 2000,
+            "def": 800,
+            "level": 4,
+            "attribute": "LIGHT",
+            "archetype": "lib/assets/Lightsworn_archetype.json",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/minerva-the-exalted-lightsworn-2550",
+            "card_sets": [
+                {
+                    "set_name": "Battles of Legend: Chapter 1",
+                    "set_code": "BLC1-EN013",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 30100551,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/30100551.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/30100551.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/30100551.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "1.94",
+                    "tcgplayer_price": "1.12",
+                    "ebay_price": "12.79",
+                    "amazon_price": "12.12",
+                    "coolstuffinc_price": "8.99"
+                }
+            ]
+        },
+        {
+            "id": 69031175,
+            "name": "Blackwing",
+            "typeline": [
+                "Winged Beast",
+                "Synchro",
+                "Effect"
+            ],
+            "type": "Monstruos de Tipo Bestia Alada y Atributo OSCURIDADS, usan Synchro",
+            "humanReadableCardType": "Synchro Effect Monster",
+            "frameType": "synchro",
+            "desc": "1 \"Blackwing\" Tuner + 1 or more non-Tuner monsters\nCannot be destroyed by battle, and you take no battle damage from attacks involving this card. At the end of the Damage Step, if this card attacked a monster: You can place 1 Wedge Counter on that monster (max. 1). You can remove all Wedge Counters from your opponent's monsters; the ATK and DEF of those monsters that had Wedge Counters become 0 until the end of this turn.",
+            "race": "Winged Beast",
+            "atk": 2500,
+            "def": 1500,
+            "level": 7,
+            "attribute": "DARK",
+            "archetype": "lib/assets/Blackwing_archetype.json",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/blackwing-armor-master-5800",
+            "card_sets": [
+                {
+                    "set_name": "25th Anniversary Tin: Dueling Heroes",
+                    "set_code": "TN23-EN015",
+                    "set_rarity": "Quarter Century Secret Rare",
+                    "set_rarity_code": "",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 69031175,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/69031175.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/69031175.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/69031175.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "2.69",
+                    "tcgplayer_price": "3.16",
+                    "ebay_price": "0.99",
+                    "amazon_price": "8.99",
+                    "coolstuffinc_price": "5.99"
+                }
+            ]
+        },
+        {
+            "id": 52068432,
+            "name": "Nekroz",
+            "typeline": [
+                "Warrior",
+                "Ritual",
+                "Effect"
+            ],
+            "type": "Monstruos de AGUA, usan Ritual",
+            "humanReadableCardType": "Ritual Effect Monster",
+            "frameType": "ritual",
+            "desc": "You can Ritual Summon this card with any \"Nekroz\" Ritual Spell. Must be Ritual Summoned, without using any Level 9 monsters. You can only use each of these effects of \"Nekroz of Trishula\" once per turn.\r\n● When a card or effect is activated that targets a \"Nekroz\" monster(s) you control (Quick Effect): You can discard this card; negate the activation.\r\n● When this card is Ritual Summoned, you can: Banish exactly 3 of your opponent's cards, 1 each from their hand, field, and GY. (The card in the hand is chosen at random.)",
+            "race": "Warrior",
+            "atk": 2700,
+            "def": 2000,
+            "level": 9,
+            "attribute": "WATER",
+            "archetype": "lib/assets/Nekroz_archetype.json",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/nekroz-of-trishula-4432",
+            "card_sets": [
+                {
+                    "set_name": "Duel Power",
+                    "set_code": "DUPO-EN087",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "2.25"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 52068432,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/52068432.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/52068432.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/52068432.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.90",
+                    "tcgplayer_price": "0.71",
+                    "ebay_price": "13.45",
+                    "amazon_price": "1.16",
+                    "coolstuffinc_price": "1.99"
+                }
+            ]
+        },
+        {
+            "id": 20366274,
+            "name": "Shaddoll",
+            "typeline": [
+                "Fairy",
+                "Fusion",
+                "Effect"
+            ],
+            "type": "Monstruos de Atributo variante,usan Fusion/Link",
+            "humanReadableCardType": "Fusion Effect Monster",
+            "frameType": "fusion",
+            "desc": "1 \"Shaddoll\" monster + 1 LIGHT monster\r\nMust first be Fusion Summoned. If this card is Special Summoned: You can send 1 \"Shaddoll\" card from your Deck to the GY. At the start of the Damage Step, if this card battles a Special Summoned monster: Destroy that monster. If this card is sent to the GY: You can target 1 \"Shaddoll\" Spell/Trap in your GY; add it to your hand.",
+            "race": "Fairy",
+            "atk": 2800,
+            "def": 2500,
+            "level": 8,
+            "attribute": "LIGHT",
+            "archetype": "lib/assets/Shaddoll_archetype.json",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/el-shaddoll-construct-1746",
+            "card_sets": [
+                {
+                    "set_name": "2015 Mega-Tin Mega Pack",
+                    "set_code": "MP15-EN094",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "3.79"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 20366274,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/20366274.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/20366274.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/20366274.jpg"
+                },
+                {
+                    "id": 20366275,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/20366275.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/20366275.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/20366275.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.32",
+                    "tcgplayer_price": "0.22",
+                    "ebay_price": "0.99",
+                    "amazon_price": "0.70",
+                    "coolstuffinc_price": "0.79"
+                }
+            ]
+        },
+        {
+            "id": 16960120,
+            "name": "Dragonmaid",
+            "typeline": [
+                "Dragon",
+                "Effect"
+            ],
+            "type": "Monstruos Dragón de atributo variante, usan Fusion",
+            "humanReadableCardType": "Effect Monster",
+            "frameType": "effect",
+            "desc": "If this card is Normal or Special Summoned: You can add 1 \"Dragonmaid\" monster from your Deck to your hand, except \"Kitchen Dragonmaid\", then send 1 \"Dragonmaid\" monster from your hand to the GY. At the start of the Battle Phase: You can return this card to the hand, and if you do, Special Summon 1 Level 8 \"Dragonmaid\" monster from your hand or GY. You can only use each effect of \"Kitchen Dragonmaid\" once per turn.",
+            "race": "Dragon",
+            "atk": 500,
+            "def": 1700,
+            "level": 3,
+            "attribute": "FIRE",
+            "archetype": "lib/assets/Dragonmaid_archetype.json",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/kitchen-dragonmaid-10534",
+            "card_sets": [
+                {
+                    "set_name": "Maximum Gold",
+                    "set_code": "MAGO-EN022",
+                    "set_rarity": "Premium Gold Rare",
+                    "set_rarity_code": "(PG)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Mystic Fighters",
+                    "set_code": "MYFI-EN018",
+                    "set_rarity": "Secret Rare",
+                    "set_rarity_code": "(ScR)",
+                    "set_price": "32.83"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 16960120,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/16960120.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/16960120.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/16960120.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "6.92",
+                    "tcgplayer_price": "5.62",
+                    "ebay_price": "5.49",
+                    "amazon_price": "23.52",
+                    "coolstuffinc_price": "3.99"
+                }
+            ]
+        },
+        {
+            "id": 49088914,
+            "name": "Virtual World",
+            "typeline": [
+                "Psychic",
+                "Tuner",
+                "Effect"
+            ],
+            "type": "Monstruos VIENTO Psíquico y TIERRA Wyrm, usan Synchro",
+            "humanReadableCardType": "Monstruos VIENTO Psíquico y TIERRA Wyrm, usan Synchro",
+            "frameType": "effect",
+            "desc": "If this card is in your hand: You can target 1 \"Virtual World\" card you control; send 1 \"Virtual World\" card of a different type (Monster, Spell, Trap) from your Deck to the GY, and if you do, Special Summon this card, then, you can add 1 \"Virtual World\" card of the third type from your Deck to your hand, except \"Virtual World Mai-Hime - Lulu\". For the rest of this turn, you can only Special Summon Level/Rank 3 or higher monsters. You can only use this effect of \"Virtual World Mai-Hime - Lulu\" once per turn.",
+            "race": "Psychic",
+            "atk": 1600,
+            "def": 600,
+            "level": 3,
+            "attribute": "WIND",
+            "archetype": "lib/assets/Virtual_World_archetype.json",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/virtual-world-mai-hime-lulu-11283",
+            "card_sets": [
+                {
+                    "set_name": "2021 Tin of Ancient Battles",
+                    "set_code": "MP21-EN173",
+                    "set_rarity": "Prismatic Secret Rare",
+                    "set_rarity_code": "(PScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Phantom Rage",
+                    "set_code": "PHRA-EN010",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 49088914,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/49088914.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/49088914.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/49088914.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.48",
+                    "tcgplayer_price": "0.32",
+                    "ebay_price": "2.49",
+                    "amazon_price": "2.42",
+                    "coolstuffinc_price": "1.49"
+                }
+            ]
+        },
+        {
+            "id": 99726621,
+            "name": "Tri-Brigade",
+            "typeline": [
+                "Winged Beast",
+                "Link",
+                "Effect"
+            ],
+            "type": "Monstruos Bestia, Bestia Alada y Guerrero-Bestia,usan Link",
+            "humanReadableCardType": "Link Effect Monster",
+            "frameType": "link",
+            "desc": "2+ Beast, Beast-Warrior, and/or Winged Beast monsters\r\nIf this card is Special Summoned, or if another Beast, Beast-Warrior, or Winged Beast monster(s) is Special Summoned to your field: You can banish 1 card on the field. If this card is sent to the GY: You can add 1 Beast, Beast-Warrior, or Winged Beast monster from your Deck to your hand, whose Level is less than or equal to the number of your banished Beast, Beast-Warrior, and Winged Beast monsters. You can only use each effect of \"Tri-Brigade Shuraig the Ominous Omen\" once per turn.",
+            "race": "Winged Beast",
+            "atk": 3000,
+            "def": null,
+            "level": null,
+            "attribute": "DARK",
+            "archetype": "lib/assets/Tri_Brigade_archetype.json",
+            "linkval": 4,
+            "linkmarkers": [
+                "Left",
+                "Right",
+                "Bottom-Left",
+                "Bottom-Right"
+            ],
+            "ygoprodeck_url": "https://ygoprodeck.com/card/tri-brigade-shuraig-the-ominous-omen-11324",
+            "card_sets": [
+                {
+                    "set_name": "2021 Tin of Ancient Battles",
+                    "set_code": "MP21-EN198",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 99726621,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/99726621.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/99726621.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/99726621.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "2.88",
+                    "tcgplayer_price": "1.18",
+                    "ebay_price": "2.93",
+                    "amazon_price": "42.97",
+                    "coolstuffinc_price": "3.99"
+                }
+            ]
+        }
+    ]
+}

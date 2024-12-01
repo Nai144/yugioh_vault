@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
-import '../models/yugioh_card.dart';
+import 'package:yugioh_vault/models/yugioh_card2.dart';
+
 
 class CardDetailScreen extends StatelessWidget {
-  final YugiohCard card;
+  final YugiohCard2 card;
 
   const CardDetailScreen({super.key, required this.card});
 
@@ -22,7 +23,7 @@ class CardDetailScreen extends StatelessWidget {
               // Imagen grande de la carta
               Center(
                 child: Image.network(
-                  card.images[0].imageUrlSmall,
+                  card.cardImages.first.imageUrlSmall,
                   height: 200,
                   fit: BoxFit.cover,
                 ),
@@ -51,15 +52,15 @@ class CardDetailScreen extends StatelessWidget {
               Text('Archetype: ${card.archetype ?? 'None'}'),
               const SizedBox(height: 16),
               // Rareza y precios
-              if (card.sets != null && card.sets!.isNotEmpty) ...[
+              if (card.cardSets != null ) ...[
                 Text(
-                  'Set: ${card.sets![0].setName} (${card.sets![0].setRarity ?? 'Unknown'})',
+                  'Set: ${card.cardSets} (${card.cardSets ?? 'Unknown'})',
                 ),
               ] else ...[
                 const Text('Set: None'),
               ],
               Text( 
-                'Price (TCGPlayer): \$${card.prices?.tcgplayerPrice ?? 'N/A'}',
+                'Price (TCGPlayer): \$${card.cardPrices ?? 'N/A'}',
                 style: const TextStyle(color: Colors.green, fontSize: 16),
               ),
               const SizedBox(height: 16),
