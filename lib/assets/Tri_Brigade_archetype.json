@@ -1,0 +1,910 @@
+{
+    "data": [
+        {
+            "id": 51097887,
+            "name": "Tri-Brigade Airborne Assault",
+            "type": "Spell Card",
+            "humanReadableCardType": "Quick-Play Spell",
+            "frameType": "spell",
+            "desc": "Target 1 Beast, Beast-Warrior, or Winged Beast monster you control; Special Summon 1 Beast, Beast-Warrior, or Winged Beast monster from your Deck, in Defense Position, with a different Type and with ATK less than or equal to that monster, but its effects are negated until the end of this turn, also you cannot Special Summon monsters from the Extra Deck for the rest of this turn, except Link Monsters. You can only activate 1 \"Tri-Brigade Airborne Assault\" per turn.",
+            "race": "Quick-Play",
+            "archetype": "Tri-Brigade",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/tri-brigade-airborne-assault-11315",
+            "card_sets": [
+                {
+                    "set_name": "2021 Tin of Ancient Battles",
+                    "set_code": "MP21-EN202",
+                    "set_rarity": "Rare",
+                    "set_rarity_code": "(R)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Phantom Rage",
+                    "set_code": "PHRA-EN053",
+                    "set_rarity": "Secret Rare",
+                    "set_rarity_code": "(ScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Phantom Rage Premiere! promotional card",
+                    "set_code": "PHRA-ENSP1",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "18.24"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 51097887,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/51097887.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/51097887.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/51097887.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.24",
+                    "tcgplayer_price": "0.14",
+                    "ebay_price": "0.99",
+                    "amazon_price": "39.99",
+                    "coolstuffinc_price": "0.39"
+                }
+            ]
+        },
+        {
+            "id": 10019086,
+            "name": "Tri-Brigade Arms Bucephalus II",
+            "typeline": [
+                "Winged Beast",
+                "Link",
+                "Effect"
+            ],
+            "type": "Link Monster",
+            "humanReadableCardType": "Link Effect Monster",
+            "frameType": "link",
+            "desc": "3+ Beast, Beast-Warrior, and/or Winged Beast monsters\r\nCannot be Special Summoned from the Extra Deck unless you have 3 or more \"Tri-Brigade\" Spells/Traps in your GY. Your opponent cannot activate cards or effects when you Special Summon a monster(s). When a monster declares an attack: You can banish this card, also banish all cards your opponent controls. If this card is sent to the GY: You can send 1 Beast, Beast-Warrior, or Winged Beast monster from your Extra Deck to the GY. You can only use this effect of \"Tri-Brigade Arms Bucephalus II\" once per turn.",
+            "race": "Winged Beast",
+            "atk": 3500,
+            "def": null,
+            "level": null,
+            "attribute": "DARK",
+            "archetype": "Tri-Brigade",
+            "linkval": 5,
+            "linkmarkers": [
+                "Left",
+                "Right",
+                "Bottom-Left",
+                "Bottom",
+                "Bottom-Right"
+            ],
+            "ygoprodeck_url": "https://ygoprodeck.com/card/tri-brigade-arms-bucephalus-ii-13548",
+            "card_sets": [
+                {
+                    "set_name": "25th Anniversary Tin: Dueling Mirrors",
+                    "set_code": "MP24-EN175",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Photon Hypernova",
+                    "set_code": "PHHY-EN048",
+                    "set_rarity": "Starlight Rare",
+                    "set_rarity_code": "(StR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Photon Hypernova",
+                    "set_code": "PHHY-EN048",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 10019086,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/10019086.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/10019086.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/10019086.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.00",
+                    "tcgplayer_price": "0.17",
+                    "ebay_price": "0.99",
+                    "amazon_price": "0.00",
+                    "coolstuffinc_price": "0.49"
+                }
+            ]
+        },
+        {
+            "id": 47163170,
+            "name": "Tri-Brigade Bearbrumm the Rampant Rampager",
+            "typeline": [
+                "Beast",
+                "Link",
+                "Effect"
+            ],
+            "type": "Link Monster",
+            "humanReadableCardType": "Link Effect Monster",
+            "frameType": "link",
+            "desc": "2 \"Tri-Brigade\" monsters\r\nYou can discard 2 cards, then target 1 of your banished Level 4 or lower Beast, Beast-Warrior, or Winged Beast monsters; Special Summon it. If this card is sent to the GY: You can add 1 \"Tri-Brigade\" Spell/Trap from your Deck to your hand, then, place 1 card from your hand on the bottom of the Deck, also you cannot Special Summon for the rest of this turn, except \"Tri-Brigade\" monsters. You can only use each effect of \"Tri-Brigade Bearbrumm the Rampant Rampager\" once per turn.",
+            "race": "Beast",
+            "atk": 1700,
+            "def": null,
+            "level": null,
+            "attribute": "FIRE",
+            "archetype": "Tri-Brigade",
+            "linkval": 2,
+            "linkmarkers": [
+                "Left",
+                "Bottom-Right"
+            ],
+            "ygoprodeck_url": "https://ygoprodeck.com/card/tri-brigade-bearbrumm-the-rampant-rampager-11862",
+            "card_sets": [
+                {
+                    "set_name": "2022 Tin of the Pharaoh's Gods",
+                    "set_code": "MP22-EN085",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Lightning Overdrive",
+                    "set_code": "LIOV-EN044",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 47163170,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/47163170.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/47163170.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/47163170.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.13",
+                    "tcgplayer_price": "0.21",
+                    "ebay_price": "0.99",
+                    "amazon_price": "0.49",
+                    "coolstuffinc_price": "0.49"
+                }
+            ]
+        },
+        {
+            "id": 26847978,
+            "name": "Tri-Brigade Ferrijit the Barren Blossom",
+            "typeline": [
+                "Beast",
+                "Link",
+                "Effect"
+            ],
+            "type": "Link Monster",
+            "humanReadableCardType": "Link Effect Monster",
+            "frameType": "link",
+            "desc": "2 Beast, Beast-Warrior, and/or Winged Beast monsters\r\nDuring your Main Phase: You can Special Summon 1 Level 4 or lower Beast, Beast-Warrior, or Winged Beast monster from your hand, also you cannot use monsters as Link Material for the rest of this turn, except Beast, Beast-Warrior, or Winged Beast monsters. If this card is sent to the GY: You can draw 1 card, then place 1 card from your hand on the bottom of the Deck. You can only use each effect of \"Tri-Brigade Ferrijit the Barren Blossom\" once per turn.",
+            "race": "Beast",
+            "atk": 1600,
+            "def": null,
+            "level": null,
+            "attribute": "EARTH",
+            "archetype": "Tri-Brigade",
+            "linkval": 2,
+            "linkmarkers": [
+                "Left",
+                "Bottom-Left"
+            ],
+            "ygoprodeck_url": "https://ygoprodeck.com/card/tri-brigade-ferrijit-the-barren-blossom-11317",
+            "card_sets": [
+                {
+                    "set_name": "2021 Tin of Ancient Battles",
+                    "set_code": "MP21-EN196",
+                    "set_rarity": "Prismatic Secret Rare",
+                    "set_rarity_code": "(PScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Phantom Rage",
+                    "set_code": "PHRA-EN046",
+                    "set_rarity": "Starlight Rare",
+                    "set_rarity_code": "(StR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Phantom Rage",
+                    "set_code": "PHRA-EN046",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 26847978,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/26847978.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/26847978.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/26847978.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "2.19",
+                    "tcgplayer_price": "1.10",
+                    "ebay_price": "2.95",
+                    "amazon_price": "7.59",
+                    "coolstuffinc_price": "1.99"
+                }
+            ]
+        },
+        {
+            "id": 87209160,
+            "name": "Tri-Brigade Fraktall",
+            "typeline": [
+                "Beast-Warrior",
+                "Effect"
+            ],
+            "type": "Effect Monster",
+            "humanReadableCardType": "Effect Monster",
+            "frameType": "effect",
+            "desc": "You can send this card from your hand or field to the GY; send 1 Level 3 or lower Beast, Beast-Warrior, or Winged Beast monster from your Deck to the GY. You can banish any number of Beast, Beast-Warrior, and/or Winged Beast monsters in your GY; Special Summon 1 Beast, Beast-Warrior, or Winged Beast Link Monster from your Extra Deck, with Link Rating equal to the number banished, also you can only use Beast, Beast-Warrior, and Winged Beast monsters as Link Material for the rest of this turn. You can only use each effect of \"Tri-Brigade Fraktall\" once per turn.",
+            "race": "Beast-Warrior",
+            "atk": 1900,
+            "def": 1600,
+            "level": 4,
+            "attribute": "FIRE",
+            "archetype": "Tri-Brigade",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/tri-brigade-fraktall-11318",
+            "card_sets": [
+                {
+                    "set_name": "2021 Tin of Ancient Battles",
+                    "set_code": "MP21-EN171",
+                    "set_rarity": "Prismatic Secret Rare",
+                    "set_rarity_code": "(PScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Phantom Rage",
+                    "set_code": "PHRA-EN008",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 87209160,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/87209160.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/87209160.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/87209160.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "2.40",
+                    "tcgplayer_price": "1.40",
+                    "ebay_price": "3.73",
+                    "amazon_price": "7.59",
+                    "coolstuffinc_price": "4.99"
+                }
+            ]
+        },
+        {
+            "id": 50810455,
+            "name": "Tri-Brigade Kerass",
+            "typeline": [
+                "Beast",
+                "Effect"
+            ],
+            "type": "Effect Monster",
+            "humanReadableCardType": "Effect Monster",
+            "frameType": "effect",
+            "desc": "You can discard 1 other Beast, Beast-Warrior, or Winged Beast monster; Special Summon this card from your hand. You can banish any number of Beast, Beast-Warrior, and/or Winged Beast monsters in your GY; Special Summon 1 Beast, Beast-Warrior, or Winged Beast Link Monster from your Extra Deck, with Link Rating equal to the number banished, also you can only use Beast, Beast-Warrior, and Winged Beast monsters as Link Material for the rest of this turn. You can only use each effect of \"Tri-Brigade Kerass\" once per turn.",
+            "race": "Beast",
+            "atk": 1200,
+            "def": 1500,
+            "level": 2,
+            "attribute": "EARTH",
+            "archetype": "Tri-Brigade",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/tri-brigade-kerass-11316",
+            "card_sets": [
+                {
+                    "set_name": "2021 Tin of Ancient Battles",
+                    "set_code": "MP21-EN170",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Phantom Rage",
+                    "set_code": "PHRA-EN007",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 50810455,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/50810455.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/50810455.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/50810455.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.78",
+                    "tcgplayer_price": "0.52",
+                    "ebay_price": "1.75",
+                    "amazon_price": "7.59",
+                    "coolstuffinc_price": "0.99"
+                }
+            ]
+        },
+        {
+            "id": 56196385,
+            "name": "Tri-Brigade Kitt",
+            "typeline": [
+                "Beast",
+                "Effect"
+            ],
+            "type": "Effect Monster",
+            "humanReadableCardType": "Effect Monster",
+            "frameType": "effect",
+            "desc": "You can banish any number of Beast, Beast-Warrior, and/or Winged Beast monsters in your GY; Special Summon 1 Beast, Beast-Warrior, or Winged Beast Link Monster from your Extra Deck, with Link Rating equal to the number banished, also you can only use Beast, Beast-Warrior, and Winged Beast monsters as Link Material for the rest of this turn. If this card is sent to the GY: You can send 1 \"Tri-Brigade\" card from your Deck to the GY, except \"Tri-Brigade Kitt\". You can only use each effect of \"Tri-Brigade Kitt\" once per turn.",
+            "race": "Beast",
+            "atk": 700,
+            "def": 1000,
+            "level": 2,
+            "attribute": "FIRE",
+            "archetype": "Tri-Brigade",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/tri-brigade-kitt-11565",
+            "card_sets": [
+                {
+                    "set_name": "2022 Tin of the Pharaoh's Gods",
+                    "set_code": "MP22-EN006",
+                    "set_rarity": "Prismatic Secret Rare",
+                    "set_rarity_code": "(PScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Blazing Vortex",
+                    "set_code": "BLVO-EN010",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 56196385,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/56196385.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/56196385.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/56196385.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.33",
+                    "tcgplayer_price": "0.35",
+                    "ebay_price": "1.99",
+                    "amazon_price": "59.99",
+                    "coolstuffinc_price": "1.49"
+                }
+            ]
+        },
+        {
+            "id": 19096726,
+            "name": "Tri-Brigade Mercourier",
+            "typeline": [
+                "Winged Beast",
+                "Effect"
+            ],
+            "type": "Effect Monster",
+            "humanReadableCardType": "Effect Monster",
+            "frameType": "effect",
+            "desc": "When your opponent activates a monster effect, while you control a Fusion Monster that mentions \"Fallen of Albaz\" as material (Quick Effect): You can send this card from your hand or face-up field to the GY; negate that effect. If this card is banished: You can add from your Deck to your hand, 1 \"Fallen of Albaz\", or 1 monster that mentions it, except \"Tri-Brigade Mercourier\". You can only use each effect of \"Tri-Brigade Mercourier\" once per turn.",
+            "race": "Winged Beast",
+            "atk": 800,
+            "def": 0,
+            "level": 4,
+            "attribute": "DARK",
+            "archetype": "Tri-Brigade",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/tri-brigade-mercourier-12810",
+            "card_sets": [
+                {
+                    "set_name": "Battles of Legend: Terminal Revenge",
+                    "set_code": "BLTR-EN107",
+                    "set_rarity": "Secret Rare",
+                    "set_rarity_code": "(ScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Structure Deck: Albaz Strike",
+                    "set_code": "SDAZ-EN001",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "1.49"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 19096726,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/19096726.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/19096726.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/19096726.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.15",
+                    "tcgplayer_price": "0.12",
+                    "ebay_price": "0.99",
+                    "amazon_price": "0.54",
+                    "coolstuffinc_price": "0.39"
+                }
+            ]
+        },
+        {
+            "id": 14816857,
+            "name": "Tri-Brigade Nervall",
+            "typeline": [
+                "Winged Beast",
+                "Effect"
+            ],
+            "type": "Effect Monster",
+            "humanReadableCardType": "Effect Monster",
+            "frameType": "effect",
+            "desc": "You can banish any number of Beast, Beast-Warrior, and/or Winged Beast monsters in your GY; Special Summon 1 Beast, Beast-Warrior, or Winged Beast Link Monster from your Extra Deck, with Link Rating equal to the number banished, also you can only use Beast, Beast-Warrior, and Winged Beast monsters as Link Material for the rest of this turn. If this card is sent to the GY: You can add 1 \"Tri-Brigade\" monster from your Deck to your hand, except \"Tri-Brigade Nervall\". You can only use each effect of \"Tri-Brigade Nervall\" once per turn.",
+            "race": "Winged Beast",
+            "atk": 0,
+            "def": 2000,
+            "level": 1,
+            "attribute": "WIND",
+            "archetype": "Tri-Brigade",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/tri-brigade-nervall-11321",
+            "card_sets": [
+                {
+                    "set_name": "2021 Tin of Ancient Battles",
+                    "set_code": "MP21-EN169",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "OTS Tournament Pack 16",
+                    "set_code": "OP16-EN009",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "OTS Tournament Pack 16 (POR)",
+                    "set_code": "OP16-PT009",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Phantom Rage",
+                    "set_code": "PHRA-EN006",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 14816857,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/14816857.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/14816857.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/14816857.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.12",
+                    "tcgplayer_price": "0.14",
+                    "ebay_price": "1.44",
+                    "amazon_price": "7.59",
+                    "coolstuffinc_price": "0.25"
+                }
+            ]
+        },
+        {
+            "id": 86379342,
+            "name": "Tri-Brigade Oath",
+            "type": "Trap Card",
+            "humanReadableCardType": "Normal Trap",
+            "frameType": "trap",
+            "desc": "Target 1 Link Monster you control; Special Summon 1 Beast, Beast-Warrior, or Winged Beast monster with a different Type from your hand or GY. If you control at least 1 each of Beast, Beast-Warrior, and Winged Beast monsters: You can banish this card from your GY, then target 1 face-up Spell/Trap your opponent controls; negate its effects until the end of this turn. You can only use 1 \"Tri-Brigade Oath\" effect per turn, and only once that turn.",
+            "race": "Normal",
+            "archetype": "Tri-Brigade",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/tri-brigade-oath-11322",
+            "card_sets": [
+                {
+                    "set_name": "2021 Tin of Ancient Battles",
+                    "set_code": "MP21-EN213",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0.95"
+                },
+                {
+                    "set_name": "Phantom Rage",
+                    "set_code": "PHRA-EN071",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 86379342,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/86379342.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/86379342.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/86379342.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.05",
+                    "tcgplayer_price": "0.06",
+                    "ebay_price": "0.99",
+                    "amazon_price": "7.59",
+                    "coolstuffinc_price": "0.25"
+                }
+            ]
+        },
+        {
+            "id": 96378317,
+            "name": "Tri-Brigade Rendezvous",
+            "type": "Spell Card",
+            "humanReadableCardType": "Quick-Play Spell",
+            "frameType": "spell",
+            "desc": "Target any number of linked Beast, Beast-Warrior, and/or Winged Beast monsters you control; they gain 700 ATK until the end of this turn. If a linked Beast, Beast-Warrior, or Winged Beast monster(s) you control would be destroyed by battle or card effect, you can banish this card from your GY instead. You can only use each effect of \"Tri-Brigade Rendezvous\" once per turn.",
+            "race": "Quick-Play",
+            "archetype": "Tri-Brigade",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/tri-brigade-rendezvous-11566",
+            "card_sets": [
+                {
+                    "set_name": "2022 Tin of the Pharaoh's Gods",
+                    "set_code": "MP22-EN032",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Blazing Vortex",
+                    "set_code": "BLVO-EN056",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 96378317,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/96378317.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/96378317.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/96378317.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.08",
+                    "tcgplayer_price": "0.07",
+                    "ebay_price": "0.99",
+                    "amazon_price": "7.59",
+                    "coolstuffinc_price": "0.25"
+                }
+            ]
+        },
+        {
+            "id": 40975243,
+            "name": "Tri-Brigade Revolt",
+            "type": "Trap Card",
+            "humanReadableCardType": "Normal Trap",
+            "frameType": "trap",
+            "desc": "Special Summon a number of your Beast, Beast-Warrior, and/or Winged Beast monsters, that are banished and/or in your GY, but negate their effects, then, immediately after this effect resolves, Link Summon 1 \"Tri-Brigade\" Link Monster using only those monsters. You can only activate 1 \"Tri-Brigade Revolt\" per turn.",
+            "race": "Normal",
+            "archetype": "Tri-Brigade",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/tri-brigade-revolt-11323",
+            "card_sets": [
+                {
+                    "set_name": "2021 Tin of Ancient Battles",
+                    "set_code": "MP21-EN212",
+                    "set_rarity": "Prismatic Secret Rare",
+                    "set_rarity_code": "(PScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "25th Anniversary Rarity Collection",
+                    "set_code": "RA01-EN079",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "25th Anniversary Rarity Collection",
+                    "set_code": "RA01-EN079",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Phantom Rage",
+                    "set_code": "PHRA-EN070",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 40975243,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/40975243.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/40975243.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/40975243.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.04",
+                    "tcgplayer_price": "0.08",
+                    "ebay_price": "2.48",
+                    "amazon_price": "12.88",
+                    "coolstuffinc_price": "0.49"
+                }
+            ]
+        },
+        {
+            "id": 10793085,
+            "name": "Tri-Brigade Roar",
+            "type": "Spell Card",
+            "humanReadableCardType": "Quick-Play Spell",
+            "frameType": "spell",
+            "desc": "If you control a Link Monster: Send 1 \"Tri-Brigade\" card from your Deck or Extra Deck to the GY, then target 1 Effect Monster on the field; apply the following effect based on the type of card sent to the GY.\r\n● Monster: Change the targeted monster's ATK to 0 until the end of this turn.\r\n● Spell: Negate that monster's effects until the end of this turn.\r\n● Trap: Return that monster to the hand.\r\nYou can only activate 1 \"Tri-Brigade Roar\" per turn.",
+            "race": "Quick-Play",
+            "archetype": "Tri-Brigade",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/tri-brigade-roar-13696",
+            "card_sets": [
+                {
+                    "set_name": "Cyberstorm Access",
+                    "set_code": "CYAC-EN053",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 10793085,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/10793085.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/10793085.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/10793085.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.15",
+                    "tcgplayer_price": "0.26",
+                    "ebay_price": "0.99",
+                    "amazon_price": "0.00",
+                    "coolstuffinc_price": "0.49"
+                }
+            ]
+        },
+        {
+            "id": 52331012,
+            "name": "Tri-Brigade Rugal the Silver Sheller",
+            "typeline": [
+                "Beast-Warrior",
+                "Link",
+                "Effect"
+            ],
+            "type": "Link Monster",
+            "humanReadableCardType": "Link Effect Monster",
+            "frameType": "link",
+            "desc": "2+ Beast, Beast-Warrior, and/or Winged Beast monsters\r\nDuring your opponent's Main Phase (Quick Effect): You can Special Summon 1 Level 4 or lower Beast, Beast-Warrior, or Winged Beast monster from your hand or GY, but negate its effects, also, return it to the hand during the End Phase. If this card is sent to the GY: You can make all monsters your opponent currently controls lose 300 ATK for each Monster Type you control, until the end of this turn. You can only use each effect of \"Tri-Brigade Rugal the Silver Sheller\" once per turn.",
+            "race": "Beast-Warrior",
+            "atk": 2300,
+            "def": null,
+            "level": null,
+            "attribute": "EARTH",
+            "archetype": "Tri-Brigade",
+            "linkval": 3,
+            "linkmarkers": [
+                "Right",
+                "Bottom",
+                "Bottom-Right"
+            ],
+            "ygoprodeck_url": "https://ygoprodeck.com/card/tri-brigade-rugal-the-silver-sheller-11320",
+            "card_sets": [
+                {
+                    "set_name": "2021 Tin of Ancient Battles",
+                    "set_code": "MP21-EN197",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Phantom Rage",
+                    "set_code": "PHRA-EN047",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 52331012,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/52331012.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/52331012.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/52331012.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.09",
+                    "tcgplayer_price": "0.12",
+                    "ebay_price": "0.99",
+                    "amazon_price": "59.99",
+                    "coolstuffinc_price": "0.25"
+                }
+            ]
+        },
+        {
+            "id": 7889323,
+            "name": "Tri-Brigade Showdown",
+            "type": "Spell Card",
+            "humanReadableCardType": "Continuous Spell",
+            "frameType": "spell",
+            "desc": "If a Beast, Beast-Warrior, or Winged Beast monster is Special Summoned to your field (except during the Damage Step): You can target 1 of your banished \"Tri-Brigade\" monsters; add it to your hand. After damage calculation, if your \"Tri-Brigade\" monster battled an opponent's monster: You can return the opponent's monster to the hand. You can only use each effect of \"Tri-Brigade Showdown\" once per turn.",
+            "race": "Continuous",
+            "archetype": "Tri-Brigade",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/tri-brigade-showdown-13398",
+            "card_sets": [
+                {
+                    "set_name": "25th Anniversary Tin: Dueling Heroes Mega Pack",
+                    "set_code": "MP23-EN198",
+                    "set_rarity": "Prismatic Secret Rare",
+                    "set_rarity_code": "(PScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Darkwing Blast",
+                    "set_code": "DABL-EN055",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 7889323,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/7889323.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/7889323.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/7889323.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.06",
+                    "tcgplayer_price": "0.05",
+                    "ebay_price": "0.99",
+                    "amazon_price": "0.25",
+                    "coolstuffinc_price": "0.25"
+                }
+            ]
+        },
+        {
+            "id": 99726621,
+            "name": "Tri-Brigade Shuraig the Ominous Omen",
+            "typeline": [
+                "Winged Beast",
+                "Link",
+                "Effect"
+            ],
+            "type": "Link Monster",
+            "humanReadableCardType": "Link Effect Monster",
+            "frameType": "link",
+            "desc": "2+ Beast, Beast-Warrior, and/or Winged Beast monsters\r\nIf this card is Special Summoned, or if another Beast, Beast-Warrior, or Winged Beast monster(s) is Special Summoned to your field: You can banish 1 card on the field. If this card is sent to the GY: You can add 1 Beast, Beast-Warrior, or Winged Beast monster from your Deck to your hand, whose Level is less than or equal to the number of your banished Beast, Beast-Warrior, and Winged Beast monsters. You can only use each effect of \"Tri-Brigade Shuraig the Ominous Omen\" once per turn.",
+            "race": "Winged Beast",
+            "atk": 3000,
+            "def": null,
+            "level": null,
+            "attribute": "DARK",
+            "archetype": "Tri-Brigade",
+            "linkval": 4,
+            "linkmarkers": [
+                "Left",
+                "Right",
+                "Bottom-Left",
+                "Bottom-Right"
+            ],
+            "ygoprodeck_url": "https://ygoprodeck.com/card/tri-brigade-shuraig-the-ominous-omen-11324",
+            "card_sets": [
+                {
+                    "set_name": "2021 Tin of Ancient Battles",
+                    "set_code": "MP21-EN198",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Phantom Rage",
+                    "set_code": "PHRA-EN048",
+                    "set_rarity": "Secret Rare",
+                    "set_rarity_code": "(ScR)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 99726621,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/99726621.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/99726621.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/99726621.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "2.89",
+                    "tcgplayer_price": "1.18",
+                    "ebay_price": "2.93",
+                    "amazon_price": "42.97",
+                    "coolstuffinc_price": "3.99"
+                }
+            ]
+        },
+        {
+            "id": 25908748,
+            "name": "Tri-Brigade Stand-Off",
+            "type": "Spell Card",
+            "humanReadableCardType": "Continuous Spell",
+            "frameType": "spell",
+            "desc": "You cannot Special Summon monsters from the Extra Deck, except Beast, Beast-Warrior, or Winged Beast monsters. You can send 1 monster from your hand or field to the GY; add 1 \"Tri-Brigade\" monster from your Deck to your hand with a different original Type than that monster sent to the GY. You can only use this effect of \"Tri-Brigade Stand-Off\" once per turn. If this card in its owner's Spell & Trap Zone is destroyed by an opponent's card effect: You can activate this effect; your opponent cannot declare an attack this turn.",
+            "race": "Continuous",
+            "archetype": "Tri-Brigade",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/tri-brigade-stand-off-11319",
+            "card_sets": [
+                {
+                    "set_name": "2021 Tin of Ancient Battles",
+                    "set_code": "MP21-EN201",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "1.03"
+                },
+                {
+                    "set_name": "Phantom Rage",
+                    "set_code": "PHRA-EN052",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 25908748,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/25908748.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/25908748.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/25908748.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.08",
+                    "tcgplayer_price": "0.07",
+                    "ebay_price": "0.99",
+                    "amazon_price": "12.88",
+                    "coolstuffinc_price": "0.25"
+                }
+            ]
+        }
+    ]
+}

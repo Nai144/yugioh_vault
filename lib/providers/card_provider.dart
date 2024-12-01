@@ -33,7 +33,7 @@ class CardProvider with ChangeNotifier {
     notifyListeners();
 
     try {
-      _cards = await _apiService.getAllCards();
+      _cards = await _apiService.getAllBlueEyesCards();
     } catch (e) {
       print('Error fetching all cards: $e');
       _cards = [];

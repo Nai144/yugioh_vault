@@ -22,7 +22,7 @@ class CardDetailScreen extends StatelessWidget {
               // Imagen grande de la carta
               Center(
                 child: Image.network(
-                  card.images[0].imageUrlSmall,
+                  card.image as String,
                   height: 200,
                   fit: BoxFit.cover,
                 ),
@@ -51,15 +51,15 @@ class CardDetailScreen extends StatelessWidget {
               Text('Archetype: ${card.archetype ?? 'None'}'),
               const SizedBox(height: 16),
               // Rareza y precios
-              if (card.sets != null && card.sets!.isNotEmpty) ...[
+              if (card.set != null ) ...[
                 Text(
-                  'Set: ${card.sets![0].setName} (${card.sets![0].setRarity ?? 'Unknown'})',
+                  'Set: ${card.set!} (${card.set! ?? 'Unknown'})',
                 ),
               ] else ...[
                 const Text('Set: None'),
               ],
               Text( 
-                'Price (TCGPlayer): \$${card.prices?.tcgplayerPrice ?? 'N/A'}',
+                'Price (TCGPlayer): \$${card.price ?? 'N/A'}',
                 style: const TextStyle(color: Colors.green, fontSize: 16),
               ),
               const SizedBox(height: 16),

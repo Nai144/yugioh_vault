@@ -67,4 +67,17 @@ flutter:
 #        - asset: fonts/NotoSans-Regular.ttf
 #        - asset: fonts/NotoSans-Bold.ttf
 #          weight: 700
-
+  assets:
+    - lib/assets/Blue_eyes_archetype.json
+    - lib/assets/air_neos.json
+    - lib/assets/Blackwing_archetype.json
+    - lib/assets/Nekroz_archetype.json        
+    - lib/assets/Shaddoll_archetype.json   
+    - lib/assets/Lightsworn_archetype.json
+    - lib/assets/Madolche_archetype.json
+    - lib/assets/Tearlaments_archetype.json
+    - lib/assets/Tri_Brigade_archetype.json
+    - lib/assets/Dragonmaid_archetype.json
+    - lib/assets/Virtual_World_archetype.json
+    - lib/assets/Kashtyra_archetype.json 
+    - lib/assets/Archetype_List.json         

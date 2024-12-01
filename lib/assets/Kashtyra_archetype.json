@@ -1,0 +1,656 @@
+{
+    "data": [
+        {
+            "id": 82286798,
+            "name": "Kashtira Akstra",
+            "type": "Spell Card",
+            "humanReadableCardType": "Quick-Play Spell",
+            "frameType": "spell",
+            "desc": "If a face-up \"Kashtira\" Xyz Monster(s) you control is destroyed by battle or card effect: Banish 1 \"Visas Starfrost\" from your hand, your Deck, or your Monster Zone, and if you do, Special Summon 1 \"Vicious Astraloud\" from your Extra Deck, ignoring its Summoning conditions. If this card is banished: You can target 1 of your banished \"Visas Starfrost\"; add it to your hand. You can only use each effect of \"Kashtira Akstra\" once per turn.",
+            "race": "Quick-Play",
+            "archetype": "Kashtira",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/kashtira-akstra-13647",
+            "card_sets": [
+                {
+                    "set_name": "25th Anniversary Tin: Dueling Mirrors",
+                    "set_code": "MP24-EN347",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Cyberstorm Access",
+                    "set_code": "CYAC-EN055",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 82286798,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/82286798.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/82286798.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/82286798.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.11",
+                    "tcgplayer_price": "0.07",
+                    "ebay_price": "0.00",
+                    "amazon_price": "0.00",
+                    "coolstuffinc_price": "0.25"
+                }
+            ]
+        },
+        {
+            "id": 33925864,
+            "name": "Kashtira Big Bang",
+            "type": "Trap Card",
+            "humanReadableCardType": "Normal Trap",
+            "frameType": "trap",
+            "desc": "If a \"Kashtira\" Xyz Monster is on the field and a player controls 2 or more monsters: They must banish monsters they control, face-down, so they only control 1 monster. If this card is banished: You can target 1 \"Kashtira\" Xyz Monster you control; add 1 of your \"Kashtira\" monsters attached to it to your hand, then you can Special Summon that monster from your hand. You can only use each effect of \"Kashtira Big Bang\" once per turn.",
+            "race": "Normal",
+            "archetype": "Kashtira",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/kashtira-big-bang-13487",
+            "card_sets": [
+                {
+                    "set_name": "25th Anniversary Tin: Dueling Mirrors",
+                    "set_code": "MP24-EN331",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Photon Hypernova",
+                    "set_code": "PHHY-EN075",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 33925864,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/33925864.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/33925864.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/33925864.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.16",
+                    "tcgplayer_price": "0.07",
+                    "ebay_price": "0.99",
+                    "amazon_price": "0.00",
+                    "coolstuffinc_price": "0.39"
+                }
+            ]
+        },
+        {
+            "id": 69540484,
+            "name": "Kashtira Birth",
+            "type": "Spell Card",
+            "humanReadableCardType": "Continuous Spell",
+            "frameType": "spell",
+            "desc": "You can Normal Summon Level 7 monsters without Tributing. During your Main Phase: You can Special Summon 1 of your non-Xyz \"Kashtira\" monsters that is banished or in your GY. If your opponent activates a Spell Card or effect, and you control a \"Kashtira\" monster: You can target 3 cards in your opponent's GY; banish them, face-down. You can only use each effect of \"Kashtira Birth\" once per turn.",
+            "race": "Continuous",
+            "archetype": "Kashtira",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/kashtira-birth-13287",
+            "card_sets": [
+                {
+                    "set_name": "25th Anniversary Tin: Dueling Heroes Mega Pack",
+                    "set_code": "MP23-EN200",
+                    "set_rarity": "Prismatic Secret Rare",
+                    "set_rarity_code": "(PScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Darkwing Blast",
+                    "set_code": "DABL-EN060",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 69540484,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/69540484.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/69540484.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/69540484.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.48",
+                    "tcgplayer_price": "1.90",
+                    "ebay_price": "1.84",
+                    "amazon_price": "0.00",
+                    "coolstuffinc_price": "0.99"
+                }
+            ]
+        },
+        {
+            "id": 32909498,
+            "name": "Kashtira Fenrir",
+            "typeline": [
+                "Psychic",
+                "Effect"
+            ],
+            "type": "Effect Monster",
+            "humanReadableCardType": "Effect Monster",
+            "frameType": "effect",
+            "desc": "If you control no monsters, you can Special Summon this card (from your hand). You can only use each of the following effects of \"Kashtira Fenrir\" once per turn. During your Main Phase: You can add 1 \"Kashtira\" monster from your Deck to your hand. When this card declares an attack, or if your opponent activates a monster effect (except during the Damage Step): You can target 1 face-up card your opponent controls; banish it, face-down.",
+            "race": "Psychic",
+            "atk": 2400,
+            "def": 2400,
+            "level": 7,
+            "attribute": "EARTH",
+            "archetype": "Kashtira",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/kashtira-fenrir-13288",
+            "card_sets": [
+                {
+                    "set_name": "25th Anniversary Tin: Dueling Heroes Mega Pack",
+                    "set_code": "MP23-EN163",
+                    "set_rarity": "Prismatic Secret Rare",
+                    "set_rarity_code": "(PScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Darkwing Blast",
+                    "set_code": "DABL-EN012",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "OTS Tournament Pack 21",
+                    "set_code": "OP21-EN003",
+                    "set_rarity": "Ultimate Rare",
+                    "set_rarity_code": "(UtR)",
+                    "set_price": "0"
+                }
+            ],
+            "banlist_info": {
+                "ban_ocg": "Forbidden"
+            },
+            "card_images": [
+                {
+                    "id": 32909498,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/32909498.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/32909498.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/32909498.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "13.51",
+                    "tcgplayer_price": "17.10",
+                    "ebay_price": "24.99",
+                    "amazon_price": "1.73",
+                    "coolstuffinc_price": "15.99"
+                }
+            ]
+        },
+        {
+            "id": 94392192,
+            "name": "Kashtira Ogre",
+            "typeline": [
+                "Psychic",
+                "Effect"
+            ],
+            "type": "Effect Monster",
+            "humanReadableCardType": "Effect Monster",
+            "frameType": "effect",
+            "desc": "If you control no monsters, you can Special Summon this card (from your hand). You can only use each of the following effects of \"Kashtira Ogre\" once per turn. During your Main Phase: You can add 1 \"Kashtira\" Trap from your Deck to your hand. When this card declares an attack, or if your opponent activates a monster effect (except during the Damage Step): You can excavate up to 5 cards from the top of your opponent's Deck, banish 1 excavated card, face-down, and place the rest on the top of the Deck in the same order.",
+            "race": "Psychic",
+            "atk": 2800,
+            "def": 1000,
+            "level": 7,
+            "attribute": "WATER",
+            "archetype": "Kashtira",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/kashtira-ogre-13289",
+            "card_sets": [
+                {
+                    "set_name": "25th Anniversary Tin: Dueling Heroes Mega Pack",
+                    "set_code": "MP23-EN165",
+                    "set_rarity": "Prismatic Secret Rare",
+                    "set_rarity_code": "(PScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Darkwing Blast",
+                    "set_code": "DABL-EN014",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 94392192,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/94392192.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/94392192.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/94392192.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.17",
+                    "tcgplayer_price": "0.10",
+                    "ebay_price": "1.48",
+                    "amazon_price": "0.99",
+                    "coolstuffinc_price": "0.25"
+                }
+            ]
+        },
+        {
+            "id": 8953369,
+            "name": "Kashtira Overlap",
+            "type": "Spell Card",
+            "humanReadableCardType": "Quick-Play Spell",
+            "frameType": "spell",
+            "desc": "Target 1 monster on the field; banish 1 monster with 1500 ATK/2100 DEF from your hand, your GY, or face-up on either field, and if you do, the targeted monster gains 1500 ATK. If this card is banished and you control a \"Kashtira\" monster: You can target 1 Effect Monster your opponent controls; negate its effects until the end of this turn. You can only use each effect of \"Kashtira Overlap\" once per turn.",
+            "race": "Quick-Play",
+            "archetype": "Kashtira",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/kashtira-overlap-13488",
+            "card_sets": [
+                {
+                    "set_name": "25th Anniversary Tin: Dueling Mirrors",
+                    "set_code": "MP24-EN323",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Photon Hypernova",
+                    "set_code": "PHHY-EN057",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 8953369,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/8953369.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/8953369.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/8953369.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.06",
+                    "tcgplayer_price": "0.06",
+                    "ebay_price": "0.00",
+                    "amazon_price": "0.00",
+                    "coolstuffinc_price": "0.39"
+                }
+            ]
+        },
+        {
+            "id": 21639276,
+            "name": "Kashtira Preparations",
+            "type": "Trap Card",
+            "humanReadableCardType": "Continuous Trap",
+            "frameType": "trap",
+            "desc": "During either player's turn: You can Special Summon 1 of your \"Kashtira\" monsters that is banished or in your hand. If your opponent activates a Trap Card or effect, you control a \"Kashtira\" monster, and this card is already face-up in your Spell & Trap Zone: You can look at your opponent's hand, and if you do, banish 1 card from it face-down. You can only use each effect of \"Kashtira Preparations\" once per turn.",
+            "race": "Continuous",
+            "archetype": "Kashtira",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/kashtira-preparations-13290",
+            "card_sets": [
+                {
+                    "set_name": "25th Anniversary Tin: Dueling Heroes Mega Pack",
+                    "set_code": "MP23-EN211",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Darkwing Blast",
+                    "set_code": "DABL-EN076",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 21639276,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/21639276.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/21639276.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/21639276.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.20",
+                    "tcgplayer_price": "0.08",
+                    "ebay_price": "0.99",
+                    "amazon_price": "0.00",
+                    "coolstuffinc_price": "0.39"
+                }
+            ]
+        },
+        {
+            "id": 31149212,
+            "name": "Kashtira Riseheart",
+            "typeline": [
+                "Warrior",
+                "Effect"
+            ],
+            "type": "Effect Monster",
+            "humanReadableCardType": "Effect Monster",
+            "frameType": "effect",
+            "desc": "If you control a \"Kashtira\" monster: You can Special Summon this card from your hand, also you cannot Special Summon monsters from the Extra Deck for the rest of this turn, except Xyz Monsters. During your Main Phase, if this card was Normal or Special Summoned this turn: You can banish 1 \"Kashtira\" card from your Deck, except \"Kashtira Riseheart\"; banish the top 3 cards of your opponent's Deck face-down, and if you banish any, this card's Level becomes 7. You can only use each effect of \"Kashtira Riseheart\" once per turn.",
+            "race": "Warrior",
+            "atk": 1500,
+            "def": 2100,
+            "level": 4,
+            "attribute": "FIRE",
+            "archetype": "Kashtira",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/kashtira-riseheart-13490",
+            "card_sets": [
+                {
+                    "set_name": "25th Anniversary Tin: Dueling Mirrors",
+                    "set_code": "MP24-EN065",
+                    "set_rarity": "Prismatic Secret Rare",
+                    "set_rarity_code": "(PScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Photon Hypernova",
+                    "set_code": "PHHY-EN006",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 31149212,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/31149212.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/31149212.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/31149212.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "5.37",
+                    "tcgplayer_price": "4.93",
+                    "ebay_price": "0.00",
+                    "amazon_price": "0.00",
+                    "coolstuffinc_price": "29.99"
+                }
+            ]
+        },
+        {
+            "id": 73542331,
+            "name": "Kashtira Shangri-Ira",
+            "typeline": [
+                "Psychic",
+                "Xyz",
+                "Effect"
+            ],
+            "type": "XYZ Monster",
+            "humanReadableCardType": "Xyz Effect Monster",
+            "frameType": "xyz",
+            "desc": "2+ Level 7 monsters\r\nDuring each Standby Phase: You can Special Summon 1 \"Kashtira\" monster from your Deck. You can only use the previous effect of \"Kashtira Shangri-Ira\" once per turn. Each time a card(s) your opponent owns and possesses is banished face-down (except during the Damage Step): You can choose 1 unused Main Monster Zone or Spell & Trap Zone; it cannot be used while this monster is face-up on the field. If this card on the field would be destroyed by battle or card effect, you can detach 1 material from this card instead.",
+            "race": "Psychic",
+            "atk": 0,
+            "def": 3000,
+            "level": 7,
+            "attribute": "FIRE",
+            "archetype": "Kashtira",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/kashtira-shangri-ira-13291",
+            "card_sets": [
+                {
+                    "set_name": "25th Anniversary Tin: Dueling Heroes Mega Pack",
+                    "set_code": "MP23-EN190",
+                    "set_rarity": "Prismatic Secret Rare",
+                    "set_rarity_code": "(PScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Darkwing Blast",
+                    "set_code": "DABL-EN045",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 73542331,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/73542331.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/73542331.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/73542331.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.39",
+                    "tcgplayer_price": "0.38",
+                    "ebay_price": "1.34",
+                    "amazon_price": "0.00",
+                    "coolstuffinc_price": "0.79"
+                }
+            ]
+        },
+        {
+            "id": 68304193,
+            "name": "Kashtira Unicorn",
+            "typeline": [
+                "Psychic",
+                "Effect"
+            ],
+            "type": "Effect Monster",
+            "humanReadableCardType": "Effect Monster",
+            "frameType": "effect",
+            "desc": "If you control no monsters, you can Special Summon this card (from your hand). You can only use each of the following effects of \"Kashtira Unicorn\" once per turn. During your Main Phase: You can add 1 \"Kashtira\" Spell from your Deck to your hand. When this card declares an attack, or if your opponent activates a monster effect (except during the Damage Step): You can look at your opponent's Extra Deck, and if you do, banish 1 monster from it, face-down.",
+            "race": "Psychic",
+            "atk": 2500,
+            "def": 2100,
+            "level": 7,
+            "attribute": "WIND",
+            "archetype": "Kashtira",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/kashtira-unicorn-13292",
+            "card_sets": [
+                {
+                    "set_name": "25th Anniversary Tin: Dueling Heroes Mega Pack",
+                    "set_code": "MP23-EN164",
+                    "set_rarity": "Prismatic Secret Rare",
+                    "set_rarity_code": "(PScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Darkwing Blast",
+                    "set_code": "DABL-EN013",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                }
+            ],
+            "banlist_info": {
+                "ban_ocg": "Limited"
+            },
+            "card_images": [
+                {
+                    "id": 68304193,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/68304193.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/68304193.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/68304193.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "5.43",
+                    "tcgplayer_price": "5.79",
+                    "ebay_price": "7.99",
+                    "amazon_price": "0.00",
+                    "coolstuffinc_price": "2.99"
+                }
+            ]
+        },
+        {
+            "id": 34447918,
+            "name": "Kashtiratheosis",
+            "type": "Spell Card",
+            "humanReadableCardType": "Normal Spell",
+            "frameType": "spell",
+            "desc": "Target 1 \"Kashtira\" monster you control; Special Summon 1 \"Kashtira\" monster with a different Attribute from your Deck in Defense Position, also for the rest of this turn after this card resolves, you cannot Special Summon monsters from the Extra Deck, except Xyz Monsters. If this card is banished: You can target 1 of your banished \"Kashtira\" cards, except \"Kashtiratheosis\"; add it to your hand. You can only use each effect of \"Kashtiratheosis\" once per turn.",
+            "race": "Normal",
+            "archetype": "Kashtira",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/kashtiratheosis-13489",
+            "card_sets": [
+                {
+                    "set_name": "25th Anniversary Tin: Dueling Mirrors",
+                    "set_code": "MP24-EN072",
+                    "set_rarity": "Prismatic Secret Rare",
+                    "set_rarity_code": "(PScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Photon Hypernova",
+                    "set_code": "PHHY-EN058",
+                    "set_rarity": "Secret Rare",
+                    "set_rarity_code": "(ScR)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 34447918,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/34447918.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/34447918.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/34447918.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "2.19",
+                    "tcgplayer_price": "3.99",
+                    "ebay_price": "0.00",
+                    "amazon_price": "0.00",
+                    "coolstuffinc_price": "69.99"
+                }
+            ]
+        },
+        {
+            "id": 78534861,
+            "name": "Scareclaw Kashtira",
+            "typeline": [
+                "Psychic",
+                "Effect"
+            ],
+            "type": "Effect Monster",
+            "humanReadableCardType": "Effect Monster",
+            "frameType": "effect",
+            "desc": "During the Main Phase (Quick Effect): You can Special Summon this card from your hand, and if you do, banish 1 \"Kashtira\" or \"Scareclaw\" card from your hand or GY. You can only use this effect of \"Scareclaw Kashtira\" once per turn. This card can attack while in face-up Defense Position. If it does, apply its DEF for damage calculation. If your \"Kashtira\" or \"Scareclaw\" monster battles an opponent's monster, that opponent's monster's effects are negated until the end of this turn.",
+            "race": "Psychic",
+            "atk": 0,
+            "def": 2600,
+            "level": 7,
+            "attribute": "EARTH",
+            "archetype": "Kashtira",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/scareclaw-kashtira-13494",
+            "card_sets": [
+                {
+                    "set_name": "25th Anniversary Tin: Dueling Mirrors",
+                    "set_code": "MP24-EN168",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "OTS Tournament Pack 21",
+                    "set_code": "OP21-EN008",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Photon Hypernova",
+                    "set_code": "PHHY-EN007",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 78534861,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/78534861.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/78534861.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/78534861.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.25",
+                    "tcgplayer_price": "0.11",
+                    "ebay_price": "0.00",
+                    "amazon_price": "0.00",
+                    "coolstuffinc_price": "0.39"
+                }
+            ]
+        },
+        {
+            "id": 4928565,
+            "name": "Tearlaments Kashtira",
+            "typeline": [
+                "Psychic",
+                "Effect"
+            ],
+            "type": "Effect Monster",
+            "humanReadableCardType": "Effect Monster",
+            "frameType": "effect",
+            "desc": "During the Main Phase (Quick Effect): You can Special Summon this card from your hand, and if you do, banish 1 \"Kashtira\" or \"Tearlaments\" card from your hand or GY. If this card is Normal or Special Summoned: You can send the top 3 cards of either player's Deck to the GY. If this card is sent to the GY by card effect: You can send the top 2 cards of your Deck to the GY. You can only use each effect of \"Tearlaments Kashtira\" once per turn.",
+            "race": "Psychic",
+            "atk": 2300,
+            "def": 1200,
+            "level": 7,
+            "attribute": "WATER",
+            "archetype": "Kashtira",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/tearlaments-kashtira-13495",
+            "card_sets": [
+                {
+                    "set_name": "25th Anniversary Tin: Dueling Mirrors",
+                    "set_code": "MP24-EN066",
+                    "set_rarity": "Prismatic Secret Rare",
+                    "set_rarity_code": "(PScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Photon Hypernova",
+                    "set_code": "PHHY-EN008",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                }
+            ],
+            "banlist_info": {
+                "ban_ocg": "Limited"
+            },
+            "card_images": [
+                {
+                    "id": 4928565,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/4928565.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/4928565.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/4928565.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "4.76",
+                    "tcgplayer_price": "3.19",
+                    "ebay_price": "0.00",
+                    "amazon_price": "0.00",
+                    "coolstuffinc_price": "29.99"
+                }
+            ]
+        }
+    ]
+}

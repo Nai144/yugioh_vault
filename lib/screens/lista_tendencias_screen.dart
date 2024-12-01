@@ -1,24 +1,28 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:yugioh_vault/screens/lista_tendencias_screen.dart';
 import 'package:yugioh_vault/services/yugioh_api_service.dart';
 import 'package:yugioh_vault/models/yugioh_card.dart';
 import 'package:yugioh_vault/models/yugioh_card2.dart';
 import 'dart:convert';
 
-class TendenciasScreen extends StatefulWidget {
-  const TendenciasScreen({super.key});
+class ListaTendenciasScreen extends StatefulWidget {
+  final String pathOfArchetype;
+
+  const ListaTendenciasScreen({Key? key, required this.pathOfArchetype})
+      : super(key: key);
 
   @override
-  State<TendenciasScreen> createState() => _TendenciasScreenState();
+  State<ListaTendenciasScreen> createState() => _ListaTendenciasScreenState();
 }
 
 
-class _TendenciasScreenState extends State<TendenciasScreen> {
+class _ListaTendenciasScreenState extends State<ListaTendenciasScreen> {
   final YugiohApiService _apiService = YugiohApiService();
   List<YugiohCard> trendingCards = [];
   bool isLoading = true;
   List<YugiohCard2> cards = [];
+  
+  
   @override
   void initState() {
     super.initState();
@@ -38,7 +42,7 @@ class _TendenciasScreenState extends State<TendenciasScreen> {
   }
 
   Future<Map<String, dynamic>> _loadArchetypesData() async {
-    var jsonString = await rootBundle.loadString('lib/assets/Archetype_List.json');
+    var jsonString = await rootBundle.loadString(widget.pathOfArchetype);
     return json.decode(jsonString);
   }
 
@@ -74,14 +78,8 @@ class _TendenciasScreenState extends State<TendenciasScreen> {
                 final card = cards[index];
                 return GestureDetector(
                   onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => ListaTendenciasScreen(
-                          pathOfArchetype: card.archetype,
-                        ),
-                      ),
-                    );
+                    // Acción al tocar la tarjeta
+                    _showCardDetails(context, card);
                   },
                   child: Card(
                     margin: EdgeInsets.all(10),
@@ -135,3 +133,39 @@ class _TendenciasScreenState extends State<TendenciasScreen> {
 
 
 
+void _showCardDetails(BuildContext context, YugiohCard2 card) {
+  showDialog(
+    context: context,
+    builder: (BuildContext context) {
+      return AlertDialog(
+        title: Text(card.name),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Image.network(card.cardImages.first.imageUrl),
+            SizedBox(height: 10),
+            Text(
+              card.desc,
+              style: TextStyle(fontSize: 14),
+            ),
+            SizedBox(height: 10),
+            Text(
+              "ATK: ${card.atk} | DEF: ${card.def}",
+              style: TextStyle(
+                fontSize: 14,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: Text('Cerrar'),
+          ),
+        ],
+      );
+    },
+  );
+}

@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
+import 'package:yugioh_vault/models/yugioh_card2.dart';
 import '../models/yugioh_card.dart';
 
 class YugiohApiService {
@@ -25,17 +26,37 @@ class YugiohApiService {
 }
 
 // Método para obtener todas las cartas
-  Future<List<YugiohCard>> getAllCards() async {
-    final response = await http.get(Uri.parse('$baseUrl/cardinfo.php'));
+  Future<List<YugiohCard>> getAllBlueEyesCards() async {
+    
+  final response = await http
+    .get(Uri.parse('$baseUrl/cardinfo.php?archetype=Blue-Eyes'))
+    .timeout(Duration(seconds: 30), onTimeout: () {
+  throw Exception('Tiempo de espera agotado');
+});
+  print("Respuesta completa: ${response.body}");
 
     if (response.statusCode == 200) {
       final jsonBody = json.decode(response.body);
-      final List<dynamic> data = jsonBody['data'];
-      return data.map((card) => YugiohCard.fromJson(card)).toList();
+
+      if (jsonBody.containsKey('data')) {
+        final List<dynamic> data = jsonBody['data'];
+
+        print("Contenido de data: $data");
+
+        return data.map((cardJson) {
+          if (cardJson is Map<String, dynamic>) {
+            return YugiohCard.fromJson(cardJson);
+          } else {
+            throw Exception('Formato incorrecto para un elemento de data: $cardJson');
+          }
+        }).toList();
+      } else {
+        throw Exception('La clave "data" no está presente en la respuesta.');
+      }
     } else {
-      throw Exception('Error al obtener todas las cartas');
+      throw Exception('Error al obtener las cartas. Código de estado: ${response.statusCode}');
     }
-  }
+  } 
 
   // Método para buscar una carta por nombre
   Future<YugiohCard?> getCardByName(String name) async {
@@ -48,6 +69,24 @@ class YugiohApiService {
       return data.isNotEmpty ? YugiohCard.fromJson(data.first) : null;
     } else {
       throw Exception('Error al buscar carta por nombre');
+    }
+  }
+  Future<List<YugiohCard2>> getTrendingCards() async {
+    final response = await http.get(Uri.parse('https://db.ygoprodeck.com/api/v7/cardinfo.php?archetype=Blue-Eyes'));
+
+    if (response.statusCode == 200) {
+      final data = json.decode(response.body);
+
+      // Verificar que la clave 'data' existe y contiene una lista
+      if (data['data'] != null && data['data'] is List) {
+        return (data['data'] as List)
+            .map((json) => YugiohCard2.fromJson(json))
+            .toList();
+      } else {
+        throw Exception('El formato de datos de la API no es válido');
+      }
+    } else {
+      throw Exception('Error al obtener las cartas: ${response.reasonPhrase}');
     }
   }
 

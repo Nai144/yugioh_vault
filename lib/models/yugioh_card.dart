@@ -9,10 +9,10 @@ class YugiohCard {
   final String desc;
   final String race;
   final String? archetype;
-  final List<CardImages> images;
-  final List<CardSets>? sets;
-  final CardPrices? prices;
-   final String? ygoprodeckUrl;
+  final CardImages? image; // Solo una imagen
+  final CardSets? set;     // Solo un conjunto
+  final CardPrices? price; // Solo un precio
+  final String? ygoprodeckUrl;
 
   YugiohCard({
     required this.id,
@@ -21,9 +21,9 @@ class YugiohCard {
     required this.desc,
     required this.race,
     this.archetype,
-    required this.images,
-    this.sets,
-    this.prices,
+    this.image,
+    this.set,
+    this.price,
     this.ygoprodeckUrl,
   });
 
@@ -35,18 +35,13 @@ class YugiohCard {
       desc: json['desc'],
       race: json['race'],
       archetype: json['archetype'],
-      images: (json['card_images'] as List<dynamic>)
-          .map((image) => CardImages.fromJson(image))
-          .toList(),
-      sets: json['card_sets'] != null
-          ? (json['card_sets'] as List<dynamic>)
-              .map((set) => CardSets.fromJson(set))
-              .toList()
-          : null,
-      prices: json['card_prices'] != null
-          ? CardPrices.fromJson(json['card_prices'])
-          : null,
-          ygoprodeckUrl: json['ygoprodeck_url'],
+      image: json['card_images'] ,
+      set: json['card_sets'][0]["image_url"],
+      price: json['card_prices'],
+      ygoprodeckUrl: json['ygoprodeck_url'],
     );
   }
+
+
 }
+

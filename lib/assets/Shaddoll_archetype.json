@@ -1,0 +1,1782 @@
+{
+    "data": [
+        {
+            "id": 81788994,
+            "name": "Curse of the Shadow Prison",
+            "type": "Spell Card",
+            "humanReadableCardType": "Field Spell",
+            "frameType": "spell",
+            "desc": "Each time a \"Shaddoll\" monster(s) is sent to the GY by a card effect, place 1 Spellstone Counter on this card for each sent monster. All monsters your opponent controls lose 100 ATK for each Spellstone Counter on this card during your opponent's turn only. Each time you Fusion Summon a \"Shaddoll\" Fusion Monster, you can remove 3 Spellstone Counters from this card to use 1 appropriate face-up monster your opponent controls as 1 of the Fusion Materials.",
+            "race": "Field",
+            "archetype": "Shaddoll",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/curse-of-the-shadow-prison-6864",
+            "card_sets": [
+                {
+                    "set_name": "2015 Mega-Tin Mega Pack",
+                    "set_code": "MP15-EN104",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Duelist Alliance",
+                    "set_code": "DUEA-EN060",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Structure Deck: Shaddoll Showdown",
+                    "set_code": "SDSH-EN023",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "1.08"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 81788994,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/81788994.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/81788994.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/81788994.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.04",
+                    "tcgplayer_price": "0.09",
+                    "ebay_price": "0.99",
+                    "amazon_price": "0.20",
+                    "coolstuffinc_price": "0.25"
+                }
+            ]
+        },
+        {
+            "id": 19261966,
+            "name": "El Shaddoll Anoyatyllis",
+            "typeline": [
+                "Fiend",
+                "Fusion",
+                "Effect"
+            ],
+            "type": "Fusion Monster",
+            "humanReadableCardType": "Fusion Effect Monster",
+            "frameType": "fusion",
+            "desc": "1 \"Shaddoll\" monster + 1 WATER monster\r\nMust first be Fusion Summoned. Neither player can Special Summon monsters from the hand or GY using Spell/Trap effects. If this card is sent to the GY: You can target 1 \"Shaddoll\" Spell/Trap in your GY; add it to your hand.",
+            "race": "Fiend",
+            "atk": 2700,
+            "def": 2000,
+            "level": 9,
+            "attribute": "WATER",
+            "archetype": "Shaddoll",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/el-shaddoll-anoyatyllis-1662",
+            "card_sets": [
+                {
+                    "set_name": "Crossed Souls",
+                    "set_code": "CROS-EN044",
+                    "set_rarity": "Secret Rare",
+                    "set_rarity_code": "(ScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Structure Deck: Shaddoll Showdown",
+                    "set_code": "SDSH-EN043",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "1.24"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 19261966,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/19261966.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/19261966.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/19261966.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.14",
+                    "tcgplayer_price": "0.30",
+                    "ebay_price": "12.49",
+                    "amazon_price": "0.78",
+                    "coolstuffinc_price": "0.25"
+                }
+            ]
+        },
+        {
+            "id": 50907446,
+            "name": "El Shaddoll Apkallone",
+            "typeline": [
+                "Spellcaster",
+                "Fusion",
+                "Effect"
+            ],
+            "type": "Fusion Monster",
+            "humanReadableCardType": "Fusion Effect Monster",
+            "frameType": "fusion",
+            "desc": "2 \"Shaddoll\" monsters with different Attributes\r\nMust first be Fusion Summoned. Cannot be destroyed by battle. You can only use each of the following effects of \"El Shaddoll Apkallone\" once per turn.\r\n● If this card is Special Summoned: You can target 1 face-up card on the field; negate its effects.\r\n● If this card is sent to the GY: You can add 1 \"Shaddoll\" card from your Deck or GY to your hand, then discard 1 card.",
+            "race": "Spellcaster",
+            "atk": 2500,
+            "def": 2000,
+            "level": 6,
+            "attribute": "DARK",
+            "archetype": "Shaddoll",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/el-shaddoll-apkallone-10698",
+            "card_sets": [
+                {
+                    "set_name": "2021 Tin of Ancient Battles",
+                    "set_code": "MP21-EN246",
+                    "set_rarity": "Prismatic Secret Rare",
+                    "set_rarity_code": "(PScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Structure Deck: Shaddoll Showdown",
+                    "set_code": "SDSH-EN045",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "1.57"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 50907446,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/50907446.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/50907446.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/50907446.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.22",
+                    "tcgplayer_price": "0.27",
+                    "ebay_price": "1.68",
+                    "amazon_price": "0.75",
+                    "coolstuffinc_price": "0.49"
+                }
+            ]
+        },
+        {
+            "id": 20366274,
+            "name": "El Shaddoll Construct",
+            "typeline": [
+                "Fairy",
+                "Fusion",
+                "Effect"
+            ],
+            "type": "Fusion Monster",
+            "humanReadableCardType": "Fusion Effect Monster",
+            "frameType": "fusion",
+            "desc": "1 \"Shaddoll\" monster + 1 LIGHT monster\r\nMust first be Fusion Summoned. If this card is Special Summoned: You can send 1 \"Shaddoll\" card from your Deck to the GY. At the start of the Damage Step, if this card battles a Special Summoned monster: Destroy that monster. If this card is sent to the GY: You can target 1 \"Shaddoll\" Spell/Trap in your GY; add it to your hand.",
+            "race": "Fairy",
+            "atk": 2800,
+            "def": 2500,
+            "level": 8,
+            "attribute": "LIGHT",
+            "archetype": "Shaddoll",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/el-shaddoll-construct-1746",
+            "card_sets": [
+                {
+                    "set_name": "2015 Mega-Tin Mega Pack",
+                    "set_code": "MP15-EN094",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "3.79"
+                },
+                {
+                    "set_name": "2021 Tin of Ancient Battles",
+                    "set_code": "MP21-EN247",
+                    "set_rarity": "Prismatic Secret Rare",
+                    "set_rarity_code": "(PScR)",
+                    "set_price": "1.64"
+                },
+                {
+                    "set_name": "Duel Power",
+                    "set_code": "DUPO-EN090",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "2.17"
+                },
+                {
+                    "set_name": "Duelist Alliance",
+                    "set_code": "DUEA-EN049",
+                    "set_rarity": "Ultimate Rare",
+                    "set_rarity_code": "(UtR)",
+                    "set_price": "74.38"
+                },
+                {
+                    "set_name": "Duelist Alliance",
+                    "set_code": "DUEA-EN049",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "5.67"
+                },
+                {
+                    "set_name": "Structure Deck: Shaddoll Showdown",
+                    "set_code": "SDSH-EN046",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "1.34"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 20366274,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/20366274.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/20366274.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/20366274.jpg"
+                },
+                {
+                    "id": 20366275,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/20366275.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/20366275.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/20366275.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.32",
+                    "tcgplayer_price": "0.22",
+                    "ebay_price": "0.99",
+                    "amazon_price": "0.70",
+                    "coolstuffinc_price": "0.79"
+                }
+            ]
+        },
+        {
+            "id": 6417578,
+            "name": "El Shaddoll Fusion",
+            "type": "Spell Card",
+            "humanReadableCardType": "Quick-Play Spell",
+            "frameType": "spell",
+            "desc": "Fusion Summon 1 \"Shaddoll\" Fusion Monster from your Extra Deck, using monsters from your hand or field as Fusion Material. You can only activate 1 \"El Shaddoll Fusion\" per turn.",
+            "race": "Quick-Play",
+            "archetype": "Shaddoll",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/el-shaddoll-fusion-566",
+            "card_sets": [
+                {
+                    "set_name": "2015 Mega-Tin Mega Pack",
+                    "set_code": "MP15-EN174",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Duel Power",
+                    "set_code": "DUPO-EN096",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "2.36"
+                },
+                {
+                    "set_name": "Structure Deck: Shaddoll Showdown",
+                    "set_code": "SDSH-EN024",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "1.74"
+                },
+                {
+                    "set_name": "The New Challengers",
+                    "set_code": "NECH-EN064",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "The New Challengers: Super Edition",
+                    "set_code": "NECH-ENS11",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "2.84"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 6417578,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/6417578.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/6417578.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/6417578.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.20",
+                    "tcgplayer_price": "0.25",
+                    "ebay_price": "1.44",
+                    "amazon_price": "1.38",
+                    "coolstuffinc_price": "0.79"
+                }
+            ]
+        },
+        {
+            "id": 48424886,
+            "name": "El Shaddoll Grysta",
+            "typeline": [
+                "Rock",
+                "Fusion",
+                "Effect"
+            ],
+            "type": "Fusion Monster",
+            "humanReadableCardType": "Fusion Effect Monster",
+            "frameType": "fusion",
+            "desc": "1 \"Shaddoll\" monster + 1 FIRE monster\r\nMust first be Fusion Summoned. When your opponent would Special Summon a monster(s) while you have a \"Shaddoll\" card in your hand (Quick Effect): You can negate the Summon, and if you do, destroy that monster, then send 1 \"Shaddoll\" card from your hand to the GY. You can only use this effect of \"El Shaddoll Grysta\" once per turn. If this card is sent to the GY: You can target 1 \"Shaddoll\" Spell/Trap in your GY; add it to your hand.",
+            "race": "Rock",
+            "atk": 2450,
+            "def": 1950,
+            "level": 7,
+            "attribute": "FIRE",
+            "archetype": "Shaddoll",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/el-shaddoll-grysta-4134",
+            "card_sets": [
+                {
+                    "set_name": "2015 Mega-Tin Mega Pack",
+                    "set_code": "MP15-EN160",
+                    "set_rarity": "Secret Rare",
+                    "set_rarity_code": "(ScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Structure Deck: Shaddoll Showdown",
+                    "set_code": "SDSH-EN041",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "The New Challengers",
+                    "set_code": "NECH-EN048",
+                    "set_rarity": "Secret Rare",
+                    "set_rarity_code": "(ScR)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 48424886,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/48424886.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/48424886.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/48424886.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.23",
+                    "tcgplayer_price": "0.16",
+                    "ebay_price": "2.65",
+                    "amazon_price": "1.49",
+                    "coolstuffinc_price": "0.25"
+                }
+            ]
+        },
+        {
+            "id": 74822425,
+            "name": "El Shaddoll Shekhinaga",
+            "typeline": [
+                "Machine",
+                "Fusion",
+                "Effect"
+            ],
+            "type": "Fusion Monster",
+            "humanReadableCardType": "Fusion Effect Monster",
+            "frameType": "fusion",
+            "desc": "1 \"Shaddoll\" monster + 1 EARTH monster\r\nMust first be Fusion Summoned. When a Special Summoned monster activates its effect while you have a \"Shaddoll\" card in your hand (Quick Effect): You can negate the activation, and if you do, destroy that monster, then send 1 \"Shaddoll\" card from your hand to the GY. You can only use this effect of \"El Shaddoll Shekhinaga\" once per turn. If this card is sent to the GY: You can target 1 \"Shaddoll\" Spell/Trap in your GY; add it to your hand.",
+            "race": "Machine",
+            "atk": 2600,
+            "def": 3000,
+            "level": 10,
+            "attribute": "EARTH",
+            "archetype": "Shaddoll",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/el-shaddoll-shekhinaga-6290",
+            "card_sets": [
+                {
+                    "set_name": "2015 Mega-Tin Mega Pack",
+                    "set_code": "MP15-EN161",
+                    "set_rarity": "Secret Rare",
+                    "set_rarity_code": "(ScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Structure Deck: Shaddoll Showdown",
+                    "set_code": "SDSH-EN048",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "The New Challengers",
+                    "set_code": "NECH-EN049",
+                    "set_rarity": "Secret Rare",
+                    "set_rarity_code": "(ScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "The New Challengers",
+                    "set_code": "NECH-EN049",
+                    "set_rarity": "Ultimate Rare",
+                    "set_rarity_code": "(UtR)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 74822425,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/74822425.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/74822425.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/74822425.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.28",
+                    "tcgplayer_price": "0.21",
+                    "ebay_price": "1.63",
+                    "amazon_price": "0.78",
+                    "coolstuffinc_price": "0.49"
+                }
+            ]
+        },
+        {
+            "id": 74009824,
+            "name": "El Shaddoll Wendigo",
+            "typeline": [
+                "Psychic",
+                "Fusion",
+                "Effect"
+            ],
+            "type": "Fusion Monster",
+            "humanReadableCardType": "Fusion Effect Monster",
+            "frameType": "fusion",
+            "desc": "1 \"Shaddoll\" monster + 1 WIND monster\r\nMust first be Fusion Summoned. (Quick Effect): You can target 1 monster you control; this turn, it cannot be destroyed by battle with an opponent's Special Summoned monster. You can only use this effect of \"El Shaddoll Wendigo\" once per turn. If this card is sent to the GY: You can target 1 \"Shaddoll\" Spell/Trap in your GY; add it to your hand.",
+            "race": "Psychic",
+            "atk": 200,
+            "def": 2800,
+            "level": 6,
+            "attribute": "WIND",
+            "archetype": "Shaddoll",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/el-shaddoll-wendigo-6221",
+            "card_sets": [
+                {
+                    "set_name": "2015 Mega-Tin Mega Pack",
+                    "set_code": "MP15-EN221",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Secrets of Eternity",
+                    "set_code": "SECE-EN047",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Secrets of Eternity: Super Edition",
+                    "set_code": "SECE-ENS10",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "6.75"
+                },
+                {
+                    "set_name": "Structure Deck: Shaddoll Showdown",
+                    "set_code": "SDSH-EN042",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "1.12"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 74009824,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/74009824.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/74009824.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/74009824.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.11",
+                    "tcgplayer_price": "0.15",
+                    "ebay_price": "0.99",
+                    "amazon_price": "2.66",
+                    "coolstuffinc_price": "0.25"
+                }
+            ]
+        },
+        {
+            "id": 94977269,
+            "name": "El Shaddoll Winda",
+            "typeline": [
+                "Spellcaster",
+                "Fusion",
+                "Effect"
+            ],
+            "type": "Fusion Monster",
+            "humanReadableCardType": "Fusion Effect Monster",
+            "frameType": "fusion",
+            "desc": "1 \"Shaddoll\" monster + 1 DARK monster\r\nMust first be Fusion Summoned. Cannot be destroyed by an opponent's card effects. Each player can only Special Summon monster(s) once per turn while this card is face-up on the field. If this card is sent to the GY: You can target 1 \"Shaddoll\" Spell/Trap in your GY; add it to your hand.",
+            "race": "Spellcaster",
+            "atk": 2200,
+            "def": 800,
+            "level": 5,
+            "attribute": "DARK",
+            "archetype": "Shaddoll",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/el-shaddoll-winda-7907",
+            "card_sets": [
+                {
+                    "set_name": "2015 Mega-Tin Mega Pack",
+                    "set_code": "MP15-EN093",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "8.14"
+                },
+                {
+                    "set_name": "Duelist Alliance",
+                    "set_code": "DUEA-EN048",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "11.24"
+                },
+                {
+                    "set_name": "Shadows in Valhalla",
+                    "set_code": "SHVA-EN049",
+                    "set_rarity": "Secret Rare",
+                    "set_rarity_code": "(ScR)",
+                    "set_price": "8.96"
+                },
+                {
+                    "set_name": "Structure Deck: Shaddoll Showdown",
+                    "set_code": "SDSH-EN047",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "4.31"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 94977269,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/94977269.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/94977269.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/94977269.jpg"
+                },
+                {
+                    "id": 94977270,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/94977270.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/94977270.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/94977270.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "1.18",
+                    "tcgplayer_price": "1.49",
+                    "ebay_price": "4.95",
+                    "amazon_price": "4.54",
+                    "coolstuffinc_price": "1.99"
+                }
+            ]
+        },
+        {
+            "id": 92079625,
+            "name": "Helshaddoll Hollow",
+            "typeline": [
+                "Fiend",
+                "Flip",
+                "Effect"
+            ],
+            "type": "Flip Effect Monster",
+            "humanReadableCardType": "Flip Effect Monster",
+            "frameType": "effect",
+            "desc": "FLIP: You can target 1 face-up monster your opponent controls; send 1 \"Shaddoll\" monster with its same Attribute from your Extra Deck to the GY, and if you do, banish that monster. If this card is sent to the GY by card effect: You can send cards from the top of your Deck to the GY, equal to the number of different original Attributes among the monsters on the field. You can only use 1 \"Helshaddoll Hollow\" effect per turn, and only once that turn.",
+            "race": "Fiend",
+            "atk": 2900,
+            "def": 2900,
+            "level": 9,
+            "attribute": "FIRE",
+            "archetype": "Shaddoll",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/helshaddoll-hollow-11637",
+            "card_sets": [
+                {
+                    "set_name": "Ghosts From the Past",
+                    "set_code": "GFTP-EN007",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "2.08"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 92079625,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/92079625.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/92079625.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/92079625.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "2.79",
+                    "tcgplayer_price": "1.09",
+                    "ebay_price": "3.49",
+                    "amazon_price": "4.54",
+                    "coolstuffinc_price": "1.99"
+                }
+            ]
+        },
+        {
+            "id": 97518132,
+            "name": "Naelshaddoll Ariel",
+            "typeline": [
+                "Psychic",
+                "Flip",
+                "Effect"
+            ],
+            "type": "Flip Effect Monster",
+            "humanReadableCardType": "Flip Effect Monster",
+            "frameType": "effect",
+            "desc": "FLIP: You can target 1 of your banished \"Shaddoll\" monsters; Special Summon it in face-up or face-down Defense Position.\r\nIf this card is sent to the GY by a card effect: You can target up to 3 cards in the GY(s); banish them. You can only use 1 \"Naelshaddoll Ariel\" effect per turn, and only once that turn.",
+            "race": "Psychic",
+            "atk": 1000,
+            "def": 1800,
+            "level": 4,
+            "attribute": "WATER",
+            "archetype": "Shaddoll",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/naelshaddoll-ariel-10699",
+            "card_sets": [
+                {
+                    "set_name": "2021 Tin of Ancient Battles",
+                    "set_code": "MP21-EN245",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Structure Deck: Shaddoll Showdown",
+                    "set_code": "SDSH-EN003",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "1.47"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 97518132,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/97518132.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/97518132.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/97518132.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.17",
+                    "tcgplayer_price": "0.17",
+                    "ebay_price": "0.99",
+                    "amazon_price": "0.85",
+                    "coolstuffinc_price": "0.49"
+                }
+            ]
+        },
+        {
+            "id": 66675911,
+            "name": "Nehshaddoll Genius",
+            "typeline": [
+                "Machine",
+                "Flip",
+                "Effect"
+            ],
+            "type": "Flip Effect Monster",
+            "humanReadableCardType": "Flip Effect Monster",
+            "frameType": "effect",
+            "desc": "FLIP: You can target 1 \"Shaddoll\" monster you control; that face-up monster is unaffected by monster effects this turn, except its own.\r\nIf this card is sent to the GY by card effect: You can target 1 Effect Monster on the field; neither player can activate that target's effects on the field this turn. You can only use 1 \"Nehshaddoll Genius\" effect per turn, and only once that turn.",
+            "race": "Machine",
+            "atk": 1800,
+            "def": 1000,
+            "level": 4,
+            "attribute": "EARTH",
+            "archetype": "Shaddoll",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/nehshaddoll-genius-11638",
+            "card_sets": [
+                {
+                    "set_name": "Ghosts From the Past",
+                    "set_code": "GFTP-EN006",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "4.03"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 66675911,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/66675911.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/66675911.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/66675911.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "1.18",
+                    "tcgplayer_price": "0.63",
+                    "ebay_price": "2.33",
+                    "amazon_price": "0.88",
+                    "coolstuffinc_price": "2.99"
+                }
+            ]
+        },
+        {
+            "id": 60226558,
+            "name": "Nephe Shaddoll Fusion",
+            "type": "Spell Card",
+            "humanReadableCardType": "Equip Spell",
+            "frameType": "spell",
+            "desc": "Activate this card by declaring 1 Attribute. Equip only to a \"Shaddoll\" monster, and it becomes that Attribute. During your Main Phase: You can Fusion Summon 1 \"Shaddoll\" Fusion Monster from your Extra Deck, using monsters from your hand or field as Fusion Material, including the equipped monster. You can only use this effect of \"Nephe Shaddoll Fusion\" once per turn.",
+            "race": "Equip",
+            "archetype": "Shaddoll",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/nephe-shaddoll-fusion-5109",
+            "card_sets": [
+                {
+                    "set_name": "2015 Mega-Tin Mega Pack",
+                    "set_code": "MP15-EN230",
+                    "set_rarity": "Secret Rare",
+                    "set_rarity_code": "(ScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Secrets of Eternity",
+                    "set_code": "SECE-EN059",
+                    "set_rarity": "Secret Rare",
+                    "set_rarity_code": "(ScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Structure Deck: Shaddoll Showdown",
+                    "set_code": "SDSH-EN025",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "1.16"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 60226558,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/60226558.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/60226558.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/60226558.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.07",
+                    "tcgplayer_price": "0.15",
+                    "ebay_price": "2.50",
+                    "amazon_price": "0.99",
+                    "coolstuffinc_price": "0.25"
+                }
+            ]
+        },
+        {
+            "id": 78942513,
+            "name": "Purushaddoll Aeon",
+            "type": "Trap Card",
+            "humanReadableCardType": "Normal Trap",
+            "frameType": "trap",
+            "desc": "Target 1 \"Shaddoll\" monster you control; send 1 \"Shaddoll\" card from your hand to the GY, and if you do, the targeted monster gains 1000 ATK/DEF, but is changed to face-down Defense Position during the End Phase.",
+            "race": "Normal",
+            "archetype": "Shaddoll",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/purushaddoll-aeon-6633",
+            "card_sets": [
+                {
+                    "set_name": "2017 Mega-Tin Mega Pack",
+                    "set_code": "MP17-EN227",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Raging Tempest",
+                    "set_code": "RATE-EN077",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Structure Deck: Shaddoll Showdown",
+                    "set_code": "SDSH-EN036",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "1.17"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 78942513,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/78942513.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/78942513.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/78942513.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.04",
+                    "tcgplayer_price": "0.05",
+                    "ebay_price": "0.99",
+                    "amazon_price": "0.25",
+                    "coolstuffinc_price": "0.25"
+                }
+            ]
+        },
+        {
+            "id": 24635329,
+            "name": "Qadshaddoll Keios",
+            "typeline": [
+                "Spellcaster",
+                "Flip",
+                "Effect"
+            ],
+            "type": "Flip Effect Monster",
+            "humanReadableCardType": "Flip Effect Monster",
+            "frameType": "effect",
+            "desc": "FLIP: You can Special Summon 1 \"Shaddoll\" monster from your hand in face-up or face-down Defense Position.\r\nIf this card is sent to the GY by a card effect: You can send 1 \"Shaddoll\" monster from your hand to the GY, and if you do, for the rest of this turn, all monsters you control gain ATK/DEF equal to the original Level of that monster sent to the GY x 100. You can only use 1 \"Qadshaddoll Keios\" effect per turn, and only once that turn.",
+            "race": "Spellcaster",
+            "atk": 900,
+            "def": 100,
+            "level": 2,
+            "attribute": "LIGHT",
+            "archetype": "Shaddoll",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/qadshaddoll-keios-10715",
+            "card_sets": [
+                {
+                    "set_name": "2021 Tin of Ancient Battles",
+                    "set_code": "MP21-EN243",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Structure Deck: Shaddoll Showdown",
+                    "set_code": "SDSH-EN001",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0.98"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 24635329,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/24635329.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/24635329.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/24635329.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.05",
+                    "tcgplayer_price": "0.08",
+                    "ebay_price": "0.99",
+                    "amazon_price": "0.49",
+                    "coolstuffinc_price": "0.39"
+                }
+            ]
+        },
+        {
+            "id": 51023024,
+            "name": "Reeshaddoll Wendi",
+            "typeline": [
+                "Psychic",
+                "Flip",
+                "Effect"
+            ],
+            "type": "Flip Effect Monster",
+            "humanReadableCardType": "Flip Effect Monster",
+            "frameType": "effect",
+            "desc": "FLIP: You can Special Summon 1 \"Shaddoll\" monster from your Deck in face-up or face-down Defense Position, except \"Reeshaddoll Wendi\".\r\nIf this card is sent to the GY by a card effect: You can Special Summon 1 \"Shaddoll\" monster from your Deck in face-down Defense Position, except \"Reeshaddoll Wendi\". You can only use 1 \"Reeshaddoll Wendi\" effect per turn, and only once that turn.",
+            "race": "Psychic",
+            "atk": 1500,
+            "def": 1000,
+            "level": 3,
+            "attribute": "WIND",
+            "archetype": "Shaddoll",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/reeshaddoll-wendi-10716",
+            "card_sets": [
+                {
+                    "set_name": "2021 Tin of Ancient Battles",
+                    "set_code": "MP21-EN244",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Structure Deck: Shaddoll Showdown",
+                    "set_code": "SDSH-EN002",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "1.67"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 51023024,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/51023024.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/51023024.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/51023024.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.18",
+                    "tcgplayer_price": "0.15",
+                    "ebay_price": "0.99",
+                    "amazon_price": "0.88",
+                    "coolstuffinc_price": "0.79"
+                }
+            ]
+        },
+        {
+            "id": 23912837,
+            "name": "Resh Shaddoll Incarnation",
+            "type": "Trap Card",
+            "humanReadableCardType": "Normal Trap",
+            "frameType": "trap",
+            "desc": "Target 1 \"Shaddoll\" monster in your GY; Special Summon it in face-up or face-down Defense Position.\r\nYou can banish this card and 1 \"Shaddoll\" card from your GY, then activate 1 of these effects;\r\n● Change 1 face-down monster you control to face-up Defense Position.\r\n● Change 1 face-up monster you control to face-down Defense Position.\r\nYou can only use 1 \"Resh Shaddoll Incarnation\" effect per turn, and only once that turn.",
+            "race": "Normal",
+            "archetype": "Shaddoll",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/resh-shaddoll-incarnation-10714",
+            "card_sets": [
+                {
+                    "set_name": "Structure Deck: Shaddoll Showdown",
+                    "set_code": "SDSH-EN033",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "1.27"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 23912837,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/23912837.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/23912837.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/23912837.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.34",
+                    "tcgplayer_price": "0.23",
+                    "ebay_price": "2.89",
+                    "amazon_price": "0.91",
+                    "coolstuffinc_price": "0.99"
+                }
+            ]
+        },
+        {
+            "id": 3717252,
+            "name": "Shaddoll Beast",
+            "typeline": [
+                "Spellcaster",
+                "Flip",
+                "Effect"
+            ],
+            "type": "Flip Effect Monster",
+            "humanReadableCardType": "Flip Effect Monster",
+            "frameType": "effect",
+            "desc": "FLIP: You can draw 2 cards, then discard 1 card.\r\nIf this card is sent to the GY by a card effect: You can draw 1 card. You can only use 1 \"Shaddoll Beast\" effect per turn, and only once that turn.",
+            "race": "Spellcaster",
+            "atk": 2200,
+            "def": 1700,
+            "level": 5,
+            "attribute": "DARK",
+            "archetype": "Shaddoll",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/shaddoll-beast-331",
+            "card_sets": [
+                {
+                    "set_name": "2015 Mega-Tin Mega Pack",
+                    "set_code": "MP15-EN082",
+                    "set_rarity": "Rare",
+                    "set_rarity_code": "(R)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Astral Pack Six",
+                    "set_code": "AP06-EN008",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Battles of Legend: Hero's Revenge",
+                    "set_code": "BLHR-EN083",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Duelist Alliance",
+                    "set_code": "DUEA-EN027",
+                    "set_rarity": "Rare",
+                    "set_rarity_code": "(R)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Structure Deck: Shaddoll Showdown",
+                    "set_code": "SDSH-EN008",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "2.5"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 3717252,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/3717252.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/3717252.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/3717252.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.25",
+                    "tcgplayer_price": "0.59",
+                    "ebay_price": "2.00",
+                    "amazon_price": "0.99",
+                    "coolstuffinc_price": "0.99"
+                }
+            ]
+        },
+        {
+            "id": 86938484,
+            "name": "Shaddoll Construct",
+            "typeline": [
+                "Fairy",
+                "Link",
+                "Effect"
+            ],
+            "type": "Link Monster",
+            "humanReadableCardType": "Link Effect Monster",
+            "frameType": "link",
+            "desc": "2 Flip monsters\r\nDuring your Main Phase: You can Fusion Summon 1 \"Shaddoll\" Fusion Monster from your Extra Deck, using monsters from your hand or field as Fusion Material. If this card is in your GY: You can send 1 \"Shaddoll\" card from your hand or face-up field to the GY, and if you do, Special Summon this card. You can only use each effect of \"Shaddoll Construct\" once per turn.",
+            "race": "Fairy",
+            "atk": 1200,
+            "def": null,
+            "level": 0,
+            "attribute": "LIGHT",
+            "archetype": "Shaddoll",
+            "linkval": 2,
+            "linkmarkers": [
+                "Left",
+                "Right"
+            ],
+            "ygoprodeck_url": "https://ygoprodeck.com/card/shaddoll-construct-9106",
+            "card_sets": [
+                {
+                    "set_name": "Duel Power",
+                    "set_code": "DUPO-EN094",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "1.33"
+                },
+                {
+                    "set_name": "Flames of Destruction",
+                    "set_code": "FLOD-EN095",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Structure Deck: Shaddoll Showdown",
+                    "set_code": "SDSH-EN044",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "1.09"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 86938484,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/86938484.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/86938484.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/86938484.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.07",
+                    "tcgplayer_price": "0.08",
+                    "ebay_price": "1.48",
+                    "amazon_price": "2.00",
+                    "coolstuffinc_price": "0.39"
+                }
+            ]
+        },
+        {
+            "id": 4904633,
+            "name": "Shaddoll Core",
+            "type": "Trap Card",
+            "humanReadableCardType": "Continuous Trap",
+            "frameType": "trap",
+            "desc": "Special Summon this card as an Effect Monster (Spellcaster/DARK/Level 9/ATK 1450/DEF 1950). (This card is also still a Trap.) If Summoned this way, you can substitute this monster for 1 Fusion Material that lists an Attribute, on a \"Shaddoll\" Fusion Monster Card. If this card is sent to the GY by a card effect: You can target 1 \"Shaddoll\" Spell/Trap in your GY, except \"Shaddoll Core\"; add it to your hand.",
+            "race": "Continuous",
+            "archetype": "Shaddoll",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/shaddoll-core-434",
+            "card_sets": [
+                {
+                    "set_name": "2015 Mega-Tin Mega Pack",
+                    "set_code": "MP15-EN115",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Duelist Alliance",
+                    "set_code": "DUEA-EN073",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Structure Deck: Shaddoll Showdown",
+                    "set_code": "SDSH-EN034",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "1.23"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 4904633,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/4904633.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/4904633.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/4904633.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.14",
+                    "tcgplayer_price": "0.23",
+                    "ebay_price": "1.95",
+                    "amazon_price": "0.89",
+                    "coolstuffinc_price": "0.99"
+                }
+            ]
+        },
+        {
+            "id": 77723643,
+            "name": "Shaddoll Dragon",
+            "typeline": [
+                "Spellcaster",
+                "Flip",
+                "Effect"
+            ],
+            "type": "Flip Effect Monster",
+            "humanReadableCardType": "Flip Effect Monster",
+            "frameType": "effect",
+            "desc": "FLIP: You can target 1 card your opponent controls; return it to the hand.\r\nIf this card is sent to the GY by a card effect: You can target 1 Spell/Trap on the field; destroy it. You can only use 1 \"Shaddoll Dragon\" effect per turn, and only once that turn.",
+            "race": "Spellcaster",
+            "atk": 1900,
+            "def": 0,
+            "level": 4,
+            "attribute": "DARK",
+            "archetype": "Shaddoll",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/shaddoll-dragon-6540",
+            "card_sets": [
+                {
+                    "set_name": "2015 Mega-Tin Mega Pack",
+                    "set_code": "MP15-EN081",
+                    "set_rarity": "Rare",
+                    "set_rarity_code": "(R)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Duelist Alliance",
+                    "set_code": "DUEA-EN026",
+                    "set_rarity": "Rare",
+                    "set_rarity_code": "(R)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "OTS Tournament Pack 15",
+                    "set_code": "OP15-EN004",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "OTS Tournament Pack 15 (POR)",
+                    "set_code": "OP15-PT004",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Structure Deck: Shaddoll Showdown",
+                    "set_code": "SDSH-EN007",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "2.04"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 77723643,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/77723643.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/77723643.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/77723643.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.31",
+                    "tcgplayer_price": "0.47",
+                    "ebay_price": "1.59",
+                    "amazon_price": "1.18",
+                    "coolstuffinc_price": "0.99"
+                }
+            ]
+        },
+        {
+            "id": 37445295,
+            "name": "Shaddoll Falco",
+            "typeline": [
+                "Spellcaster",
+                "Flip",
+                "Tuner",
+                "Effect"
+            ],
+            "type": "Flip Tuner Effect Monster",
+            "humanReadableCardType": "Flip Tuner Effect Monster",
+            "frameType": "effect",
+            "desc": "FLIP: You can target 1 \"Shaddoll\" monster in your GY, except \"Shaddoll Falco\"; Special Summon it in face-down Defense Position.\r\nIf this card is sent to the GY by a card effect: You can Special Summon it in face-down Defense Position. You can only use 1 \"Shaddoll Falco\" effect per turn, and only once that turn.",
+            "race": "Spellcaster",
+            "atk": 600,
+            "def": 1400,
+            "level": 2,
+            "attribute": "DARK",
+            "archetype": "Shaddoll",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/shaddoll-falco-3172",
+            "card_sets": [
+                {
+                    "set_name": "2015 Mega-Tin Mega Pack",
+                    "set_code": "MP15-EN078",
+                    "set_rarity": "Rare",
+                    "set_rarity_code": "(R)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Battles of Legend: Hero's Revenge",
+                    "set_code": "BLHR-EN080",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Duelist Alliance",
+                    "set_code": "DUEA-EN023",
+                    "set_rarity": "Rare",
+                    "set_rarity_code": "(R)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Structure Deck: Shaddoll Showdown",
+                    "set_code": "SDSH-EN004",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "1.22"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 37445295,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/37445295.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/37445295.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/37445295.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.13",
+                    "tcgplayer_price": "0.21",
+                    "ebay_price": "1.49",
+                    "amazon_price": "0.99",
+                    "coolstuffinc_price": "0.39"
+                }
+            ]
+        },
+        {
+            "id": 44394295,
+            "name": "Shaddoll Fusion",
+            "type": "Spell Card",
+            "humanReadableCardType": "Normal Spell",
+            "frameType": "spell",
+            "desc": "Fusion Summon 1 \"Shaddoll\" Fusion Monster from your Extra Deck, using monsters from your hand or field as Fusion Material. If your opponent controls a monster that was Special Summoned from the Extra Deck, you can also use monsters in your Deck as Fusion Material. You can only activate 1 \"Shaddoll Fusion\" per turn.",
+            "race": "Normal",
+            "archetype": "Shaddoll",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/shaddoll-fusion-3784",
+            "card_sets": [
+                {
+                    "set_name": "2015 Mega-Tin Mega Pack",
+                    "set_code": "MP15-EN103",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Duelist Alliance",
+                    "set_code": "DUEA-EN059",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Shadows in Valhalla",
+                    "set_code": "SHVA-EN057",
+                    "set_rarity": "Secret Rare",
+                    "set_rarity_code": "(ScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Structure Deck: Shaddoll Showdown",
+                    "set_code": "SDSH-EN049",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 44394295,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/44394295.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/44394295.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/44394295.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.91",
+                    "tcgplayer_price": "0.91",
+                    "ebay_price": "2.03",
+                    "amazon_price": "3.95",
+                    "coolstuffinc_price": "1.99"
+                }
+            ]
+        },
+        {
+            "id": 4939890,
+            "name": "Shaddoll Hedgehog",
+            "typeline": [
+                "Spellcaster",
+                "Flip",
+                "Effect"
+            ],
+            "type": "Flip Effect Monster",
+            "humanReadableCardType": "Flip Effect Monster",
+            "frameType": "effect",
+            "desc": "FLIP: You can add 1 \"Shaddoll\" Spell/Trap from your Deck to your hand.\r\nIf this card is sent to the GY by a card effect: You can add 1 \"Shaddoll\" monster from your Deck to your hand, except \"Shaddoll Hedgehog\". You can only use 1 \"Shaddoll Hedgehog\" effect per turn, and only once that turn.",
+            "race": "Spellcaster",
+            "atk": 800,
+            "def": 200,
+            "level": 3,
+            "attribute": "DARK",
+            "archetype": "Shaddoll",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/shaddoll-hedgehog-442",
+            "card_sets": [
+                {
+                    "set_name": "2015 Mega-Tin Mega Pack",
+                    "set_code": "MP15-EN079",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Battles of Legend: Hero's Revenge",
+                    "set_code": "BLHR-EN081",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Duelist Alliance",
+                    "set_code": "DUEA-EN024",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Structure Deck: Shaddoll Showdown",
+                    "set_code": "SDSH-EN005",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "1.27"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 4939890,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/4939890.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/4939890.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/4939890.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.12",
+                    "tcgplayer_price": "0.20",
+                    "ebay_price": "1.43",
+                    "amazon_price": "0.25",
+                    "coolstuffinc_price": "0.39"
+                }
+            ]
+        },
+        {
+            "id": 52551211,
+            "name": "Shaddoll Hound",
+            "typeline": [
+                "Spellcaster",
+                "Flip",
+                "Effect"
+            ],
+            "type": "Flip Effect Monster",
+            "humanReadableCardType": "Flip Effect Monster",
+            "frameType": "effect",
+            "desc": "FLIP: You can target 1 \"Shaddoll\" card in your GY; add it to your hand.\r\nIf this card is sent to the GY by a card effect: You can target 1 monster on the field; change its battle position. (Flip monsters' effects are not activated at this time, except \"Shaddoll\" monsters'.) You can only use 1 \"Shaddoll Hound\" effect per turn, and only once that turn.",
+            "race": "Spellcaster",
+            "atk": 1600,
+            "def": 900,
+            "level": 4,
+            "attribute": "DARK",
+            "archetype": "Shaddoll",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/shaddoll-hound-4474",
+            "card_sets": [
+                {
+                    "set_name": "2015 Mega-Tin Mega Pack",
+                    "set_code": "MP15-EN149",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Duelist Alliance: Deluxe Edition",
+                    "set_code": "DUEA-ENDE4",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "5.35"
+                },
+                {
+                    "set_name": "Structure Deck: Shaddoll Showdown",
+                    "set_code": "SDSH-EN009",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "1.13"
+                },
+                {
+                    "set_name": "The New Challengers",
+                    "set_code": "NECH-EN030",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 52551211,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/52551211.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/52551211.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/52551211.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.03",
+                    "tcgplayer_price": "0.11",
+                    "ebay_price": "0.99",
+                    "amazon_price": "1.98",
+                    "coolstuffinc_price": "0.25"
+                }
+            ]
+        },
+        {
+            "id": 21011044,
+            "name": "Shaddoll Schism",
+            "type": "Trap Card",
+            "humanReadableCardType": "Continuous Trap",
+            "frameType": "trap",
+            "desc": "During the Main Phase, you can: Fusion Summon 1 \"Shaddoll\" Fusion Monster from your Extra Deck, by banishing Fusion Materials listed on it from your field or GY, but it cannot attack directly. Then, you can send to the GY 1 monster your opponent controls with the same Attribute as that Fusion Summoned monster. You can only use this effect of \"Shaddoll Schism\" once per turn.",
+            "race": "Continuous",
+            "archetype": "Shaddoll",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/shaddoll-schism-10931",
+            "card_sets": [
+                {
+                    "set_name": "2021 Tin of Ancient Battles",
+                    "set_code": "MP21-EN152",
+                    "set_rarity": "Prismatic Secret Rare",
+                    "set_rarity_code": "(PScR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "25th Anniversary Rarity Collection",
+                    "set_code": "RA01-EN077",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "25th Anniversary Rarity Collection",
+                    "set_code": "RA01-EN077",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Rise of the Duelist",
+                    "set_code": "ROTD-EN076",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 21011044,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/21011044.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/21011044.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/21011044.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.11",
+                    "tcgplayer_price": "0.07",
+                    "ebay_price": "2.48",
+                    "amazon_price": "2.49",
+                    "coolstuffinc_price": "0.99"
+                }
+            ]
+        },
+        {
+            "id": 30328508,
+            "name": "Shaddoll Squamata",
+            "typeline": [
+                "Spellcaster",
+                "Flip",
+                "Effect"
+            ],
+            "type": "Flip Effect Monster",
+            "humanReadableCardType": "Flip Effect Monster",
+            "frameType": "effect",
+            "desc": "FLIP: You can target 1 monster on the field; destroy it.\r\nIf this card is sent to the GY by a card effect: You can send 1 \"Shaddoll\" card from your Deck to the GY, except \"Shaddoll Squamata\". You can only use 1 \"Shaddoll Squamata\" effect per turn, and only once that turn.",
+            "race": "Spellcaster",
+            "atk": 1800,
+            "def": 1000,
+            "level": 4,
+            "attribute": "DARK",
+            "archetype": "Shaddoll",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/shaddoll-squamata-2570",
+            "card_sets": [
+                {
+                    "set_name": "2015 Mega-Tin Mega Pack",
+                    "set_code": "MP15-EN080",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Battles of Legend: Hero's Revenge",
+                    "set_code": "BLHR-EN082",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Duelist Alliance",
+                    "set_code": "DUEA-EN025",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Structure Deck: Shaddoll Showdown",
+                    "set_code": "SDSH-EN006",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "1.9"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 30328508,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/30328508.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/30328508.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/30328508.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.14",
+                    "tcgplayer_price": "0.35",
+                    "ebay_price": "2.29",
+                    "amazon_price": "0.97",
+                    "coolstuffinc_price": "0.49"
+                }
+            ]
+        },
+        {
+            "id": 95401059,
+            "name": "Shaddoll Zefracore",
+            "typeline": [
+                "Rock",
+                "Pendulum",
+                "Effect"
+            ],
+            "type": "Pendulum Effect Monster",
+            "humanReadableCardType": "Pendulum Effect Monster",
+            "frameType": "effect_pendulum",
+            "desc": "[ Pendulum Effect ] \nYou cannot Pendulum Summon monsters, except \"Shaddoll\" and \"Zefra\" monsters. This effect cannot be negated.\n\n[ Monster Effect ] \nIf this card is Pendulum Summoned or sent to the GY: You can target 1 \"Zefra\" card in your Pendulum Zone, except \"Shaddoll Zefracore\"; Special Summon it. You can only use this effect of \"Shaddoll Zefracore\" once per turn.",
+            "race": "Rock",
+            "pend_desc": "You cannot Pendulum Summon monsters, except \"Shaddoll\" and \"Zefra\" monsters. This effect cannot be negated.",
+            "monster_desc": "If this card is Pendulum Summoned or sent to the GY: You can target 1 \"Zefra\" card in your Pendulum Zone, except \"Shaddoll Zefracore\"; Special Summon it. You can only use this effect of \"Shaddoll Zefracore\" once per turn.",
+            "atk": 450,
+            "def": 1950,
+            "level": 4,
+            "attribute": "DARK",
+            "archetype": "Shaddoll",
+            "scale": 7,
+            "ygoprodeck_url": "https://ygoprodeck.com/card/shaddoll-zefracore-7943",
+            "card_sets": [
+                {
+                    "set_name": "Crossed Souls",
+                    "set_code": "CROS-EN023",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Structure Deck: Shaddoll Showdown",
+                    "set_code": "SDSH-EN011",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "1.06"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 95401059,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/95401059.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/95401059.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/95401059.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.05",
+                    "tcgplayer_price": "0.12",
+                    "ebay_price": "0.99",
+                    "amazon_price": "0.25",
+                    "coolstuffinc_price": "0.25"
+                }
+            ]
+        },
+        {
+            "id": 58016954,
+            "name": "Shaddoll Zefranaga",
+            "typeline": [
+                "Spellcaster",
+                "Pendulum",
+                "Effect"
+            ],
+            "type": "Pendulum Effect Monster",
+            "humanReadableCardType": "Pendulum Effect Monster",
+            "frameType": "effect_pendulum",
+            "desc": "[ Pendulum Effect ] \nYou cannot Pendulum Summon monsters, except \"Shaddoll\" and \"Zefra\" monsters. This effect cannot be negated.\n\n[ Monster Effect ] \nIf this card is Pendulum Summoned or sent to the GY: You can target 1 card in either player's Pendulum Zone; return it to the hand. You must have a \"Zefra\" card in your Pendulum Zone to activate and to resolve this effect. You can only use this effect of \"Shaddoll Zefranaga\" once per turn.",
+            "race": "Spellcaster",
+            "pend_desc": "You cannot Pendulum Summon monsters, except \"Shaddoll\" and \"Zefra\" monsters. This effect cannot be negated.",
+            "monster_desc": "If this card is Pendulum Summoned or sent to the GY: You can target 1 card in either player's Pendulum Zone; return it to the hand. You must have a \"Zefra\" card in your Pendulum Zone to activate and to resolve this effect. You can only use this effect of \"Shaddoll Zefranaga\" once per turn.",
+            "atk": 900,
+            "def": 100,
+            "level": 2,
+            "attribute": "DARK",
+            "archetype": "Shaddoll",
+            "scale": 1,
+            "ygoprodeck_url": "https://ygoprodeck.com/card/shaddoll-zefranaga-4937",
+            "card_sets": [
+                {
+                    "set_name": "Crossed Souls",
+                    "set_code": "CROS-EN022",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Structure Deck: Shaddoll Showdown",
+                    "set_code": "SDSH-EN010",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "1.08"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 58016954,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/58016954.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/58016954.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/58016954.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.04",
+                    "tcgplayer_price": "0.11",
+                    "ebay_price": "0.99",
+                    "amazon_price": "0.25",
+                    "coolstuffinc_price": "0.25"
+                }
+            ]
+        },
+        {
+            "id": 77505534,
+            "name": "Sinister Shadow Games",
+            "type": "Trap Card",
+            "humanReadableCardType": "Normal Trap",
+            "frameType": "trap",
+            "desc": "Send 1 \"Shaddoll\" card from your Deck to the GY, then you can change any number of face-down Defense Position \"Shaddoll\" monsters you control to face-up Defense Position.",
+            "race": "Normal",
+            "archetype": "Shaddoll",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/sinister-shadow-games-6517",
+            "card_sets": [
+                {
+                    "set_name": "2015 Mega-Tin Mega Pack",
+                    "set_code": "MP15-EN114",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Duelist Alliance",
+                    "set_code": "DUEA-EN072",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Structure Deck: Shaddoll Showdown",
+                    "set_code": "SDSH-EN035",
+                    "set_rarity": "Common",
+                    "set_rarity_code": "(C)",
+                    "set_price": "1.49"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 77505534,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/77505534.jpg",
+                    "image_url_small": "https://images.ygoprodeck.com/images/cards_small/77505534.jpg",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/77505534.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.10",
+                    "tcgplayer_price": "0.17",
+                    "ebay_price": "2.90",
+                    "amazon_price": "0.83",
+                    "coolstuffinc_price": "0.99"
+                }
+            ]
+        }
+    ]
+}
