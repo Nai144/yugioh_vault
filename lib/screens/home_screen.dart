@@ -1,29 +1,77 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import '../providers/card_provider.dart';
-import '../widgets/card_item.dart';
+import 'package:yugioh_vault/screens/tendencies_screen.dart';
+import 'package:yugioh_vault/screens/test_deck_screen.dart';
+import 'package:yugioh_vault/screens/welcome_screen.dart';
+import 'package:connectivity_plus/connectivity_plus.dart';
+import 'package:yugioh_vault/screens/about_page.dart';
+
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
   @override
+  // ignore: library_private_types_in_public_api
   _HomeScreenState createState() => _HomeScreenState();
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  int _currentIndex = 0;
+  int _currentIndex = 1;
+  bool _isConnected = true;
 
   // Lista de pantallas
   final List<Widget> _screens = [
-    CardsScreen(), // Pantalla 1: Listado de cartas
-    FavoritesScreen(), // Pantalla 2: Favoritos
-    SettingsScreen(), // Pantalla 3: Configuración
+    const TendenciasScreen(), // Pantalla 1: Listado de cartas
+    const WelcomeScreen(), // Pantalla 2: Favoritos
+    const TestDeckScreen(), // Pantalla 3: Configuración
   ];
+
+ @override
+  void initState() {
+    super.initState();
+    _checkConnectivity();
+  }
+
+  void _checkConnectivity() async {
+  final List<ConnectivityResult> results = await Connectivity().checkConnectivity();
+  for (var result in results) {
+    _updateConnectionStatus(result);
+  }
+
+  Connectivity().onConnectivityChanged.listen((List<ConnectivityResult> results) {
+    for (var result in results) {
+      _updateConnectionStatus(result);
+    }
+  });
+}
+  void _updateConnectionStatus(ConnectivityResult result) {
+    setState(() {
+      _isConnected = result != ConnectivityResult.none;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: _screens[_currentIndex], // Muestra la pantalla seleccionada
+      appBar: AppBar(
+        backgroundColor: Colors.deepPurple,
+        leading: IconButton(
+          icon: const Icon(Icons.help_outline),
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => const AboutPage()),
+            );
+          },
+        ),
+      ),
+      body: _isConnected
+          ? _screens[_currentIndex] // Muestra la pantalla seleccionada
+          : const Center(
+              child: Text(
+                'Es necesario tener conexión a Internet',
+                style: TextStyle(fontSize: 18, color: Colors.red),
+              ),
+            ),
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _currentIndex,
         onTap: (index) {
@@ -34,46 +82,18 @@ class _HomeScreenState extends State<HomeScreen> {
         items: const [
           BottomNavigationBarItem(
             icon: Icon(Icons.view_list),
-            label: 'Cards',
+            label: 'Tendencia',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.favorite),
-            label: 'Favorites',
+            icon: Icon(Icons.home),
+            label: 'Home',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.settings),
-            label: 'Settings',
+            icon: Icon(Icons.info),
+            label: 'Decks',
           ),
         ],
       ),
-    );
-  }
-}
-
-class CardsScreen extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text('Cards')),
-      body: Center(child: Text('List of cards will be displayed here')),
-    );
-  }
-}
-class FavoritesScreen extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text('Favorites')),
-      body: Center(child: Text('Your favorite cards will be displayed here')),
-    );
-  }
-}
-class SettingsScreen extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text('Settings')),
-      body: Center(child: Text('Settings screen')),
     );
   }
 }

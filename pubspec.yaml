@@ -38,6 +38,13 @@ dependencies:
   http: ^1.2.2
   provider: ^6.1.2
   url_launcher: ^6.1.10
+  flutter_native_splash: ^2.4.3
+  flutter_launcher_icons: ^0.14.1
+  connectivity_plus: ^6.1.0
+  share_plus: ^10.1.2
+  dio: ^5.7.0
+  path_provider: ^2.1.5
+  shared_preferences: ^2.0.16
 
 dev_dependencies:
   flutter_test:
@@ -53,6 +60,13 @@ dev_dependencies:
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/YuGiOh.png"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/images/YuGiOh.png"
+
 # The following section is specific to Flutter packages.
 flutter:
 
@@ -61,10 +75,31 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
-  fonts:
-    - family: NotoSans
-      fonts:
-        - asset: fonts/NotoSans-Regular.ttf
-        - asset: fonts/NotoSans-Bold.ttf
-          weight: 700
-  
+#  fonts:
+#    - family: NotoSans
+#      fonts:
+#        - asset: fonts/NotoSans-Regular.ttf
+#        - asset: fonts/NotoSans-Bold.ttf
+#          weight: 700
+  assets:
+    - lib/assets/images/YuGiOh.png
+    - lib/assets/json/Blue_eyes_archetype.json
+    - lib/assets/json/air_neos.json
+    - lib/assets/json/Blackwing_archetype.json
+    - lib/assets/json/Nekroz_archetype.json        
+    - lib/assets/json/Shaddoll_archetype.json   
+    - lib/assets/json/Lightsworn_archetype.json
+    - lib/assets/json/Madolche_archetype.json
+    - lib/assets/json/Tearlaments_archetype.json
+    - lib/assets/json/Tri_Brigade_archetype.json
+    - lib/assets/json/Dragonmaid_archetype.json
+    - lib/assets/json/Virtual_World_archetype.json
+    - lib/assets/json/Kashtyra_archetype.json 
+    - lib/assets/json/Archetype_List.json
+    - lib/assets/json/Set_2024_info.json 
+    - lib/assets/json/ListOfCardSet/The_Infinite_Forbidden.json 
+    - lib/assets/json/ListOfCardSet/Rage_Of_the_Abyss.json 
+    - lib/assets/json/ListOfCardSet/Legacy_Of_Destrucion.json
+    - lib/assets/json/ListOfCardSet/Phantom_Nightmare.json  
+    - lib/assets/json/Banlist.json
+    - lib/assets/json/Most_Used_Cards.json

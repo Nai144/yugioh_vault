@@ -1,10 +1,11 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import '../models/yugioh_card.dart';
+import 'package:yugioh_vault/models/yugioh_card2.dart';
+
 
 class YugiohApiService {
   final String baseUrl = 'https://db.ygoprodeck.com/api/v7';
-
+/*
   Future<List<YugiohCard>> fetchCards(String query) async {
   final response = await http.get(Uri.parse('$baseUrl/cardinfo.php?name=$query'));
 
@@ -23,32 +24,44 @@ class YugiohApiService {
     throw Exception('Failed to load cards');
   }
 }
+*/
 
-// Método para obtener todas las cartas
-  Future<List<YugiohCard>> getAllCards() async {
-    final response = await http.get(Uri.parse('$baseUrl/cardinfo.php'));
-
-    if (response.statusCode == 200) {
-      return jsonDecode(response.body);
-    } else {
-      throw Exception('Error al obtener cartas');
-    }
-  }
+ 
 
   // Método para buscar una carta por nombre
-  Future<Map<String, YugiohCard>> getCardByName(String name) async {
-    final response = await http.get(
-      Uri.parse('$baseUrl/cardinfo.php?name=$name'),
-    );
+  Future<YugiohCard2?> getCardByName(String name) async {
+    final response =
+        await http.get(Uri.parse('$baseUrl/cardinfo.php?name=$name'));
 
     if (response.statusCode == 200) {
-      final data = jsonDecode(response.body);
-      return data[0]; // Devuelve la primera coincidencia
+      final jsonBody = json.decode(response.body);
+      final List<dynamic> data = jsonBody['data'];
+      return data.isNotEmpty ? YugiohCard2.fromJson(data.first) : null;
     } else {
-      throw Exception('Error al buscar la carta por nombre');
+      throw Exception('Error al buscar carta por nombre');
+    }
+  }
+  
+  Future<List<YugiohCard2>> getTrendingCards() async {
+    final response = await http.get(Uri.parse('https://db.ygoprodeck.com/api/v7/cardinfo.php?archetype=Blue-Eyes'));
+
+    if (response.statusCode == 200) {
+      final data = json.decode(response.body);
+
+      // Verificar que la clave 'data' existe y contiene una lista
+      if (data['data'] != null && data['data'] is List) {
+        return (data['data'] as List)
+            .map((json) => YugiohCard2.fromJson(json))
+            .toList();
+      } else {
+        throw Exception('El formato de datos de la API no es válido');
+      }
+    } else {
+      throw Exception('Error al obtener las cartas: ${response.reasonPhrase}');
     }
   }
 
+/*
   // Método para buscar cartas por tipo
   Future<List<YugiohCard>> getCardsByType(String type) async {
     final response = await http.get(
@@ -61,7 +74,10 @@ class YugiohApiService {
       throw Exception('Error al buscar cartas por tipo');
     }
   }
+*/
 
+  //=================================Metodos API REST=================================
+/*
 // Método GET
   Future<List<YugiohCard>> getData(String endpoint) async {
     final response = await http.get(Uri.parse('$baseUrl/$endpoint'));
@@ -72,7 +88,8 @@ class YugiohApiService {
       throw Exception('Error al obtener datos');
     }
   }
-
+*/
+/*
   // Método POST
   Future<Map<String, YugiohCard>> postData(String endpoint, Map<String, YugiohCard> data) async {
     final response = await http.post(
@@ -87,7 +104,8 @@ class YugiohApiService {
       throw Exception('Error al enviar datos');
     }
   }
-
+*/
+/*
   // Método PUT
   Future<Map<String, YugiohCard>> putData(String endpoint, Map<String, YugiohCard> data) async {
     final response = await http.put(
@@ -102,7 +120,8 @@ class YugiohApiService {
       throw Exception('Error al actualizar datos');
     }
   }
-
+*/
+/*
   // Método DELETE
   Future<void> deleteData(String endpoint) async {
     final response = await http.delete(Uri.parse('$baseUrl/$endpoint'));
@@ -111,4 +130,5 @@ class YugiohApiService {
       throw Exception('Error al eliminar datos');
     }
   }
+  */
 }
