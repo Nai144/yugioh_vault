@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:yugioh_vault/models/yugioh_card2.dart';
 import 'package:yugioh_vault/screens/card_detail_screen.dart';
+import 'package:yugioh_vault/screens/last_cardset.dart';
+import 'package:yugioh_vault/screens/lista_tendencias_screen.dart';
 import 'package:yugioh_vault/screens/tendencies_screen.dart';
 import 'package:yugioh_vault/services/yugioh_api_service.dart';
 
@@ -112,7 +114,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                 onTap: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => const TendenciasScreen()),
+                    MaterialPageRoute(builder: (context) => const LastCardsetScreen()),
                   );
                 },
                 child: Card(
@@ -126,6 +128,10 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                           BorderRadius.circular(10),
 
                         ),
+                        child: Image.network(
+                              'https://down-my.img.susercontent.com/file/my-11134202-7r98u-lo6mj97nrqbqde',
+                              fit: BoxFit.contain,
+                            ),
                       ),
                       const Padding(
                         padding: EdgeInsets.all(8.0),
@@ -147,9 +153,13 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                     onTap: () {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => const TendenciasScreen()),
+                        MaterialPageRoute(
+                          builder: (context) => const ListaTendenciasScreen(
+                            pathOfArchetype:'lib/assets/json/Most_Used_Cards.json',
+                          ),
+                        ),
                       );
-                    },
+                    },                    
                     child: Card(
                       child: Column(
                         children: <Widget>[
@@ -161,10 +171,14 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                               BorderRadius.circular(10),
 
                             ),
+                            child: Image.network(
+                              'https://images.ygoprodeck.com/images/cards_cropped/10045474.jpg',
+                              fit: BoxFit.contain,
+                            ),
                           ),
                           const Padding(
                             padding: EdgeInsets.all(8.0),
-                              child: Text('Busqueda Avanzada',
+                              child: Text('Cartas más utilizadas',
                                 style: TextStyle(
                                   fontSize: 18,    
                                 ),
@@ -180,7 +194,11 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                     onTap: () {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => const TendenciasScreen()),
+                        MaterialPageRoute(
+                          builder: (context) => const ListaTendenciasScreen(
+                            pathOfArchetype:'lib/assets/json/Banlist.json',
+                          ),
+                        ),
                       );
                     },
                     child: Card(
@@ -193,6 +211,10 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                               borderRadius: 
                               BorderRadius.circular(10),
 
+                            ),
+                            child: Image.network(
+                              'https://images.ygoprodeck.com/images/cards_cropped/55144522.jpg',
+                              fit: BoxFit.contain,
                             ),
                           ),
                           const Padding(

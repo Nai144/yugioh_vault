@@ -1,0 +1,208 @@
+{
+    "data": [
+        {
+            "id": 7628844,
+            "name": "Rage of the Abyss",
+            "typeline": [
+                "Sea Serpent",
+                "Xyz",
+                "Effect"
+            ],
+            "type": "October 10, 2024",
+            "humanReadableCardType": "Xyz Effect Monster",
+            "frameType": "xyz",
+            "desc": "4 Level 5 monsters\r\nYou can also Xyz Summon this card by discarding 1 Spell, and using a Rank 4 \"Shark Drake\" Xyz Monster you control as material. (Transfer its materials to this card.) Once per turn (Quick Effect): You can detach 1 material from this card, then target 1 Effect Monster your opponent controls; negate its effects, and if you do, its ATK/DEF become 0. This card can make a second attack during each Battle Phase, also if it attacks a Defense Position monster, inflict piercing battle damage to your opponent.",
+            "race": "Sea Serpent",
+            "atk": 3100,
+            "def": 2600,
+            "level": 5,
+            "attribute": "WATER",
+            "archetype": "lib/assets/json/ListOfCardSet/Rage_Of_the_Abyss.json",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/number-c32-shark-drake-leveiss-14540",
+            "card_sets": [
+                {
+                    "set_name": "Rage of the Abyss",
+                    "set_code": "ROTA-EN041",
+                    "set_rarity": "Super Rare",
+                    "set_rarity_code": "(SR)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 7628844,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/7628844.jpg",
+                    "image_url_small": "https://ms.yugipedia.com//0/07/ROTA-BoosterEN.png",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/7628844.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "0.18",
+                    "tcgplayer_price": "0.19",
+                    "ebay_price": "0.00",
+                    "amazon_price": "0.00",
+                    "coolstuffinc_price": "0.00"
+                }
+            ]
+        },
+        {
+            "id": 83257450,
+            "name": "The Infinite Forbidden",
+            "typeline": [
+                "Spellcaster",
+                "Fusion",
+                "Effect"
+            ],
+            "type": "July 18, 2024",
+            "humanReadableCardType": "Fusion Effect Monster",
+            "frameType": "fusion",
+            "desc": "5 \"Forbidden One\" monsters\r\nCannot be destroyed by an opponent's card effects. Once per turn, if this card battles, during damage calculation: You can make this card gain ATK equal to your LP. Once per turn, when a Spell/Trap Card or effect is activated (Quick Effect): You can negate that activation. Once per turn, during the End Phase: You can Set 1 \"Exodd\" or \"Obliterate!!!\" Spell/Trap from your Deck. Once per turn, during your Standby Phase: Lose 1000 LP.",
+            "race": "Spellcaster",
+            "atk": -1,
+            "def": 0,
+            "level": 10,
+            "attribute": "DARK",
+            "archetype": "lib/assets/json/ListOfCardSet/The_Infinite_Forbidden.json",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/the-unstoppable-exodia-incarnate-14391",
+            "card_sets": [
+                {
+                    "set_name": "The Infinite Forbidden",
+                    "set_code": "INFO-EN033",
+                    "set_rarity": "Quarter Century Secret Rare",
+                    "set_rarity_code": "",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "The Infinite Forbidden",
+                    "set_code": "INFO-EN033",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 83257450,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/83257450.jpg",
+                    "image_url_small": "https://ms.yugipedia.com//0/05/INFO-BoosterEN.png",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/83257450.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "2.59",
+                    "tcgplayer_price": "3.74",
+                    "ebay_price": "0.00",
+                    "amazon_price": "0.00",
+                    "coolstuffinc_price": "0.00"
+                }
+            ]
+        },
+        {
+            "id": 2333466,
+            "name": "Legacy of Destruction",
+            "typeline": [
+                "Dragon",
+                "Effect"
+            ],
+            "type": "April 25, 2024",
+            "humanReadableCardType": "Effect Monster",
+            "frameType": "effect",
+            "desc": "Gains 300 ATK for each banished card. You can only use each of the following effects of \"Gandora-G the Dragon of Destruction\" once per turn. If you control \"Shining Sarcophagus\": You can Special Summon this card from your hand. You can pay half your LP; destroy as many other cards on the field as possible, and if you do, banish them, then Special Summon 1 Level 7 or lower monster that mentions \"Shining Sarcophagus\" from your Deck, and increase its Level by the number of cards destroyed by this effect.",
+            "race": "Dragon",
+            "atk": 0,
+            "def": 0,
+            "level": 8,
+            "attribute": "DARK",
+            "archetype": "lib/assets/json/ListOfCardSet/Legacy_Of_Destrucion.json",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/gandora-g-the-dragon-of-destruction-14229",
+            "card_sets": [
+                {
+                    "set_name": "Legacy of Destruction",
+                    "set_code": "LEDE-EN001",
+                    "set_rarity": "Quarter Century Secret Rare",
+                    "set_rarity_code": "",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Legacy of Destruction",
+                    "set_code": "LEDE-EN001",
+                    "set_rarity": "Secret Rare",
+                    "set_rarity_code": "(ScR)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 2333466,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/2333466.jpg",
+                    "image_url_small": "https://ms.yugipedia.com//a/ac/LEDE-BoosterEN.png",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/2333466.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "3.97",
+                    "tcgplayer_price": "5.42",
+                    "ebay_price": "0.00",
+                    "amazon_price": "0.00",
+                    "coolstuffinc_price": "0.00"
+                }
+            ]
+        },
+        {
+            "id": 47172959,
+            "name": "Phantom Nightmare",
+            "typeline": [
+                "Fiend",
+                "Fusion",
+                "Effect"
+            ],
+            "type": "February 8, 2024",
+            "humanReadableCardType": "Fusion Effect Monster",
+            "frameType": "fusion",
+            "desc": "1 \"Yubel\" monster + 1+ Effect Monsters on the field\r\nIf this card is Fusion Summoned: You can inflict 500 damage to your opponent for each material used. You can only use this effect of \"Yubel - The Loving Defender Forever\" once per turn. Cannot be destroyed by battle or card effects, also you take no battle damage from battles involving this card. At the end of the Damage Step, if this card battled an opponent's monster: Inflict damage to your opponent equal to that opponent's monster's ATK, and if you do, banish that monster.",
+            "race": "Fiend",
+            "atk": 0,
+            "def": 0,
+            "level": 12,
+            "attribute": "DARK",
+            "archetype": "lib/assets/json/ListOfCardSet/Phantom_Nightmare.json",
+            "ygoprodeck_url": "https://ygoprodeck.com/card/yubel-the-loving-defender-forever-14119",
+            "card_sets": [
+                {
+                    "set_name": "Phantom Nightmare",
+                    "set_code": "PHNI-EN038",
+                    "set_rarity": "Quarter Century Secret Rare",
+                    "set_rarity_code": "",
+                    "set_price": "0"
+                },
+                {
+                    "set_name": "Phantom Nightmare",
+                    "set_code": "PHNI-EN038",
+                    "set_rarity": "Ultra Rare",
+                    "set_rarity_code": "(UR)",
+                    "set_price": "0"
+                }
+            ],
+            "card_images": [
+                {
+                    "id": 47172959,
+                    "image_url": "https://images.ygoprodeck.com/images/cards/47172959.jpg",
+                    "image_url_small": "https://ms.yugipedia.com//4/41/PHNI-BoosterEN.png",
+                    "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/47172959.jpg"
+                }
+            ],
+            "card_prices": [
+                {
+                    "cardmarket_price": "6.29",
+                    "tcgplayer_price": "7.93",
+                    "ebay_price": "0.00",
+                    "amazon_price": "0.00",
+                    "coolstuffinc_price": "0.00"
+                }
+            ]
+        }
+    ]
+}

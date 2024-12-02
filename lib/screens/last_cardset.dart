@@ -4,17 +4,17 @@ import 'package:flutter/services.dart';
 import 'package:yugioh_vault/models/yugioh_card2.dart';
 import 'dart:convert';
 import 'package:yugioh_vault/screens/lista_tendencias_screen.dart';
-import 'package:yugioh_vault/screens/card_detail_screen.dart';
 
-class TendenciasScreen extends StatefulWidget {
-  const TendenciasScreen({super.key});
+
+class LastCardsetScreen extends StatefulWidget {
+  const LastCardsetScreen({super.key});
 
   @override
-  State<TendenciasScreen> createState() => _TendenciasScreenState();
+  State<LastCardsetScreen> createState() => _LastCardsetScreenState();
 }
 
 
-class _TendenciasScreenState extends State<TendenciasScreen> {
+class _LastCardsetScreenState extends State<LastCardsetScreen> {
   bool isLoading = true;
   List<YugiohCard2> cards = [];
 
@@ -37,7 +37,7 @@ class _TendenciasScreenState extends State<TendenciasScreen> {
 
   Future<Map<String, dynamic>> _loadArchetypesData() async {
     var jsonString =
-        await rootBundle.loadString('lib/assets/json/Archetype_List.json');
+        await rootBundle.loadString('lib/assets/json/Set_2024_info.json');
     return json.decode(jsonString);
   }
 
@@ -45,7 +45,7 @@ class _TendenciasScreenState extends State<TendenciasScreen> {
 Widget build(BuildContext context) {
   return Scaffold(
     appBar: AppBar(
-      title: const Text('Tendencias de Yu-Gi-Oh'),
+      title: const Text('Últimos sets Principales'),
       backgroundColor: Colors.deepPurple,
     ),
     body: Container(

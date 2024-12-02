@@ -17,7 +17,7 @@
             "def": 2100,
             "level": 4,
             "attribute": "EARTH",
-            "archetype": "lib/assets/Madolche_archetype.json",
+            "archetype": "lib/assets/json/Madolche_archetype.json",
             "ygoprodeck_url": "https://ygoprodeck.com/card/madolche-queen-tiaramisu-3144",
             "card_sets": [
                 {
@@ -62,7 +62,7 @@
             "def": 2500,
             "level": 8,
             "attribute": "LIGHT",
-            "archetype": "lib/assets/Blue_eyes_archetype.json",
+            "archetype": "lib/assets/json/Blue_eyes_archetype.json",
             "ygoprodeck_url": "https://ygoprodeck.com/card/blue-eyes-white-dragon-7485",
             "card_sets": [
                 {
@@ -108,7 +108,7 @@
             "def": 2500,
             "level": 8,
             "attribute": "WATER",
-            "archetype": "lib/assets/Tearlaments_archetype.json",
+            "archetype": "lib/assets/json/Tearlaments_archetype.json",
             "ygoprodeck_url": "https://ygoprodeck.com/card/tearlaments-rulkallos-13300",
             "card_sets": [
                 {
@@ -154,7 +154,7 @@
             "def": 3000,
             "level": 7,
             "attribute": "DARK",
-            "archetype": "lib/assets/Kashtyra_archetype.json",
+            "archetype": "lib/assets/json/Kashtyra_archetype.json",
             "ygoprodeck_url": "https://ygoprodeck.com/card/kashtira-arise-heart-13486",
             "card_sets": [
                 {
@@ -210,7 +210,7 @@
             "def": 800,
             "level": 4,
             "attribute": "LIGHT",
-            "archetype": "lib/assets/Lightsworn_archetype.json",
+            "archetype": "lib/assets/json/Lightsworn_archetype.json",
             "ygoprodeck_url": "https://ygoprodeck.com/card/minerva-the-exalted-lightsworn-2550",
             "card_sets": [
                 {
@@ -302,7 +302,7 @@
             "def": 2000,
             "level": 9,
             "attribute": "WATER",
-            "archetype": "lib/assets/Nekroz_archetype.json",
+            "archetype": "lib/assets/json/Nekroz_archetype.json",
             "ygoprodeck_url": "https://ygoprodeck.com/card/nekroz-of-trishula-4432",
             "card_sets": [
                 {
@@ -348,7 +348,7 @@
             "def": 2500,
             "level": 8,
             "attribute": "LIGHT",
-            "archetype": "lib/assets/Shaddoll_archetype.json",
+            "archetype": "lib/assets/json/Shaddoll_archetype.json",
             "ygoprodeck_url": "https://ygoprodeck.com/card/el-shaddoll-construct-1746",
             "card_sets": [
                 {
@@ -399,7 +399,7 @@
             "def": 1700,
             "level": 3,
             "attribute": "FIRE",
-            "archetype": "lib/assets/Dragonmaid_archetype.json",
+            "archetype": "lib/assets/json/Dragonmaid_archetype.json",
             "ygoprodeck_url": "https://ygoprodeck.com/card/kitchen-dragonmaid-10534",
             "card_sets": [
                 {
@@ -452,7 +452,7 @@
             "def": 600,
             "level": 3,
             "attribute": "WIND",
-            "archetype": "lib/assets/Virtual_World_archetype.json",
+            "archetype": "lib/assets/json/Virtual_World_archetype.json",
             "ygoprodeck_url": "https://ygoprodeck.com/card/virtual-world-mai-hime-lulu-11283",
             "card_sets": [
                 {
@@ -505,7 +505,7 @@
             "def": null,
             "level": null,
             "attribute": "DARK",
-            "archetype": "lib/assets/Tri_Brigade_archetype.json",
+            "archetype": "lib/assets/json/Tri_Brigade_archetype.json",
             "linkval": 4,
             "linkmarkers": [
                 "Left",

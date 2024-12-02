@@ -91,4 +91,11 @@ flutter:
     - lib/assets/json/Dragonmaid_archetype.json
     - lib/assets/json/Virtual_World_archetype.json
     - lib/assets/json/Kashtyra_archetype.json 
-    - lib/assets/json/Archetype_List.json         
+    - lib/assets/json/Archetype_List.json
+    - lib/assets/json/Set_2024_info.json 
+    - lib/assets/json/ListOfCardSet/The_Infinite_Forbidden.json 
+    - lib/assets/json/ListOfCardSet/Rage_Of_the_Abyss.json 
+    - lib/assets/json/ListOfCardSet/Legacy_Of_Destrucion.json
+    - lib/assets/json/ListOfCardSet/Phantom_Nightmare.json  
+    - lib/assets/json/Banlist.json
+    - lib/assets/json/Most_Used_Cards.json
