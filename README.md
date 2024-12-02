@@ -1,16 +1,48 @@
-# yugioh_vault
+# Yu-Gi-Oh! Vault
 
-A new Flutter project.
+## Descripción
+Yu-Gi-Oh! Vault es una aplicación móvil diseñada para gestionar, explorar y personalizar tus mazos de cartas de Yu-Gi-Oh! La app permite a los usuarios visualizar sus cartas de manera intuitiva, seguir tendencias populares en la comunidad, y gestionar sus mazos de forma eficiente y visualmente atractiva. Todo ello con una experiencia fluida y un diseño moderno.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Principales características
+- **Información sobre cartas**: Busca la carta por su nombre y recibe toda la información relacionada con ella.
+- **Gestión de mazos**: Crea, organiza y visualiza tus mazos personalizados.
+- **Tendencias**: Explora las cartas más populares y estrategias usadas por otros jugadores.
+- **Diseño interactivo**: Visualización de cartas con un diseño estilo cuadrícula, optimizado para pantallas móviles.
+- **Modo offline/online**: Verificación de conectividad para garantizar una experiencia funcional.
+- **Compartir cartas**: Comparte por tus redes sociales las cartas que mas te gusten con tu conocidos y amigos.
+  
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Diagramas solicitados
+### Diagrama de Flujo
+A continuación, se presenta el diagrama de clases de flujo de la aplicación:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Diagrama de Clases](url_diagrama_clases)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Diagrama de Arquitectura
+Aquí se muestra el diagrama de arquitectura, representando las posibles interacciones de la app:
+
+![Diagrama de Estados](url_diagrama_estados)
+
+---
+
+## APK
+Puedes descargar la última versión de la aplicación aquí:  
+[Descargar APK](url_apk)
+
+---
+
+## URL de acceso al video
+Consulta un video demostrativo de la aplicación en acción:  
+[Ver Video](url_video)
+
+---
+
+## Instalación
+1. Descarga el archivo APK desde el enlace proporcionado.
+2. Habilita la instalación desde fuentes desconocidas en tu dispositivo móvil.
+3. Abre el archivo descargado y sigue las instrucciones para instalar la app.
+
+---
