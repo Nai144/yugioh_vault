@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:yugioh_vault/screens/deck_Screen.dart';
 import 'package:yugioh_vault/screens/tendencies_screen.dart';
 import 'package:yugioh_vault/screens/welcome_screen.dart';
+import 'package:connectivity_plus/connectivity_plus.dart';
 
 
 class HomeScreen extends StatefulWidget {
@@ -14,6 +15,7 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   int _currentIndex = 1;
+  bool _isConnected = true;
 
   // Lista de pantallas
   final List<Widget> _screens = [
@@ -22,10 +24,41 @@ class _HomeScreenState extends State<HomeScreen> {
     const DeckScreen(), // Pantalla 3: Configuración
   ];
 
+ @override
+  void initState() {
+    super.initState();
+    _checkConnectivity();
+  }
+
+  void _checkConnectivity() async {
+  final List<ConnectivityResult> results = await Connectivity().checkConnectivity();
+  for (var result in results) {
+    _updateConnectionStatus(result);
+  }
+
+  Connectivity().onConnectivityChanged.listen((List<ConnectivityResult> results) {
+    for (var result in results) {
+      _updateConnectionStatus(result);
+    }
+  });
+}
+  void _updateConnectionStatus(ConnectivityResult result) {
+    setState(() {
+      _isConnected = result != ConnectivityResult.none;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: _screens[_currentIndex], // Muestra la pantalla seleccionada
+      body: _isConnected
+          ? _screens[_currentIndex] // Muestra la pantalla seleccionada
+          : const Center(
+              child: Text(
+                'Es necesario tener conexión a Internet',
+                style: TextStyle(fontSize: 18, color: Colors.red),
+              ),
+            ),
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _currentIndex,
         onTap: (index) {
@@ -47,8 +80,7 @@ class _HomeScreenState extends State<HomeScreen> {
             label: 'Decks',
           ),
         ],
-        
-        )
-      );
+      ),
+    );
   }
 }
