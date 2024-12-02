@@ -26,12 +26,12 @@ class AboutPage extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'About Us',
+                  'Sobre nosotros',
                   style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                 ),
                 SizedBox(height: 16),
                 Text(
-                  'This app was developed by:',
+                  'Esta app fue desarrollada por:',
                   style: TextStyle(fontSize: 18),
                 ),
                 SizedBox(height: 8),
@@ -43,12 +43,12 @@ class AboutPage extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Alvaro',
+                          'Alvaro Chocobar Belmar',
                           style: TextStyle(fontSize: 16),
                         ),
                         SizedBox(height: 8),
                         Text(
-                          'Description about Alvaro.',
+                          'Encargado del diseño de las pantallas y la estética e identidad de la aplicación, así como de la implementación de la barra de busqueda y la pantalla de detalles. También se encargó de la implementación de compartir las cartas por redes sociales. Asi como de la validación de la conexión a internet.',
                           style: TextStyle(fontSize: 14),
                         ),
                       ],
@@ -64,7 +64,7 @@ class AboutPage extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Ian',
+                          'Ian Pereira',
                           style: TextStyle(fontSize: 16),
                         ),
                         SizedBox(height: 8),
