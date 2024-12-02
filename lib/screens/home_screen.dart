@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:yugioh_vault/screens/deck_Screen.dart';
 import 'package:yugioh_vault/screens/tendencies_screen.dart';
+import 'package:yugioh_vault/screens/test_deck_screen.dart';
 import 'package:yugioh_vault/screens/welcome_screen.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:yugioh_vault/screens/about_page.dart';

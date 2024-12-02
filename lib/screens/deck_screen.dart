@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:yugioh_vault/screens/card_detail_screen.dart';
+import 'package:yugioh_vault/screens/test_deck_screen.dart';
 import 'package:yugioh_vault/services/yugioh_api_service.dart';
 import 'package:yugioh_vault/models/yugioh_card2.dart';
 
@@ -73,11 +74,11 @@ class _ApiTendenciasScreenState extends State<DeckScreen> {
               onTap: () {
                 // Navegar a una pantalla de detalles o realizar otra acción.
                     Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => CardDetailScreen(card: card),
-                      ),
-                    );
+  context,
+  MaterialPageRoute(
+    builder: (context) => TestDeckScreen(allCards: cards),
+  ),
+);
               },
               child: Container(
                 margin: const EdgeInsets.symmetric(vertical: 8),

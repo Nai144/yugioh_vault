@@ -4,7 +4,6 @@ import 'package:flutter/services.dart';
 import 'package:yugioh_vault/models/yugioh_card2.dart';
 import 'dart:convert';
 import 'package:yugioh_vault/screens/lista_tendencias_screen.dart';
-import 'package:yugioh_vault/screens/card_detail_screen.dart';
 
 class TendenciasScreen extends StatefulWidget {
   const TendenciasScreen({super.key});
