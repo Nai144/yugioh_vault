@@ -16,10 +16,6 @@ Yu-Gi-Oh! Vault es una aplicación móvil diseñada para gestionar, explorar y p
 ---
 
 ## Diagramas solicitados
-### Diagrama de Flujo
-A continuación, se presenta el diagrama de clases de flujo de la aplicación:
-
-![Diagrama de Clases](url_diagrama_clases)
 
 ### Diagrama de Arquitectura
 Aquí se muestra el diagrama de arquitectura, representando las posibles interacciones de la app:
@@ -30,7 +26,7 @@ Aquí se muestra el diagrama de arquitectura, representando las posibles interac
 
 ## APK
 Puedes descargar la última versión de la aplicación aquí:  
-[Descargar APK](https://drive.google.com/drive/folders/1Th0RjbovcD_9b6BU6X1TRnKCrC26Q-v2?usp=drive_link)
+[Descargar APK](https://drive.google.com/drive/folders/1Th0RjbovcD_9b6BU6X1TRnKCrC26Q-v2?usp=sharing)
 
 ---
 
