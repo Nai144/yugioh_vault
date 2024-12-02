@@ -1,6 +1,6 @@
 class YugiohCard2 {
   final int id;
-  final String name ;
+  final String name;
   final List<String>? typeline;
   final String type;
   final String humanReadableCardType;
@@ -40,26 +40,26 @@ class YugiohCard2 {
   factory YugiohCard2.fromJson(Map<String, dynamic> json) {
     return YugiohCard2(
       id: json['id'],
-      name: json['name']?? 'Desconocido',
+      name: json['name'] ?? 'Desconocido',
       typeline: json['typeline'] != null
           ? List<String>.from(json['typeline'])
           : [],
-      type: json['type']?? 'Desconocido',
-      humanReadableCardType: json['humanReadableCardType']?? 'Desconocido',
-      frameType: json['frameType']?? 'Desconocido',
-      desc: json['desc']?? 'Desconocido',
-      race: json['race']?? 'Desconocido',
-      atk: json['atk']?? 0,
-      def: json['def']?? 0,
-      level: json['level']?? 0,
-      attribute: json['attribute']?? 'Desconocido',
-      archetype: json['archetype']?? 'Desconocido',
-      ygoprodeckUrl: json['ygoprodeck_url']?? 'Desconocido',
-      cardSets: json['card_sets']!=null
-          ?(json['card_sets'] as List)
-          .map((set) => CardSet.fromJson(set))
-          .toList()
-          :[],
+      type: json['type'] ?? 'Desconocido',
+      humanReadableCardType: json['humanReadableCardType'] ?? 'Desconocido',
+      frameType: json['frameType'] ?? 'Desconocido',
+      desc: json['desc'] ?? 'Desconocido',
+      race: json['race'] ?? 'Desconocido',
+      atk: json['atk'] ?? 0,
+      def: json['def'] ?? 0,
+      level: json['level'] ?? 0,
+      attribute: json['attribute'] ?? 'Desconocido',
+      archetype: json['archetype'] ?? 'Desconocido',
+      ygoprodeckUrl: json['ygoprodeck_url'] ?? 'Desconocido',
+      cardSets: json['card_sets'] != null
+          ? (json['card_sets'] as List)
+              .map((set) => CardSet.fromJson(set))
+              .toList()
+          : [],
       cardImages: (json['card_images'] as List)
           .map((image) => CardImage.fromJson(image))
           .toList(),
@@ -67,6 +67,29 @@ class YugiohCard2 {
           .map((price) => CardPrice.fromJson(price))
           .toList(),
     );
+  }
+
+  // Método toJson para convertir el objeto en un mapa
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'name': name,
+      'typeline': typeline,
+      'type': type,
+      'humanReadableCardType': humanReadableCardType,
+      'frameType': frameType,
+      'desc': desc,
+      'race': race,
+      'atk': atk,
+      'def': def,
+      'level': level,
+      'attribute': attribute,
+      'archetype': archetype,
+      'ygoprodeck_url': ygoprodeckUrl,
+      'card_sets': cardSets.map((set) => set.toJson()).toList(),
+      'card_images': cardImages.map((image) => image.toJson()).toList(),
+      'card_prices': cardPrices.map((price) => price.toJson()).toList(),
+    };
   }
 }
 
@@ -94,6 +117,17 @@ class CardSet {
       setPrice: json['set_price'],
     );
   }
+
+  // Método toJson para convertir CardSet en un mapa
+  Map<String, dynamic> toJson() {
+    return {
+      'set_name': setName,
+      'set_code': setCode,
+      'set_rarity': setRarity,
+      'set_rarity_code': setRarityCode,
+      'set_price': setPrice,
+    };
+  }
 }
 
 class CardImage {
@@ -116,6 +150,16 @@ class CardImage {
       imageUrlSmall: json['image_url_small'],
       imageUrlCropped: json['image_url_cropped'],
     );
+  }
+
+  // Método toJson para convertir CardImage en un mapa
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'image_url': imageUrl,
+      'image_url_small': imageUrlSmall,
+      'image_url_cropped': imageUrlCropped,
+    };
   }
 }
 
@@ -142,5 +186,16 @@ class CardPrice {
       amazonPrice: json['amazon_price'],
       coolstuffincPrice: json['coolstuffinc_price'],
     );
+  }
+
+  // Método toJson para convertir CardPrice en un mapa
+  Map<String, dynamic> toJson() {
+    return {
+      'cardmarket_price': cardmarketPrice,
+      'tcgplayer_price': tcgplayerPrice,
+      'ebay_price': ebayPrice,
+      'amazon_price': amazonPrice,
+      'coolstuffinc_price': coolstuffincPrice,
+    };
   }
 }
