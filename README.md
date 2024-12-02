@@ -24,7 +24,7 @@ A continuación, se presenta el diagrama de clases de flujo de la aplicación:
 ### Diagrama de Arquitectura
 Aquí se muestra el diagrama de arquitectura, representando las posibles interacciones de la app:
 
-![Diagrama de Estados](url_diagrama_estados)
+![Diagrama de Arquitectura](lib/assets/images/Diagrama de Arquitectura.png)
 
 ---
 
