@@ -30,7 +30,7 @@ Aquí se muestra el diagrama de arquitectura, representando las posibles interac
 
 ## APK
 Puedes descargar la última versión de la aplicación aquí:  
-[Descargar APK](https://drive.google.com/file/d/12pUYz5Qxs_Zi_DgOXfxLR1w1BB21Lqqj/view?usp=drive_link)
+[Descargar APK](hhttps://drive.google.com/drive/u/0/folders/1Th0RjbovcD_9b6BU6X1TRnKCrC26Q-v2)
 
 ---
 
