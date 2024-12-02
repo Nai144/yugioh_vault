@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:yugioh_vault/models/yugioh_card2.dart';
+import 'package:share_plus/share_plus.dart';
+import 'package:dio/dio.dart';
+import 'package:path_provider/path_provider.dart';
 
 
 class CardDetailScreen extends StatelessWidget {
@@ -14,6 +17,17 @@ class CardDetailScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text(card.name),
         backgroundColor: Colors.deepPurple,
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.share),
+            onPressed: () async {
+              final tempDir = await getTemporaryDirectory();
+              final path = '${tempDir.path}/${card.name}.jpg';
+              await Dio().download(card.cardImages.first.imageUrl, path);
+              Share.shareXFiles([XFile(path)], text: 'Check out this card: ${card.name}');
+            },
+          ),
+        ],
       ),
       body: Container(
         decoration: const BoxDecoration(
