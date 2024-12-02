@@ -23,7 +23,7 @@ class _HomeScreenState extends State<HomeScreen> {
   final List<Widget> _screens = [
     const TendenciasScreen(), // Pantalla 1: Listado de cartas
     const WelcomeScreen(), // Pantalla 2: Favoritos
-    const DeckScreen(), // Pantalla 3: Configuración
+    const TestDeckScreen(), // Pantalla 3: Configuración
   ];
 
  @override

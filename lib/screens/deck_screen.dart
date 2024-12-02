@@ -74,11 +74,11 @@ class _ApiTendenciasScreenState extends State<DeckScreen> {
               onTap: () {
                 // Navegar a una pantalla de detalles o realizar otra acción.
                     Navigator.push(
-  context,
-  MaterialPageRoute(
-    builder: (context) => TestDeckScreen(allCards: cards),
-  ),
-);
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const TestDeckScreen(),
+                      ),
+                    );
               },
               child: Container(
                 margin: const EdgeInsets.symmetric(vertical: 8),

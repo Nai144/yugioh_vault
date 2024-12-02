@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:yugioh_vault/models/yugioh_card2.dart';
-
+import 'package:provider/provider.dart';
+import 'package:yugioh_vault/providers/deck_provider.dart';
 
 class CardDetailScreen extends StatelessWidget {
   final YugiohCard2 card;
@@ -143,7 +144,38 @@ class CardDetailScreen extends StatelessWidget {
             ),
           ),
         ),
+        
       ),
+       floatingActionButton: Column(
+        mainAxisAlignment: MainAxisAlignment.end,
+        children: [
+          FloatingActionButton(
+                  onPressed: () {
+                    final deckProvider = Provider.of<DeckProvider>(context, listen: false);
+                    deckProvider.addCard(card);
+
+                    // Mostrar mensaje con SnackBar
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      const SnackBar(
+                        content: Text('Carta añadida al mazo.'),
+                        backgroundColor: Colors.green,
+                      ),
+                    );
+                  },
+                  backgroundColor: Colors.deepPurple,
+                  child: const Icon(Icons.add),
+                ),
+          const SizedBox(height: 20),
+          FloatingActionButton(
+            heroTag: 'share',
+            onPressed: () {
+            },
+            backgroundColor: Colors.deepPurple,
+            child: const Icon(Icons.share),
+          ),
+        ],
+      )
+     
     );
   }
 
