@@ -24,7 +24,7 @@ A continuación, se presenta el diagrama de clases de flujo de la aplicación:
 ### Diagrama de Arquitectura
 Aquí se muestra el diagrama de arquitectura, representando las posibles interacciones de la app:
 
-![Diagrama de Arquitectura](lib/assets/images/Diagrama de Arquitectura.png)
+![Diagrama de Arquitectura](https://github.com/Nai144/yugioh_vault/blob/main/lib/assets/images/Diagrama%20de%20Arquitectura.png)
 
 ---
 
