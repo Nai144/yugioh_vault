@@ -64,12 +64,12 @@ class AboutPage extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Ian Pereira',
+                          'Ian Javier Pereira Ganga',
                           style: TextStyle(fontSize: 16),
                         ),
                         SizedBox(height: 8),
                         Text(
-                          'Description about Ian.',
+                          'Encargado de la conexión con la Api, la obtención y manejo de la información recibida, además de la lectura de archivos json para mostrar el contenido de manera ágil y el apartado de deck donde podremos almacenar las cartas.',
                           style: TextStyle(fontSize: 14),
                         ),
                       ],
