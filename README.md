@@ -32,7 +32,7 @@ Puedes descargar la última versión de la aplicación aquí:
 
 ## URL de acceso al video
 Consulta un video demostrativo de la aplicación en acción:  
-[Ver Video](url_video)
+[Ver Video](https://youtu.be/Q2kSTcbkTlY)
 
 ---
 
