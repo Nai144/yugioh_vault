@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-
 import 'package:yugioh_vault/models/yugioh_card2.dart';
 import 'dart:convert';
 import 'package:yugioh_vault/screens/lista_tendencias_screen.dart';

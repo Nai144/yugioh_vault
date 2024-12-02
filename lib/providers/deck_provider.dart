@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:yugioh_vault/models/deck.dart';
@@ -16,9 +15,7 @@ class DeckProvider with ChangeNotifier {
     final String? deckJson = prefs.getString('deck');
     
     if (deckJson != null) {
-      List<dynamic> decodedDeck = json.decode(deckJson);
       _deck = Deck('My Deck');  // Inicializamos de nuevo el deck
-  //    _deck.addCard(decodedDeck.map((cardData) => YugiohCard2.fromJson(cardData)).toList());  // Usamos un método addCards si necesitas agregar varias cartas
       notifyListeners();
     }
   }

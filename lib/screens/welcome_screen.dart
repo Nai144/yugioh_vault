@@ -3,7 +3,6 @@ import 'package:yugioh_vault/models/yugioh_card2.dart';
 import 'package:yugioh_vault/screens/card_detail_screen.dart';
 import 'package:yugioh_vault/screens/last_cardset.dart';
 import 'package:yugioh_vault/screens/lista_tendencias_screen.dart';
-import 'package:yugioh_vault/screens/tendencies_screen.dart';
 import 'package:yugioh_vault/services/yugioh_api_service.dart';
 
 class WelcomeScreen extends StatefulWidget {
