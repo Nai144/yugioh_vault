@@ -3,6 +3,7 @@ import 'package:yugioh_vault/screens/deck_Screen.dart';
 import 'package:yugioh_vault/screens/tendencies_screen.dart';
 import 'package:yugioh_vault/screens/welcome_screen.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
+import 'package:yugioh_vault/screens/about_page.dart';
 
 
 class HomeScreen extends StatefulWidget {
@@ -51,6 +52,18 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.deepPurple,
+        leading: IconButton(
+          icon: const Icon(Icons.help_outline),
+          onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => const AboutPage()),
+            );
+          },
+        ),
+      ),
       body: _isConnected
           ? _screens[_currentIndex] // Muestra la pantalla seleccionada
           : const Center(
